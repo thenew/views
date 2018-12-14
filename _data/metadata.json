@@ -1,0 +1,15 @@
+{
+  "title": "Views",
+  "url": "http://views.thenew.fr",
+  "feed": {
+    "subtitle": "Views of thenew.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "http://views.thenew.fr/feed/feed.xml",
+    "id": "http://views.thenew.fr"
+  },
+  "author": {
+    "name": "thenew",
+    "email": "hello@thenew.fr"
+  }
+}

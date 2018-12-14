@@ -1,0 +1,34 @@
+{
+  "name": "views.thenew",
+  "version": "1.0.0",
+  "description": "thenew views - blog",
+  "scripts": {
+    "css": "grunt watch",
+    "serve": "npx eleventy --serve --port=1212",
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thenew/views.git"
+  },
+  "author": {
+    "name": "thenew",
+    "url": "http://thenew.fr"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.5.4",
+    "@11ty/eleventy-plugin-rss": "^1.0.3",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.0",
+    "grunt": "^1.0.3",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "load-grunt-tasks": "^4.0.0",
+    "luxon": "^1.0.0",
+    "markdown-it": "^8.4.1",
+    "markdown-it-anchor": "^5.0.2"
+  }
+}
