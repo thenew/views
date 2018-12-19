@@ -1,8 +1,101 @@
-$color = #7258a1
+$color = #002fa7
 $purple = #7258a1
+$color-bg = #f3f3f3
 $light = 100
 $global-ease = cubic-bezier(.4,0,.5,1)
-$font-title = 'kelson', serif
+$font-body = Georgia, serif
+$font-heading = Futura, 'Gill Sans', sans-serif
 
 body
-    background #F8F6F9
+  font-family $font-body
+  background $color-bg
+
+.main
+  padding 40px 2rem
+
+.blog-title
+  font-family $font-heading
+  font-weight 800
+  font-size 2rem
+  line-height 1.1
+  color $color
+  text-transform uppercase
+  margin-bottom 20px
+
+.blog-title__link
+  -webkit-text-stroke 0 $color-bg
+  transition color 1s steps(3, end)
+
+  &:hover
+    -webkit-text-stroke 1px $color
+    // color #98F30C
+    color $color-bg
+
+// Blog
+
+.template-post
+  margin-right 2rem
+  margin-left 2rem
+
+  @media (min-width: 600px)
+    margin-right 10rem
+    margin-left 10rem
+
+    h1, h2, h3, h4, p, ol, ul, pre, blockquote
+      max-width 60rem
+
+  p > img
+    max-width calc(100% + 4rem)
+    margin-left -2rem
+
+    @media (min-width: 600px)
+      margin-left auto
+      max-width calc(100vw - 24rem)
+
+.post-title
+  font-family $font-heading
+  font-weight 900
+  font-size 9rem
+  line-height 1
+  letter-spacing -.6rem
+  color $color-bg
+  -webkit-text-stroke 2px $color
+  text-shadow .4rem .5rem 0 $color
+  text-transform uppercase
+  margin-bottom 4rem
+
+// Text
+
+h1, h2, h3, h4, p, ol, ul, pre, blockquote
+  margin-bottom 1.5em
+  line-height 1.5
+
+a
+  // text-decoration underline
+  // text-decoration-style wavy
+  &::before
+    content '➟'
+
+  &:hover::before
+    content '➠'
+
+
+  &::after
+    content ''
+
+a[href]:visited
+  text-decoration line-through
+
+pre
+  font-size 1.4rem
+  color #fff
+  background-color $purple
+
+
+.direct-link
+  opacity 0
+  transition opacity 1s steps(3, end)
+
+.direct-link:focus,
+:hover > .direct-link
+  opacity .8
