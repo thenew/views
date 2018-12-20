@@ -13,9 +13,11 @@
 				<h2 class="blog-title"><a class="blog-title__link" href="{{ '/' | url }}">{{ metadata.title }}</a></h2>
 			</header>
 
-			<main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-				{{ content | safe }}
-			</main>
+			<div{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+				<main>
+					{{ content | safe }}
+				</main>
+			</div>
 
 			<footer></footer>
 		</div>

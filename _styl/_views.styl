@@ -1,14 +1,26 @@
 $color = #002fa7
-$purple = #7258a1
+$black = #000102
 $color-bg = #f3f3f3
-$light = 100
 $global-ease = cubic-bezier(.4,0,.5,1)
 $font-body = Georgia, serif
 $font-heading = Futura, 'Gill Sans', sans-serif
 
 body
   font-family $font-body
+  color $black
   background $color-bg
+
+// Layout
+
+.row
+  display flex
+  margin-left -1rem
+  margin-right -1rem
+
+  > *
+    padding 0 1rem
+
+// Common
 
 .main
   padding 40px 2rem
@@ -28,7 +40,6 @@ body
 
   &:hover
     -webkit-text-stroke 1px $color
-    // color #98F30C
     color $color-bg
 
 // Blog
@@ -44,13 +55,20 @@ body
     h1, h2, h3, h4, p, ol, ul, pre, blockquote
       max-width 60rem
 
-  p > img
+    div > p
+      max-width none
+
+  :not(div) > p > img
     max-width calc(100% + 4rem)
     margin-left -2rem
 
     @media (min-width: 600px)
       margin-left auto
       max-width calc(100vw - 24rem)
+
+  img
+  video
+    display inline-block
 
 .post-title
   font-family $font-heading
@@ -89,8 +107,8 @@ a[href]:visited
 pre
   font-size 1.4rem
   color #fff
-  background-color $purple
-
+  background-color $color
+  box-shadow 5px 5px $black
 
 .direct-link
   opacity 0
