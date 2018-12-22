@@ -14,12 +14,13 @@ body
 // Layout
 
 .row
-  display flex
-  margin-left -1rem
-  margin-right -1rem
+  @media (min-width: 600px)
+    display flex
+    margin-left -1rem
+    margin-right -1rem
 
-  > *
-    padding 0 1rem
+    > *
+      padding 0 1rem
 
 // Common
 
@@ -107,21 +108,21 @@ body
 
 .post
 
-  @media (min-width: 600px)
-
-    h1, h2, h3, h4, p, ol, ul, pre, blockquote
+  h1, h2, h3, h4, p, ol, ul, pre, blockquote
+    @media (min-width: 600px)
       max-width 60rem
 
-    div > p
+  div > p
+    @media (min-width: 600px)
       max-width none
 
-  :not(div) > p > img
-    max-width calc(100% + 4rem)
-    margin-left -2rem
+  > p > img
+    max-width calc(100% + 2rem)
+    margin-left -1rem
 
     @media (min-width: 600px)
-      margin-left auto
-      max-width calc(100vw - 24rem)
+      margin-left -2rem
+      max-width calc(100vw - 16rem)
 
   img
   video
@@ -130,14 +131,20 @@ body
 .post-title
   font-family $font-heading
   font-weight 900
-  font-size 9rem
+  font-size 6rem
   line-height 1
-  letter-spacing -.6rem
+  letter-spacing -.4rem
+  word-break break-word
   color $color-bg
   -webkit-text-stroke 2px $color
-  text-shadow .4rem .5rem 0 $color
+  text-shadow .3rem .4rem 0 $color
   text-transform uppercase
   margin-bottom 2rem
+
+  @media (min-width: 600px)
+    font-size 9rem
+    letter-spacing -.6rem
+    text-shadow .4rem .5rem 0 $color
 
 .post-date
   display block
