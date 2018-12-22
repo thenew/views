@@ -83,9 +83,21 @@ body
   margin-left 1rem
 
   &::before
-    content: '⊡'
+    content: ''
     display inline-block
-    margin-right 1.5rem
+    vertical-align middle
+    width 8px
+    height 8px
+    background-color $color
+    // box-shadow 0 0 0 4px $color-bg, 0 0 0 6px $color
+    transform: rotate(45deg);
+    margin-right 1.8rem
+
+  &:hover::before
+    content: ''
+    background-color $color-bg
+    box-shadow 0 0 0 2px $color
+    // box-shadow 0 0 0 6px $color
 
 .postlist-date
   display inline-block
@@ -146,10 +158,6 @@ a
 
   &:hover::before
     content '➠'
-
-
-  &::after
-    content ''
 
 a[href]:visited
   text-decoration line-through

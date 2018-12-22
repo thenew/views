@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://views.thenew.fr/posts/2018awards/</loc>
+    <lastmod>2018-12-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/</loc>
+    <lastmod>2018-12-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/tags/</loc>
+    <lastmod>2018-12-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/tags/awards/</loc>
+    <lastmod>2018-12-14</lastmod>
+  </url>
+</urlset>
