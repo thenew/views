@@ -20,4 +20,9 @@
     <loc>http://views.thenew.fr/tags/awards/</loc>
     <lastmod>2018-12-14</lastmod>
   </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/posts/_example/</loc>
+    <lastmod>2018-12-29</lastmod>
+  </url>
 </urlset>
