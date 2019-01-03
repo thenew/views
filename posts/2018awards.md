@@ -8,13 +8,17 @@ tags:
   - awards
 layout: layouts/post.njk
 ---
-Avant de commencer 2019, je fais mon bilan personnel de l‘année passée dans divers domaines artistiques.
-Vu le nombre de très bonnes séries TV, le calendrier de sorties JV, etc, inutile de préciser que cette liste est partiale.
+
+_version audio_
+<audio src="{{ '/assets/2018-awards.mp3' | url }}" type="audio/mpeg" controls class="audio"></audio>
+<hr />
+
+Avant de commencer 2019, je fais mon bilan personnel de l‘année passée dans divers domaines artistiques. Vu le nombre de très bonnes séries TV, le calendrier de sorties JV, etc, inutile de préciser que cette liste est partiale.
 L‘année 2018 était [ultra-violette](https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018), ma couleur préférée, voyons si j’ai été gâté dans mes tops.
 
 ## Cinema
 
-![Spider-Man: Into the Spider-Verse](/img/spiderman.jpg)
+![Spider-Man: Into the Spider-Verse](/assets/spiderman.jpg)
 
 🏆 **Spider-Man: Into the Spider-Verse**
 Je suis sorti la george serrée de la séance, submergé par l’émotion subtilement égrainée par le film mais surtout par la puissance visuelle maintenue tout au long de ces 2 heures et par l’hommage à des décennies de comics.
@@ -25,6 +29,7 @@ Enfin un bon film de genre _high-concept_. Une expérience inhabituelle en ciné
 - *Annihilation*
 Encore une expérience marquante de l’année, la scène de fin avec l'inconnu m’a glacé comme rarement.
 - *Roma*
+- *Lawrence of Arabia* et *2001: A Space Odyssey* en 70mm à EYE Film (Amsterdam), c‘est grandiose.
 
 [Mon top sur SensCritique](https://www.senscritique.com/top/Les_meilleurs_films_de_2018/2053663)
 
@@ -46,13 +51,13 @@ Encore une expérience marquante de l’année, la scène de fin avec l'inconnu 
   </div>
   <div class="right">
 
-  ![POKÉMON Detective Pikachu](/img/pokemon-detective-pikachu.jpg)
+  ![POKÉMON Detective Pikachu](/assets/pokemon-detective-pikachu.jpg)
 
   </div>
 </div>
 
 ## TV
-![Vermin](/img/vermin.jpg)
+![Vermin](/assets/vermin.jpg)
 🏆 [**Vermin**](https://www.blackpills.com/series/dd9adb523b19b9d03d23dbe63a66657bf5b1542ae62)
 Diffusée sur Blackpills, cette série devrait être plus connue. Direction artistique impeccable et doublage hilarant, mention spéciale au personnage du commissaire par Gaël Mectoob.
 
@@ -71,7 +76,7 @@ J'ai un an de retard pour la dernière saison, mais cette série est exceptionne
 [Mon top sur SensCritique](https://www.senscritique.com/top/Les_meilleures_series_de_2018/2192547)
 
 ## Music video
-![Dolly.Zero - Antoine Debarge](/img/dollyzero.jpg)
+![Dolly.Zero - Antoine Debarge](/assets/dollyzero.jpg)
 🏆 [**Dolly.Zero** - Antoine Debarge - Ugo Bienvenu](https://www.youtube.com/watch?v=l9x5AmY11n4)
 Coup de cœur découvert au KLIK Amsterdam Animation Festival, je vais suivre Ugo Bienvenu avec grand attention.
 
@@ -84,6 +89,28 @@ La chanson est oubliable, bien que catchy, mais la réalisation par le studio pa
 - [*Mr. FEAR* - SIAMÉS](https://www.youtube.com/watch?v=EKLWC93nvAU)
 - [*My Way* - BVG](https://www.youtube.com/watch?v=jq8yU1ZyULk)
 - [*Les passantes* - Georges Brassens - Charlotte Abramow](https://www.youtube.com/watch?v=wKTt8Tdeb5Y)
+
+## Music live
+
+<div class="row">
+  <div class="left">
+
+  🏆 **The Chemicals Brothers**
+  Un show plein de surprises et de bons titres, les mecs sont bons, forcément, ça aide.
+
+  ### Mentions
+  - *Silent Alarm* - Bloc Party
+  - *datamatics [ver.2.0]* - Ryoji Ikeda
+  - *Alt-J*
+  Vu au Bostheater, un théatre en plein air, au milieu de la foret d’Amsterdam, je recommande le lieu et le groupe.
+
+  </div>
+  <div class="right">
+
+  ![The Chemicals Brothers](/assets/che.jpg)
+
+  </div>
+</div>
 
 ## Music
 Difficile de faire un top quand j’ai majoritairement écouté d’anciennes chansons dont mes deux chouchous : la découverte d’Operator Please (*Gloves, Yes Yes Vindictive*) et *Lastman (Original Series Soundtrack)* par Avril & Monthaye
@@ -99,7 +126,7 @@ Aussi vu deux fois en live cette année, décidement, dont une fois au Razzmataz
 [Mon profil Last.fm](https://www.last.fm/user/newory)
 
 ## Video game trailer
-![Cyberpunk 2077](/img/cyberpunk.png)
+![Cyberpunk 2077](/assets/cyberpunk.png)
 
 🏆 [**Cyberpunk 2077** (E3)](https://youtu.be/8X2kIfS6fb8)
 Meilleure bagnole de l’année. Bonne bande-son, parti pris original de l’univers cyberpunk. Et cette voiture, mon dieu !
@@ -125,7 +152,7 @@ que je découvre en ce moment donc j'espère encore être surpris.
 [Mon top sur SensCritique](https://www.senscritique.com/top/Les_meilleurs_jeux_video_de_2018/2274224)
 
 ## Titles
-![Pilote Dragon ending](/img/dragon-pilot.jpg)
+![Pilote Dragon ending](/assets/dragon-pilot.jpg)
 🏆 **Pilote Dragon ending** - Le temps de la rentrée: Koi no Ieji (Shingakki)
 La série est étrangement amusante même si j’aurai du mal à la recommander. Mais il suffit de me passer du France Gall sauce japonaise en générique de fin et j’ai envie de twister.
 
@@ -135,7 +162,7 @@ La série est étrangement amusante même si j’aurai du mal à la recommander.
 Sinon une belle sélection sur Art of the Title : [Top 10 Title Sequences of 2018](http://www.artofthetitle.com/feature/top-10-title-sequences-of-2018/)
 
 ## Podcast
-![Cosy](/img/cosy.jpg)
+![Cosy](/assets/cosy.jpg)
 
 🏆 [Le Cosy Corner](https://soundcloud.com/lecosycorner)
 Toujours de très haute qualité, les podcasts de Médoc et Moguri sont intéressants, amusants et constamment surprenants alors que le format n’a presque pas changé. Un plaisir !
@@ -160,7 +187,7 @@ Tellement de bons podcasts à mentionner, mais peu de nouveautés cette année d
 ## Brand identity
 Comme l’année dernière avec la [F1](https://www.underconsideration.com/brandnew/archives/new_logo_for_formula_1_by_wieden_kennedy.php), le sport est toujours très porteur de jolis projets.
 
-![France.tv](/img/francetv.jpg)
+![France.tv](/assets/francetv.jpg)
 
 🏆 **France.tv** - [Joosnabhan](https://www.joosnabhan.com/) et [Movement](http://www.movement.paris/works/france-tv/)
 D’autres infos sur [lenodal](http://blog.lenodal.com/index.php?/archives/0410-La-nouvelle-identite-visuelle-de-France-Televisions.html)
@@ -176,7 +203,7 @@ Et merci à [Brand New](https://www.underconsideration.com/brandnew/) pour sa co
 
 
 ## Sport
-![Champions](/img/champions.png)
+![Champions](/assets/champions.png)
 Champions ★★
 
 ## Web
@@ -201,7 +228,7 @@ Champions ★★
   </div>
   <div class="right">
 
-  ![Evangeline Lily](/img/evangeline-lilly-champions.jpg)
+  ![Evangeline Lily](/assets/evangeline-lilly-champions.jpg)
 
   </div>
 </div>
