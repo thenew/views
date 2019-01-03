@@ -8,8 +8,9 @@ tags:
   - awards
 layout: layouts/post.njk
 ---
-2018 était une année [ultra-violette](https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018), voici mes tops dans divers domaines artistiques :
-
+Avant de commencer 2019, je fais mon bilan personnel de l‘année passée dans divers domaines artistiques.
+Vu le nombre de très bonnes séries TV, le calendrier de sorties JV, etc, inutile de préciser que cette liste est partiale.
+L‘année 2018 était [ultra-violette](https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018), ma couleur préférée, voyons si j’ai été gâté dans mes tops.
 
 ## Cinema
 
@@ -101,7 +102,7 @@ Aussi vu deux fois en live cette année, décidement, dont une fois au Razzmataz
 ![Cyberpunk 2077](/img/cyberpunk.png)
 
 🏆 [**Cyberpunk 2077** (E3)](https://youtu.be/8X2kIfS6fb8)
-Meilleure bagnole de l’année.
+Meilleure bagnole de l’année. Bonne bande-son, parti pris original de l’univers cyberpunk. Et cette voiture, mon dieu !
 
 ### Mentions
 - [*Sable* (E3)](https://www.youtube.com/watch?v=KJFQhEY9udE)
@@ -113,6 +114,7 @@ Les animations faciales sont gênantes et la séquence de gameplay est conformis
 
 ## Video games
 🏆 **Super Smash Bros. Ultimate**
+Un poil par défaut, c’est le jeu le plus carré qui remporte la coupe. Un système qui a fait ses preuves mais avec encore plus de contenu, mais vraiment beaucoup plus, il en devient incomparable à d’autres jeux de combat.
 
 ### Mentions
 - *Dead Cells*
@@ -125,6 +127,7 @@ que je découvre en ce moment donc j'espère encore être surpris.
 ## Titles
 ![Pilote Dragon ending](/img/dragon-pilot.jpg)
 🏆 **Pilote Dragon ending** - Le temps de la rentrée: Koi no Ieji (Shingakki)
+La série est étrangement amusante même si j’aurai du mal à la recommander. Mais il suffit de me passer du France Gall sauce japonaise en générique de fin et j’ai envie de twister.
 
 ### Mentions
 - [Isle of Dogs](http://www.artofthetitle.com/title/isle-of-dogs/)
@@ -135,8 +138,10 @@ Sinon une belle sélection sur Art of the Title : [Top 10 Title Sequences of 201
 ![Cosy](/img/cosy.jpg)
 
 🏆 [Le Cosy Corner](https://soundcloud.com/lecosycorner)
+Toujours de très haute qualité, les podcasts de Médoc et Moguri sont intéressants, amusants et constamment surprenants alors que le format n’a presque pas changé. Un plaisir !
 
 ### Mentions
+Tellement de bons podcasts à mentionner, mais peu de nouveautés cette année dans ma liste d’abonnements et toujours aucun en langue anglaise :
 - Les Démons du MIDI
 - TVNR
 - Torréfaction
