@@ -126,7 +126,7 @@ Aussi vu deux fois en live cette année, décidement, dont une fois au Razzmataz
 [Mon profil Last.fm](https://www.last.fm/user/newory)
 
 ## Video game trailer
-![Cyberpunk 2077](/assets/cyberpunk.png)
+![Cyberpunk 2077](/assets/cyberpunk2077.jpg)
 
 🏆 [**Cyberpunk 2077** (E3)](https://youtu.be/8X2kIfS6fb8)
 Meilleure bagnole de l’année. Bonne bande-son, parti pris original de l’univers cyberpunk. Et cette voiture, mon dieu !
@@ -203,7 +203,7 @@ Et merci à [Brand New](https://www.underconsideration.com/brandnew/) pour sa co
 
 
 ## Sport
-![Champions](/assets/champions.png)
+![Champions](/assets/champions.jpg)
 Champions ★★
 
 ## Web
