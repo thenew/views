@@ -6,11 +6,11 @@
     "css": "grunt watch",
     "serve": "npx eleventy --serve --port=1212",
     "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy",
     "images": "pngquant --ext .jpg 3 assets/to/*",
     "images4": "pngquant --ext 4.jpg 4 assets/to/*",
-    "images2": "pngquant --ext 2.jpg 2 assets/to/*",
-    "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy"
+    "images2": "pngquant --ext 2.jpg 2 assets/to/*"
   },
   "repository": {
     "type": "git",

@@ -16,7 +16,7 @@ _version audio_
 Avant de commencer 2019, je fais mon bilan personnel de l‘année passée dans divers domaines artistiques. Vu le nombre de très bonnes séries TV, le calendrier de sorties JV, etc, inutile de préciser que cette liste est partiale.
 L‘année 2018 était [ultra-violette](https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018), ma couleur préférée, voyons si j’ai été gâté dans mes tops.
 
-## Cinema
+<h2 data-content='Cinema'>Cinema</h2>
 
 ![Spider-Man: Into the Spider-Verse](/assets/spiderman.jpg)
 
@@ -33,7 +33,7 @@ Encore une expérience marquante de l’année, la scène de fin avec l'inconnu 
 
 [Mon top sur SensCritique](https://www.senscritique.com/top/Les_meilleurs_films_de_2018/2053663)
 
-## Film trailer
+<h2 data-content='Film trailer'>Film trailer</h2>
 
 <div class="row">
   <div class="left">
@@ -56,7 +56,8 @@ Encore une expérience marquante de l’année, la scène de fin avec l'inconnu 
   </div>
 </div>
 
-## TV
+<h2 data-content='TV'>TV</h2>
+
 ![Vermin](/assets/vermin.jpg)
 🏆 [**Vermin**](https://www.blackpills.com/series/dd9adb523b19b9d03d23dbe63a66657bf5b1542ae62)
 Diffusée sur Blackpills, cette série devrait être plus connue. Direction artistique impeccable et doublage hilarant, mention spéciale au personnage du commissaire par Gaël Mectoob.
@@ -75,7 +76,8 @@ J'ai un an de retard pour la dernière saison, mais cette série est exceptionne
 
 [Mon top sur SensCritique](https://www.senscritique.com/top/Les_meilleures_series_de_2018/2192547)
 
-## Music video
+<h2 data-content='Music video'>Music video</h2>
+
 ![Dolly.Zero - Antoine Debarge](/assets/dollyzero.jpg)
 🏆 [**Dolly.Zero** - Antoine Debarge - Ugo Bienvenu](https://www.youtube.com/watch?v=l9x5AmY11n4)
 Coup de cœur découvert au KLIK Amsterdam Animation Festival, je vais suivre Ugo Bienvenu avec grand attention.
@@ -90,7 +92,7 @@ La chanson est oubliable, bien que catchy, mais la réalisation par le studio pa
 - [*My Way* - BVG](https://www.youtube.com/watch?v=jq8yU1ZyULk)
 - [*Les passantes* - Georges Brassens - Charlotte Abramow](https://www.youtube.com/watch?v=wKTt8Tdeb5Y)
 
-## Music live
+<h2 data-content='Music live'>Music live</h2>
 
 <div class="row">
   <div class="left">
@@ -112,7 +114,8 @@ La chanson est oubliable, bien que catchy, mais la réalisation par le studio pa
   </div>
 </div>
 
-## Music
+<h2 data-content='Music'>Music</h2>
+
 Difficile de faire un top quand j’ai majoritairement écouté d’anciennes chansons dont mes deux chouchous : la découverte d’Operator Please (*Gloves, Yes Yes Vindictive*) et *Lastman (Original Series Soundtrack)* par Avril & Monthaye
 
 ### Mentions
@@ -125,7 +128,8 @@ Aussi vu deux fois en live cette année, décidement, dont une fois au Razzmataz
 
 [Mon profil Last.fm](https://www.last.fm/user/newory)
 
-## Video game trailer
+<h2 data-content='Video game trailer'>Video game trailer</h2>
+
 ![Cyberpunk 2077](/assets/cyberpunk2077.jpg)
 
 🏆 [**Cyberpunk 2077** (E3)](https://youtu.be/8X2kIfS6fb8)
@@ -139,7 +143,8 @@ Magnifique avec la musique de *Japanese Breakfast*
 Les animations faciales sont gênantes et la séquence de gameplay est conformiste mais le reste est très touchant. La musique de *Crooked Still* est superbement utilisée.
 - Tous *Death Stranding*
 
-## Video games
+<h2 data-content='Video games'>Video games</h2>
+
 🏆 **Super Smash Bros. Ultimate**
 Un poil par défaut, c’est le jeu le plus carré qui remporte la coupe. Un système qui a fait ses preuves mais avec encore plus de contenu, mais vraiment beaucoup plus, il en devient incomparable à d’autres jeux de combat.
 
@@ -151,7 +156,8 @@ que je découvre en ce moment donc j'espère encore être surpris.
 
 [Mon top sur SensCritique](https://www.senscritique.com/top/Les_meilleurs_jeux_video_de_2018/2274224)
 
-## Titles
+<h2 data-content='Titles'>Titles</h2>
+
 ![Pilote Dragon ending](/assets/dragon-pilot.jpg)
 🏆 **Pilote Dragon ending** - Le temps de la rentrée: Koi no Ieji (Shingakki)
 La série est étrangement amusante même si j’aurai du mal à la recommander. Mais il suffit de me passer du France Gall sauce japonaise en générique de fin et j’ai envie de twister.
@@ -161,11 +167,12 @@ La série est étrangement amusante même si j’aurai du mal à la recommander.
 
 Sinon une belle sélection sur Art of the Title : [Top 10 Title Sequences of 2018](http://www.artofthetitle.com/feature/top-10-title-sequences-of-2018/)
 
-## Podcast
+<h2 data-content='Podcast'>Podcast</h2>
+
 ![Cosy](/assets/cosy.jpg)
 
 🏆 [Le Cosy Corner](https://soundcloud.com/lecosycorner)
-Toujours de très haute qualité, les podcasts de Médoc et Moguri sont intéressants, amusants et constamment surprenants alors que le format n’a presque pas changé. Un plaisir !
+Toujours de très haute qualité, les podcasts de Médoc et Moguri sont intéressants, amusants et constamment surprenants alors que le format n’a presque pas changé. C’est le seul podcast que je sacralise un peu, j’attends toujours le meilleur moment pour me l’écouter.
 
 ### Mentions
 Tellement de bons podcasts à mentionner, mais peu de nouveautés cette année dans ma liste d’abonnements et toujours aucun en langue anglaise :
@@ -184,7 +191,8 @@ Tellement de bons podcasts à mentionner, mais peu de nouveautés cette année d
 - Calvinball
 - 2 heures de perdues
 
-## Brand identity
+<h2 data-content='Brand identity'>Brand identity</h2>
+
 Comme l’année dernière avec la [F1](https://www.underconsideration.com/brandnew/archives/new_logo_for_formula_1_by_wieden_kennedy.php), le sport est toujours très porteur de jolis projets.
 
 ![France.tv](/assets/francetv.jpg)
@@ -202,11 +210,12 @@ D’autres infos sur [lenodal](http://blog.lenodal.com/index.php?/archives/0410-
 Et merci à [Brand New](https://www.underconsideration.com/brandnew/) pour sa couverture impeccable de l’actualité.
 
 
-## Sport
+<h2 data-content='Sport'>Sport</h2>
+
 ![Champions](/assets/champions.jpg)
 Champions ★★
 
-## Web
+<h2 data-content='Web'>Web</h2>
 
 ### Mentions
 - [La grande évasion](http://lagrandeevasion.fr)
@@ -217,7 +226,7 @@ Champions ★★
 - [WW2 Tweets from 1941](https://twitter.com/RealTimeWWII)
 - [Exercice](https://exercice.co/)
 
-## Instagram
+<h2 data-content='Instagram'>Instagram</h2>
 
 <div class="row">
   <div class="left">
@@ -233,9 +242,10 @@ Champions ★★
   </div>
 </div>
 
-## Déception
+<h2 data-content='Déception'>Déception</h2>
+
 💩 **Dragon Ball Super**
-Rahhhhh !!! Les mangas d’Akira Toriyama sont tellement bons, presque chaque case est iconique. Tout le contraire de cette suite, que ce soit sur papier on en série animé.
+Rahhhhh !!! Les mangas d’Akira Toriyama sont tellement bons, presque chaque case est iconique. Tout le contraire de cette suite, que ce soit sur papier ou en série animé.
 
 ### Mentions
 - *Solo*
