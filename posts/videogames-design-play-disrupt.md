@@ -1,5 +1,6 @@
 ---
 title: Videogames at V&A
+description: Visite à l'exposition Videogames Design/Play/Disrupt au musée Victoria & Albert à Londres.
 date: 2019-03-20
 tags:
   - post
