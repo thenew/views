@@ -212,7 +212,7 @@ pre
 .post
   max-width 1200px
 
-  h1, h2, h3, h4, p, ol, ul, pre, blockquote, hr
+  h1, h2, h3, h4, p, ol, ul, pre, blockquote, hr, .full-width-text
     @media (min-width 600px)
       max-width 70rem
 
@@ -311,7 +311,10 @@ pre
       margin-left 0
       max-width calc(1200px - 16rem)
 
+// Full width
+
 .full-width
+  position relative
   margin-left -2rem
   margin-right -2rem
 
@@ -334,10 +337,39 @@ pre
       width 100vw
       max-width 100vw
 
+.full-width-text
+  // transform translateY(-50%)
+  position relative
+  z-index 1
+  background-color $color-bg
+  padding 2.5rem 2.5rem 2.5rem 3rem
+  box-shadow 5px 5px $black
+  margin-top -20%
+  margin-bottom 6rem
+  margin-left 2rem
+  margin-right 2rem
+  border 1px solid $black
+
+  @media (min-width 600px)
+    position absolute
+    top 50%
+    left 10rem
+    right 10rem
+    transform translateY(-15%)
+    padding 2.5rem 3rem 2.5rem 5rem
+    border none
+    margin 0
+
+  @media (min-width 1200px)
+    transform none
+
+  p:last-child
+    margin-bottom 0
+
 .post-title
   font-family $font-heading
   font-weight 900
-  font-size 6rem
+  font-size 5.5rem
   line-height 1
   letter-spacing -.4rem
   word-break break-word
