@@ -1,6 +1,7 @@
 ---
 title: 2018 Awards
 description: Bilan artistique subjectif de l'année 2018, les meilleures séries TV, jeux vidéo, films, podcasts, chansons mais aussi mes bandes-annonces ou projets web préférés de l'année.
+image: /assets/spiderman.jpg
 date: 2019-01-01
 tags:
   - post

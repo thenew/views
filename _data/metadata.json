@@ -2,6 +2,7 @@
   "title": "Views",
   "description": "thenew’s Blog, after it was cool.",
   "url": "http://views.thenew.fr",
+  "image": "/assets/views.png",
   "feed": {
     "subtitle": "Views of thenew.",
     "filename": "feed.xml",
