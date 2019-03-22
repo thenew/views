@@ -115,7 +115,9 @@ Dernière étape obligatoire, la boutique, semble bien petite et laissée pour c
 
 ![](/assets/vg/videogames_design-play-disrupt_14.jpg)
 
+La sélection de jeux était une très bonne surprise : éclectique et pertinente. Comme *Journey*, premier titre exposé, qui est une œuvre esthétiquement magnifique et facile à aborder mais qui renferme plus de complexité, comme le révélait le prototype des mécaniques multijoueurs.
+Cette exposition était un plaisir à explorer, les nombreux aspects du médium étaient enchainés avec fluidité. Même si elle méritait un plus grand espace, nous nous sentions un peu à l’étroit.
 
-[Plus de photos](https://photos.app.goo.gl/HLa9xVjBkGMU9AyTA)
+[Plus de photos et vidéos](https://photos.app.goo.gl/HLa9xVjBkGMU9AyTA)
 
 Fin <span class="end"></span>
