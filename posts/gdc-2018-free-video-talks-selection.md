@@ -1,8 +1,8 @@
 ---
 title: GDC ’18 Talks Selection
 description: Selection of the best free talks from the Game Developers Conference 2018
-image: /assets/gdc/the-art-of-wonder-boy-the-dragons-trap-gdc.png
-date: 2019-04-20
+image: /assets/gdc/the-art-of-wonder-boy-the-dragons-trap-gdc.jpg
+date: 2019-04-17
 tags:
   - post
   - 2019
@@ -14,7 +14,7 @@ layout: layouts/post.njk
 
 <div class="full-width">
 
-![](/assets/gdc/the-art-of-wonder-boy-the-dragons-trap-gdc.png)
+![](/assets/gdc/the-art-of-wonder-boy-the-dragons-trap-gdc.jpg)
 
 </div>
 
@@ -70,7 +70,7 @@ Loved this human and funny experience from the oldest indie developer.
 
 <h2 data-content='Bonus'>Bonus</h2>
 
-![](/assets/gdc/ship-a-hit.png)
+![](/assets/gdc/ship-a-hit.jpg)
 
 Through the suggestions of YouTube, I ended up watching this great talks from other editions:
 
