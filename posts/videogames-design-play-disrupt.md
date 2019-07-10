@@ -11,6 +11,9 @@ tags:
 layout: layouts/post.njk
 ---
 
+_version audio_
+<audio src="{{ '/assets/vg.mp3' | url }}" type="audio/mpeg" controls class="audio"></audio>
+
 <div class="full-width">
 
 ![](/assets/vg/videogames_design-play-disrupt_13.jpg)

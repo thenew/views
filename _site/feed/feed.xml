@@ -233,7 +233,9 @@ Ahah, meilleure blague de l’E3&lt;/li&gt;
 		<link href="http://views.thenew.fr/posts/videogames-design-play-disrupt/"/>
 		<updated>2019-03-20T01:00:00+01:00</updated>
 		<id>http://views.thenew.fr/posts/videogames-design-play-disrupt/</id>
-		<content type="html">&lt;div class=&quot;full-width&quot;&gt;
+		<content type="html">&lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;&lt;br&gt;
+&lt;audio src=&quot;http://views.thenew.fr/assets/vg.mp3&quot; type=&quot;audio/mpeg&quot; controls=&quot;&quot; class=&quot;audio&quot;&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;div class=&quot;full-width&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_13.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;full-width-text&quot;&gt;
 &lt;p&gt;&lt;strong&gt;Quelle sera la nation qui ouvrira le premier grand musée du jeu vidéo ?&lt;/strong&gt;&lt;/p&gt;
