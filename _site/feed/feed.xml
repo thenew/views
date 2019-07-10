@@ -4,7 +4,7 @@
 	<subtitle>Views of thenew.</subtitle>
 	<link href="http://views.thenew.fr/feed/feed.xml" rel="self"/>
 	<link href="http://views.thenew.fr"/>
-	<updated>2019-04-17T02:00:00+02:00</updated>
+	<updated>2019-07-17T02:00:00+02:00</updated>
 	<id>http://views.thenew.fr</id>
 	<author>
 		<name>thenew</name>
@@ -403,6 +403,87 @@ He&#39;s making humour using the format of talk as he used, with Davey Wreden, t
 &lt;p&gt;All 442 videos from 2017 are now free on GDC Vault:  &lt;a href=&quot;https://gdcvault.com/browse/gdc-17/?&amp;amp;media=v&quot;&gt;https://gdcvault.com/browse/gdc-17/?&amp;amp;media=v&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;There is an alternative web app easier to browse, with the videos since 2016: &lt;a href=&quot;https://yankooliveira.com/gdcvault/&quot;&gt;GDC Vault Explorer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Fin &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Post-mortem of my tiny JS web app &quot;Archives&quot;</title>
+		<link href="http://views.thenew.fr/posts/archives-thenew-post-mortem/"/>
+		<updated>2019-07-17T02:00:00+02:00</updated>
+		<id>http://views.thenew.fr/posts/archives-thenew-post-mortem/</id>
+		<content type="html">&lt;p&gt;Some takeaways from the development of &lt;a href=&quot;http://archives.thenew.fr/&quot;&gt;archives.thenew.fr&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/arch/thenew_archives_editor.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 data-content=&quot;Backstory&quot;&gt;Backstory&lt;/h2&gt;
+&lt;p&gt;When I ended up on the portfolio of my old colleague &lt;a href=&quot;https://www.ilkflottante.com/work-category/digital/&quot;&gt;Ilk&lt;/a&gt;, I thought I should save screenshots of my previous projects. And I liked so much the way &lt;a href=&quot;https://archive.area17.com/&quot;&gt;AREA 17&lt;/a&gt; was hosting theirs archives I decided to simply steal it.&lt;/p&gt;
+&lt;p&gt;Besides the nostalgic trip through my old projects, thanks again &lt;a href=&quot;https://archive.org/&quot;&gt;archive.org&lt;/a&gt;, I wanted to make the smallest JavaScript app possible.&lt;/p&gt;
+&lt;h2 data-content=&quot;Tech&quot;&gt;Tech&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Node.js still doesn’t support ECMAScript Modules,&lt;br&gt;
+The &lt;code&gt;—-experimental-modules&lt;/code&gt; flag can be used to enable the feature, but only with &lt;code&gt;.mjs&lt;/code&gt; files.&lt;br&gt;
+&lt;a href=&quot;https://nodejs.org/api/esm.html#esm_ecmascript_modules&quot;&gt;ECMAScript Modules | Node.js v11.11.0 Documentation&lt;/a&gt;&lt;br&gt;
+nodemon can also be used with it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Building an HTTP server with Node.js is so simple thanks to the &lt;code&gt;http&lt;/code&gt; core module. No need of &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;, even if it covers more cases, without any doubts.&lt;br&gt;
+For example, I had troubles with the  &lt;code&gt;Content-Type&lt;/code&gt; of my responses, I had to specify it, surely because of the configuration of my Debian machine.&lt;br&gt;
+I first did it manually but then used &lt;a href=&quot;https://github.com/expressjs/serve-static&quot;&gt;serve-static&lt;/a&gt; module for the static files.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I tried to make it as simple as possible, so the projects&#39; name were automatically drawn from the directories’ name. A few obscure encoding issues with my server later, I had to introduce weird helpers functions to resolve them. But still no need to edit a config file or a JS object to add or update a project. 🙌&lt;br&gt;
+But for any bigger website, it’s criminal to rely on the folders’ name.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 data-content=&quot;Build&quot;&gt;Build&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;To bundle my app in a smaller package, I chose to try &lt;a href=&quot;https://rollupjs.org/&quot;&gt;Rollup&lt;/a&gt;, which is the main solution to build Node.js packages. You can easily change the settings to build an app to be used for a browser instead of Node.js.&lt;br&gt;
+I wanted to avoid &lt;a href=&quot;https://webpack.github.io/&quot;&gt;webpack&lt;/a&gt; to try something simpler and smaller.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Final touch : adding analytics tracking. With nothing better than Google Analytics suiting my needs, I added the package &lt;code&gt;universal-analytics&lt;/code&gt;.&lt;br&gt;
+Issue : the rollup build is not compatible with the package’s code.&lt;br&gt;
+I had to exclude it from the build with&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;external: [‘universal-analytics’]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;in &lt;code&gt;rollup.config.js&lt;/code&gt; and copy it to the production server. Not nice.&lt;/p&gt;
+&lt;p&gt;I should look at &lt;a href=&quot;https://usefathom.com/&quot;&gt;Fathom&lt;/a&gt; and &lt;a href=&quot;https://matomo.org/&quot;&gt;Matomo&lt;/a&gt; to replace Google Analytics in the future, this will ask more work or money.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/arch/thenew_archives.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 data-content=&quot;Hosting&quot;&gt;Hosting&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I wanted to try &lt;a href=&quot;https://www.heroku.com/&quot;&gt;Heroku&lt;/a&gt; for a long time and gave them a shot. The whole experience is good and the integration of GitHub pretty, but I somehow missed the important downside of this free offer: each app goes to sleep (idle) after 30 min if not used.&lt;br&gt;
+And the problem is the load of a page will suddenly take around 30 seconds. So, no good, for my tiny, confidential app.&lt;br&gt;
+Back to my personal hosting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I fumbled to find a working configuration for the apache virtual host :&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
+  ServerAlias archives.thenew.fr
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+
+  DocumentRoot /path/to/archives
+
+  ProxyPreserveHost On
+
+  ProxyPass / http://127.0.0.1:4100/
+&amp;lt;/VirtualHost&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I’m using &lt;code&gt;pm2&lt;/code&gt; to manage Node applications on the server and let them run in the background as a service. With the &lt;code&gt;-—watch&lt;/code&gt; parameter to see the change in production after each deploy: &lt;a href=&quot;http://pm2.keymetrics.io/docs/usage/watch-and-restart/&quot;&gt;PM2 - Watch &amp;amp; Restart&lt;/a&gt;&lt;br&gt;
+A good tutorial to &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-18-04&quot;&gt;setup a Node.js app for production&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GitLab CI offers free solutions to deploy to a server:&lt;br&gt;
+&lt;a href=&quot;https://codeburst.io/gitlab-build-and-push-to-a-server-via-ssh-6d27ca1bf7b4&quot;&gt;GitLab Build and Deploy to a Server via SSH – codeburst&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks for reading, I hope those bits could help other web tinkerers. &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>

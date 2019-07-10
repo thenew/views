@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Post-mortem of my tiny JS web app &quot;Archives&quot;</title>
+		<meta property="og:title" content="Post-mortem of my tiny JS web app &quot;Archives&quot;" />
+		<meta name="twitter:title" content="Post-mortem of my tiny JS web app &quot;Archives&quot;" />
+		<meta name="Description" content="thenew’s Blog, after it was cool.">
+		<meta property="og:description" content="thenew’s Blog, after it was cool." />
+		<meta name="twitter:description" content="thenew’s Blog, after it was cool." />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Views" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@remybarthez" />
+		<meta name="twitter:creator" content="@remybarthez" />
+		
+		<meta property="og:image" content="http://views.thenew.fr/assets/arch/thenew_archives_editor.jpg">
+		<meta name="twitter:image" content="http://views.thenew.fr/assets/arch/thenew_archives_editor.jpg" />
+		
+		<link rel="stylesheet" href="/css/index.css">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Views">
+		<meta name="msapplication-TileColor" content="#002fa7">
+		<meta name="theme-color" content="#002fa7">
+	</head>
+	<body>
+		<div class="template-post">
+			<div class="main">
+				<header>
+					<h2 class="blog-title"><a class="blog-title__link" href="/">Views</a></h2>
+				</header>
+
+				<main>
+					<h1 class="post-title">Post-mortem of my tiny JS web app &quot;Archives&quot;</h1>
+<time class="date post-date" datetime="2019-07-17">17 Jul 2019</time>
+
+<div class="post">
+  <p>Some takeaways from the development of <a href="http://archives.thenew.fr/">archives.thenew.fr</a>.</p>
+<p><img src="/assets/arch/thenew_archives_editor.jpg" alt=""></p>
+<h2 data-content='Backstory'>Backstory</h2>
+<p>When I ended up on the portfolio of my old colleague <a href="https://www.ilkflottante.com/work-category/digital/">Ilk</a>, I thought I should save screenshots of my previous projects. And I liked so much the way <a href="https://archive.area17.com/">AREA 17</a> was hosting theirs archives I decided to simply steal it.</p>
+<p>Besides the nostalgic trip through my old projects, thanks again <a href="https://archive.org/">archive.org</a>, I wanted to make the smallest JavaScript app possible.</p>
+<h2 data-content='Tech'>Tech</h2>
+<ul>
+<li>
+<p>Node.js still doesn’t support ECMAScript Modules,<br>
+The <code>—-experimental-modules</code> flag can be used to enable the feature, but only with <code>.mjs</code> files.<br>
+<a href="https://nodejs.org/api/esm.html#esm_ecmascript_modules">ECMAScript Modules | Node.js v11.11.0 Documentation</a><br>
+nodemon can also be used with it.</p>
+</li>
+<li>
+<p>Building an HTTP server with Node.js is so simple thanks to the <code>http</code> core module. No need of <a href="https://expressjs.com/">Express</a>, even if it covers more cases, without any doubts.<br>
+For example, I had troubles with the  <code>Content-Type</code> of my responses, I had to specify it, surely because of the configuration of my Debian machine.<br>
+I first did it manually but then used <a href="https://github.com/expressjs/serve-static">serve-static</a> module for the static files.</p>
+</li>
+<li>
+<p>I tried to make it as simple as possible, so the projects' name were automatically drawn from the directories’ name. A few obscure encoding issues with my server later, I had to introduce weird helpers functions to resolve them. But still no need to edit a config file or a JS object to add or update a project. 🙌<br>
+But for any bigger website, it’s criminal to rely on the folders’ name.</p>
+</li>
+</ul>
+<h2 data-content='Build'>Build</h2>
+<ul>
+<li>
+<p>To bundle my app in a smaller package, I chose to try <a href="https://rollupjs.org/">Rollup</a>, which is the main solution to build Node.js packages. You can easily change the settings to build an app to be used for a browser instead of Node.js.<br>
+I wanted to avoid <a href="https://webpack.github.io/">webpack</a> to try something simpler and smaller.</p>
+</li>
+<li>
+<p>Final touch : adding analytics tracking. With nothing better than Google Analytics suiting my needs, I added the package <code>universal-analytics</code>.<br>
+Issue : the rollup build is not compatible with the package’s code.<br>
+I had to exclude it from the build with</p>
+</li>
+</ul>
+<pre><code>external: [‘universal-analytics’]
+</code></pre>
+<p>in <code>rollup.config.js</code> and copy it to the production server. Not nice.</p>
+<p>I should look at <a href="https://usefathom.com/">Fathom</a> and <a href="https://matomo.org/">Matomo</a> to replace Google Analytics in the future, this will ask more work or money.</p>
+<p><img src="/assets/arch/thenew_archives.jpg" alt=""></p>
+<h2 data-content='Hosting'>Hosting</h2>
+<ul>
+<li>
+<p>I wanted to try <a href="https://www.heroku.com/">Heroku</a> for a long time and gave them a shot. The whole experience is good and the integration of GitHub pretty, but I somehow missed the important downside of this free offer: each app goes to sleep (idle) after 30 min if not used.<br>
+And the problem is the load of a page will suddenly take around 30 seconds. So, no good, for my tiny, confidential app.<br>
+Back to my personal hosting.</p>
+</li>
+<li>
+<p>I fumbled to find a working configuration for the apache virtual host :</p>
+</li>
+</ul>
+<pre><code>&lt;VirtualHost *:80&gt;
+  ServerAlias archives.thenew.fr
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+
+  DocumentRoot /path/to/archives
+
+  ProxyPreserveHost On
+
+  ProxyPass / http://127.0.0.1:4100/
+&lt;/VirtualHost&gt;
+</code></pre>
+<ul>
+<li>
+<p>I’m using <code>pm2</code> to manage Node applications on the server and let them run in the background as a service. With the <code>-—watch</code> parameter to see the change in production after each deploy: <a href="http://pm2.keymetrics.io/docs/usage/watch-and-restart/">PM2 - Watch &amp; Restart</a><br>
+A good tutorial to <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-18-04">setup a Node.js app for production</a>.</p>
+</li>
+<li>
+<p>GitLab CI offers free solutions to deploy to a server:<br>
+<a href="https://codeburst.io/gitlab-build-and-push-to-a-server-via-ssh-6d27ca1bf7b4">GitLab Build and Deploy to a Server via SSH – codeburst</a></p>
+</li>
+</ul>
+<p>Thanks for reading, I hope those bits could help other web tinkerers. <span class="end"></span></p>
+
+</div>
+				</main>
+			</div>
+		</div>
+
+		<footer>﹒</footer>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164644-9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-164644-9');
+    </script>
+
+		<!-- Current page: /posts/archives-thenew-post-mortem/ -->
+	</body>
+</html>
