@@ -2,7 +2,7 @@
 title: Post-mortem of my tiny JS web app "Archives"
 description:
 image: /assets/arch/thenew_archives_editor.jpg
-date: 2019-07-17
+date: 2019-07-10
 tags:
   - post
   - 2019
