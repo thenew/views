@@ -104,7 +104,7 @@ hr
 
 // Text
 
-h1, h2, h3, h4, p, ol, ul, pre, blockquote, hr
+h1, h2, h3, h4, p, ol, ul, pre, blockquote, hr, .full-width-background
   margin-bottom 1.8em
 
 h1, h2, h3, h4
@@ -325,6 +325,7 @@ pre
 
 // Full width
 
+.full-width-background
 .full-width
   position relative
   margin-left -2rem
@@ -377,6 +378,11 @@ pre
 
   p:last-child
     margin-bottom 0
+
+.full-width-background
+  height 60vh
+  background-size cover
+  background-position center center
 
 .post-title
   font-family $font-heading
