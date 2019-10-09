@@ -1,7 +1,7 @@
 ---
 title: 'Putain 3 years!'
 description: It's been 3 years working with Build in Amsterdam. Putain, c'est beau !
-image: /assets/ways/header3.gif
+image: /assets/bia3/bia.jpg
 date: 2019-10-10
 tags:
   - post
