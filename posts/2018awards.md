@@ -8,6 +8,10 @@ tags:
   - 2018
   - FR
   - awards
+  - anime
+  - TV
+  - cinema
+  - video game
 layout: layouts/post.njk
 ---
 

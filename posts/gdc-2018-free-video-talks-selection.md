@@ -6,7 +6,7 @@ date: 2019-04-17
 tags:
   - post
   - 2019
-  - video games
+  - video game
   - EN
   - GDC
 layout: layouts/post.njk

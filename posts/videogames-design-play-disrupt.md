@@ -6,7 +6,7 @@ date: 2019-03-20
 tags:
   - post
   - 2019
-  - video games
+  - video game
   - FR
 layout: layouts/post.njk
 ---
