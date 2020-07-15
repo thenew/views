@@ -2,37 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://views.thenew.fr/</loc>
-    <lastmod>2018-12-14</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/tags/</loc>
-    <lastmod>2018-12-14</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/tags/2018/</loc>
-    <lastmod>2018-12-14</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/drafts/_example/</loc>
-    <lastmod>2018-12-29</lastmod>
-  </url>
-  
-  <url>
     <loc>http://views.thenew.fr/posts/2018awards/</loc>
     <lastmod>2019-01-01</lastmod>
   </url>
   
   <url>
     <loc>http://views.thenew.fr/posts/videogames-design-play-disrupt/</loc>
-    <lastmod>2019-03-20</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/readme/</loc>
     <lastmod>2019-03-20</lastmod>
   </url>
   
@@ -69,5 +44,40 @@
   <url>
     <loc>http://views.thenew.fr/posts/2019awards/</loc>
     <lastmod>2020-01-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/drafts/_example/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/readme/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/tags/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/tags/2018/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/posts/trailers-jv-les-plus-marquants/</loc>
+    <lastmod>2020-07-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/drafts/best-films-intros/</loc>
+    <lastmod>2020-07-30</lastmod>
   </url>
 </urlset>
