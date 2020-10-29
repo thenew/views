@@ -1,0 +1,67 @@
+---
+permalink: /podcast.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  version="2.0"
+>
+  <channel>
+    <title>{{ metadata.podcastFeed.title }}</title>
+    <itunes:author>{{ metadata.author.name }}</itunes:author>
+    <itunes:owner>
+      <itunes:name>{{ metadata.author.name}}</itunes:name>
+      <itunes:email>{{ metadata.author.email}}</itunes:email>
+    </itunes:owner>
+    <itunes:category text="{{ metadata.podcastFeed.category }}">
+      <itunes:category text="{{ metadata.podcastFeed.subcategory }}" />
+    </itunes:category>
+    <link>{{ metadata.podcastFeed.link }}</link>
+    <description>{{ metadata.podcastFeed.description }}</description>
+    <itunes:summary>{{ metadata.podcastFeed.description }}</itunes:summary>
+    <itunes:type>{{ metadata.podcastFeed.type }}</itunes:type>
+    <language> {{ metadata.podcastFeed.language }}</language>
+    <copyright>{{ metadata.podcastFeed.copyright }}</copyright>
+    <image>
+      <url>{{ metadata.url }}{{ metadata.podcastFeed.image | url }}</url>
+      <title>{{ metadata.podcastFeed.title }}</title>
+      <link>{{ metadata.podcastFeed.link }}</link>
+    </image>
+    <itunes:image href="{{ metadata.url }}{{ metadata.podcastFeed.image | url }}" />
+    <itunes:explicit>{{ metadata.podcastFeed.explicit}}</itunes:explicit>
+    {%- for post in collections.posts | reverse %}
+      {%- if post.data.mp3 %}
+        <item>
+          <title>{{ post.data.title | url }}</title>
+          <link>{{ metadata.url }}{{ post.url | url }}</link>
+          <itunes:author>{{ metadata.author.name }}</itunes:author>
+          <enclosure
+            url='{{ metadata.url }}{{ post.data.mp3 }}'
+            type="audio/mpeg"
+          />
+          <guid isPermaLink="false">{{ metadata.url }}{{ post.data.mp3 }}</guid>
+          <itunes:explicit>{{ metadata.podcastFeed.explicit if metadata.podcastFeed.explicit else "false" }}</itunes:explicit>
+          <pubDate>{{post.date | rssDate }}</pubDate>
+          <itunes:episode>{{ post.data.episode }}</itunes:episode>
+          <itunes:episodeType>{{ metadata.podcastFeed.episodeType if metadata.podcastFeed.episodeType else "Full" }}</itunes:episodeType>
+          <itunes:duration>{{ post.data.duration }}</itunes:duration>
+          {% if post.data.podcastImage %}
+            <itunes:image href='{{ metadata.url }}{{ post.data.podcastImage }}'></itunes:image>
+          {%- endif %}
+          <description>{{ post.data.description }}</description>
+          <itunes:summary>{{ post.data.description }}</itunes:summary>
+          <itunes:subtitle>{{ post.data.description }}</itunes:subtitle>
+          {% if content %}
+            <content:encoded>
+              <![CDATA[<p>{{ post.data.content}}</p>]]>
+            </content:encoded>
+          {% endif %}
+        </item>
+      {%- endif %}
+    {%- endfor %}
+  </channel>
+</rss>

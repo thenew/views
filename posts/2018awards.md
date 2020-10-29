@@ -13,6 +13,9 @@ tags:
   - cinema
   - video game
 layout: layouts/post.njk
+mp3: '/assets/2018-awards.mp3'
+duration: 42:08
+episode: 1
 ---
 
 _version audio_

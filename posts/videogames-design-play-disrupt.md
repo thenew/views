@@ -9,6 +9,9 @@ tags:
   - video game
   - FR
 layout: layouts/post.njk
+mp3: '/assets/vg.mp3'
+duration: 7:27
+episode: 2
 ---
 
 _version audio_

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  version="2.0"
+>
+  <channel>
+    <title>Views</title>
+    <itunes:author>thenew</itunes:author>
+    <itunes:owner>
+      <itunes:name>thenew</itunes:name>
+      <itunes:email>hello@thenew.fr</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Society &amp;amp; Culture">
+      <itunes:category text="Personal Journals" />
+    </itunes:category>
+    <link>http://views.thenew.fr</link>
+    <description>thenew’s Blog, after it was cool.</description>
+    <itunes:summary>thenew’s Blog, after it was cool.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <language> en</language>
+    <copyright>thenew © 2018-2021. Tous droits réservés.</copyright>
+    <image>
+      <url>http://views.thenew.fr/assets/views/views_podcast_cover.jpg</url>
+      <title>Views</title>
+      <link>http://views.thenew.fr</link>
+    </image>
+    <itunes:image href="http://views.thenew.fr/assets/views/views_podcast_cover.jpg" />
+    <itunes:explicit>false</itunes:explicit>
+        <item>
+          <title>Videogames at V&amp;A</title>
+          <link>http://views.thenew.fr/posts/videogames-design-play-disrupt/</link>
+          <itunes:author>thenew</itunes:author>
+          <enclosure
+            url='http://views.thenew.fr/assets/vg.mp3'
+            type="audio/mpeg"
+          />
+          <guid isPermaLink="false">http://views.thenew.fr/assets/vg.mp3</guid>
+          <itunes:explicit>false</itunes:explicit>
+          <pubDate>2019-03-20T01:00:00+01:00</pubDate>
+          <itunes:episode>2</itunes:episode>
+          <itunes:episodeType>Full</itunes:episodeType>
+          <itunes:duration>447</itunes:duration>
+          
+          <description>Visite à l&#39;exposition Videogames Design/Play/Disrupt au musée Victoria &amp; Albert à Londres.</description>
+          <itunes:summary>Visite à l&#39;exposition Videogames Design/Play/Disrupt au musée Victoria &amp; Albert à Londres.</itunes:summary>
+          <itunes:subtitle>Visite à l&#39;exposition Videogames Design/Play/Disrupt au musée Victoria &amp; Albert à Londres.</itunes:subtitle>
+          
+        </item>
+        <item>
+          <title>2018 Awards</title>
+          <link>http://views.thenew.fr/posts/2018awards/</link>
+          <itunes:author>thenew</itunes:author>
+          <enclosure
+            url='http://views.thenew.fr/assets/2018-awards.mp3'
+            type="audio/mpeg"
+          />
+          <guid isPermaLink="false">http://views.thenew.fr/assets/2018-awards.mp3</guid>
+          <itunes:explicit>false</itunes:explicit>
+          <pubDate>2019-01-01T01:00:00+01:00</pubDate>
+          <itunes:episode>1</itunes:episode>
+          <itunes:episodeType>Full</itunes:episodeType>
+          <itunes:duration>2528</itunes:duration>
+          
+          <description>Bilan artistique subjectif de l&#39;année 2018, les meilleures séries TV, jeux vidéo, films, podcasts, chansons mais aussi mes bandes-annonces ou projets web préférés de l&#39;année.</description>
+          <itunes:summary>Bilan artistique subjectif de l&#39;année 2018, les meilleures séries TV, jeux vidéo, films, podcasts, chansons mais aussi mes bandes-annonces ou projets web préférés de l&#39;année.</itunes:summary>
+          <itunes:subtitle>Bilan artistique subjectif de l&#39;année 2018, les meilleures séries TV, jeux vidéo, films, podcasts, chansons mais aussi mes bandes-annonces ou projets web préférés de l&#39;année.</itunes:subtitle>
+          
+        </item>
+  </channel>
+</rss>

@@ -13,5 +13,18 @@
   "author": {
     "name": "thenew",
     "email": "hello@thenew.fr"
+  },
+  "podcastFeed": {
+    "title": "Views",
+    "link": "http://views.thenew.fr",
+    "language": "en",
+    "copyright": "thenew © 2018-2021. Tous droits réservés.",
+    "image": "/assets/views/views_podcast_cover.jpg",
+    "category": "Society &amp; Culture",
+    "subcategory": "Personal Journals",
+    "explicit": "false",
+    "type": "episodic",
+    "description": "thenew’s Blog, after it was cool.",
+    "url": "http://views.thenew.fr/podcast.xml"
   }
 }
