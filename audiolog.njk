@@ -1,5 +1,5 @@
 ---
-permalink: /podcast.xml
+permalink: /audiolog.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <rss
@@ -50,16 +50,14 @@ permalink: /podcast.xml
           <itunes:episodeType>{{ metadata.podcastFeed.episodeType if metadata.podcastFeed.episodeType else "Full" }}</itunes:episodeType>
           <itunes:duration>{{ post.data.duration }}</itunes:duration>
           {% if post.data.podcastImage %}
-            <itunes:image href='{{ metadata.url }}{{ post.data.podcastImage }}'></itunes:image>
+            <itunes:image href='{{ metadata.url }}{{ post.data.podcastImage if post.data.podcastImage else post.data.image }}'></itunes:image>
           {%- endif %}
           <description>{{ post.data.description }}</description>
           <itunes:summary>{{ post.data.description }}</itunes:summary>
           <itunes:subtitle>{{ post.data.description }}</itunes:subtitle>
-          {% if content %}
-            <content:encoded>
-              <![CDATA[<p>{{ post.data.content}}</p>]]>
-            </content:encoded>
-          {% endif %}
+          <content:encoded>
+            <![CDATA[{{ post.content | safe }}]]>
+          </content:encoded>
         </item>
       {%- endif %}
     {%- endfor %}

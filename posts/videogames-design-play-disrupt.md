@@ -8,9 +8,11 @@ tags:
   - 2019
   - video game
   - FR
+  - podcast
 layout: layouts/post.njk
 mp3: '/assets/vg.mp3'
 duration: 7:27
+podcastImage: '/assets/audiolog/views_audiolog_2.jpg'
 episode: 2
 ---
 

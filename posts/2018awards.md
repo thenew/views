@@ -12,9 +12,11 @@ tags:
   - TV
   - cinema
   - video game
+  - podcast
 layout: layouts/post.njk
 mp3: '/assets/2018-awards.mp3'
 duration: 42:08
+podcastImage: '/assets/audiolog/views_audiolog_1.jpg'
 episode: 1
 ---
 
