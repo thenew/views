@@ -56,8 +56,8 @@ permalink: /audiolog.xml
           <description>{{ post.data.description }}</description>
           <itunes:summary>{{ post.data.description }}</itunes:summary>
           <itunes:subtitle>{{ post.data.description }}</itunes:subtitle>
-          <content:encoded>
-            <![CDATA[{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}]]>
+          <content:encoded type="html">
+            {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
           </content:encoded>
         </item>
       {%- endif %}

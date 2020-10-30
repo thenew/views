@@ -50,8 +50,8 @@
           <description>Visite à l&#39;exposition Videogames Design/Play/Disrupt au musée Victoria &amp; Albert à Londres.</description>
           <itunes:summary>Visite à l&#39;exposition Videogames Design/Play/Disrupt au musée Victoria &amp; Albert à Londres.</itunes:summary>
           <itunes:subtitle>Visite à l&#39;exposition Videogames Design/Play/Disrupt au musée Victoria &amp; Albert à Londres.</itunes:subtitle>
-          <content:encoded>
-            <![CDATA[&lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;&lt;br&gt;
+          <content:encoded type="html">
+            &lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;&lt;br&gt;
 &lt;audio src=&quot;http://views.thenew.fr/assets/vg.mp3&quot; type=&quot;audio/mpeg&quot; controls=&quot;&quot; class=&quot;audio&quot;&gt;&lt;/audio&gt;&lt;/p&gt;
 &lt;div class=&quot;full-width&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_13.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -120,7 +120,7 @@ Pour résumer grossièrement le propos : l’industrie est toujours très centr�
 Cette exposition était un plaisir à explorer, les nombreux aspects du médium étaient enchainés avec fluidité. Même si elle méritait un plus grand espace, nous nous sentions un peu à l’étroit.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://photos.app.goo.gl/HLa9xVjBkGMU9AyTA&quot;&gt;Plus de photos et vidéos&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Fin &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-]]>
+
           </content:encoded>
         </item>
 	      
@@ -143,8 +143,8 @@ Cette exposition était un plaisir à explorer, les nombreux aspects du médium 
           <description>Bilan artistique subjectif de l&#39;année 2018, les meilleures séries TV, jeux vidéo, films, podcasts, chansons mais aussi mes bandes-annonces ou projets web préférés de l&#39;année.</description>
           <itunes:summary>Bilan artistique subjectif de l&#39;année 2018, les meilleures séries TV, jeux vidéo, films, podcasts, chansons mais aussi mes bandes-annonces ou projets web préférés de l&#39;année.</itunes:summary>
           <itunes:subtitle>Bilan artistique subjectif de l&#39;année 2018, les meilleures séries TV, jeux vidéo, films, podcasts, chansons mais aussi mes bandes-annonces ou projets web préférés de l&#39;année.</itunes:subtitle>
-          <content:encoded>
-            <![CDATA[&lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;&lt;br&gt;
+          <content:encoded type="html">
+            &lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;&lt;br&gt;
 &lt;audio src=&quot;http://views.thenew.fr/assets/2018-awards.mp3&quot; type=&quot;audio/mpeg&quot; controls=&quot;&quot; class=&quot;audio&quot;&gt;&lt;/audio&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Avant de commencer 2019, je fais mon bilan personnel de l‘année passée dans divers domaines artistiques. Vu le nombre de très bonnes séries TV, le calendrier de sorties JV, etc, inutile de préciser que cette liste est partiale.&lt;br&gt;
@@ -353,7 +353,7 @@ Rahhhhh !!! Les mangas d’Akira Toriyama sont tellement bons, presque chaque ca
 Ahah, meilleure blague de l’E3&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Fin &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-]]>
+
           </content:encoded>
         </item>
   </channel>
