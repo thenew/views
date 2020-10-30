@@ -35,6 +35,7 @@ permalink: /audiolog.xml
     <itunes:explicit>{{ metadata.podcastFeed.explicit}}</itunes:explicit>
     {%- for post in collections.posts | reverse %}
       {%- if post.data.mp3 %}
+	      {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
         <item>
           <title>{{ post.data.title | url }}</title>
           <link>{{ metadata.url }}{{ post.url | url }}</link>
@@ -56,7 +57,7 @@ permalink: /audiolog.xml
           <itunes:summary>{{ post.data.description }}</itunes:summary>
           <itunes:subtitle>{{ post.data.description }}</itunes:subtitle>
           <content:encoded>
-            <![CDATA[{{ post.content | safe }}]]>
+            <![CDATA[{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}]]>
           </content:encoded>
         </item>
       {%- endif %}
