@@ -3,6 +3,7 @@
   "description": "thenew’s Blog, after it was cool.",
   "url": "http://views.thenew.fr",
   "image": "/assets/views.png",
+  "lang": "en",
   "feed": {
     "subtitle": "Views of thenew.",
     "filename": "feed.xml",
@@ -17,7 +18,7 @@
   "podcastFeed": {
     "title": "Views",
     "link": "http://views.thenew.fr",
-    "language": "en",
+    "language": "fr",
     "copyright": "thenew © 2018-2021. Tous droits réservés.",
     "image": "/assets/audiolog/views_audiolog_cover.jpg",
     "category": "Society &amp; Culture",

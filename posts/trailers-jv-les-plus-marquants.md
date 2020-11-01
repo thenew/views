@@ -3,6 +3,7 @@ title: Mes trailers JV les plus marquants (rétro 2010)
 description: Le média jeu vidéo repousse les limites de la pratique de la bande-annonce. Le trailer est clairement une production à lui seul et mérite qu’on s’y attarde. Voici ma sélection des trailers jeu vidéo les plus marquants. Publié une première fois en 2010.
 image: /assets/jv/gtaiv.jpg
 date: 2020-07-15
+lang: fr
 tags:
   - post
   - 2020

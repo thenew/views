@@ -3,6 +3,7 @@ title: 2018 Awards
 description: Bilan artistique subjectif de l'année 2018, les meilleures séries TV, jeux vidéo, films, podcasts, chansons mais aussi mes bandes-annonces ou projets web préférés de l'année.
 image: /assets/spiderman.jpg
 date: 2019-01-01
+lang: fr
 tags:
   - post
   - 2018
@@ -18,6 +19,7 @@ mp3: '/assets/2018-awards.mp3'
 duration: 42:08
 podcastImage: '/assets/audiolog/views_audiolog_1.jpg'
 episode: 1
+podcastLang: fr
 ---
 
 _version audio_

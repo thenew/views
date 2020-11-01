@@ -3,6 +3,7 @@ title: Neon Genesis Evangelion
 description:
 image: /assets/eva/eva.jpg
 date: 2019-07-15
+lang: fr
 tags:
   - post
   - 2019

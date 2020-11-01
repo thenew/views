@@ -3,6 +3,7 @@ title: Videogames at V&A
 description: Visite à l'exposition Videogames Design/Play/Disrupt au musée Victoria & Albert à Londres.
 image: /assets/vg/videogames_design-play-disrupt_13.jpg
 date: 2019-03-20
+lang: fr
 tags:
   - post
   - 2019
@@ -14,6 +15,7 @@ mp3: '/assets/vg.mp3'
 duration: 7:27
 podcastImage: '/assets/audiolog/views_audiolog_2.jpg'
 episode: 2
+podcastLang: fr
 ---
 
 _version audio_
