@@ -85,4 +85,9 @@
     <loc>http://views.thenew.fr/audiolog.xml</loc>
     <lastmod>2020-10-29</lastmod>
   </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/posts/radiokawa-retrospective-postmortem/</loc>
+    <lastmod>2020-11-15</lastmod>
+  </url>
 </urlset>
