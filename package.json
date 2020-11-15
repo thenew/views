@@ -5,6 +5,7 @@
   "scripts": {
     "css": "grunt watch",
     "serve": "npx eleventy --serve --port=1212",
+    "dev": "yarn serve",
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
     "debug": "DEBUG=* npx eleventy",
