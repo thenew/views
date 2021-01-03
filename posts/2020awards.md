@@ -1,7 +1,7 @@
 ---
 title: 2020 Awards
 description: The best films, video games, music video, tv show and more of 2020. According to me.
-image: /assets/2020awards/jojo-rabbit.jpg
+image: /assets/2020awards/2020awards.jpg
 date: 2021-01-03
 tags:
   - post

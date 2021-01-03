@@ -22,8 +22,8 @@ layout: layouts/post.njk
 ![Dune film](/assets/2021films/dune.jpg)
 
 This year, I’ve been a bit overboard with 52 movies.
-All those films should be released in 2021 but we don’t know any more, so the dates are just . And, of course, 14 are coming from [http://views.thenew.fr/posts/2020-films-expectations/](my post of last year). Some novelties: HBO Max is becoming a new channel at the expense of Denis Villeneuve.  
-For my second time, I’m sure my reviews will be even closer to this list.
+All those films should be released in 2021 but nothing is sure any more, so don’t trust the dates. And, of course, 14 are coming from [http://views.thenew.fr/posts/2020-films-expectations/](my post of last year). Some novelties: HBO Max is becoming a new channel at the expense of Denis Villeneuve, MCU is back :) alongside Sony’s Marvel :(.  
+This year, I’m less interesting by the delta between expectations and reality and will use this list mostly to pick films from the top and just completely avoid the bottom. "Forcing" myself to watch *Bloodshot* or *Wonder Woman* last year was not fun.
 
 1. *[Dune](https://youtu.be/n9xhJrPXop4)* by Denis Villeneuve **- HBO Max** (1 October)  
 <small>because Denis Villeneuve, because Dune</small>
