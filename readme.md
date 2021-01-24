@@ -2,7 +2,7 @@
 
 ## Usage
 
-- `yarn serve` to preview the app on `http://localhost:1212/`
+- `yarn serve` or `yarn dev` to preview the app on `http://localhost:1212/`
 - `yarn build` to build
 
 ### Editorial
@@ -15,7 +15,7 @@ Replace `## Disrupt` by `<h2 data-content='Disrupt'>Disrupt</h2>`
 
 - To crop letterbox black bands:
 
-`Sips -c 1200 2880 mrright.jpg` 
+`Sips -c 1200 2880 mrright.jpg`
 
 ## Development
 
