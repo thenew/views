@@ -10,8 +10,19 @@ tags:
   - web
   - development
   - JavaScript
+  - podcast
 layout: layouts/post.njk
+mp3: '/assets/audiolog/radiokawa-retrospective.mp3'
+duration: 06:53
+podcastImage: '/assets/audiolog/views_audiolog_3.jpg'
+episode: 3
+podcastLang: en
 ---
+
+_version audio_, <small>music: *Sappy* by Neil D. Voss</small>
+<audio src="{{ '/assets/audiolog/radiokawa-retrospective.mp3' | url }}" type="audio/mpeg" controls class="audio"></audio>
+
+<hr />
 
 <div class="full-width">
 

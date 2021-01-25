@@ -35,6 +35,7 @@
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-imsize": "^2.0.1",
+    "markdown-it-link-attributes": "^3.0.0",
     "pngquant": "^3.0.0"
   }
 }

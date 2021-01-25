@@ -379,6 +379,8 @@ pre
   @media (min-width 1200px)
     transform none
 
+  ol:last-child,
+  ul:last-child,
   p:last-child
     margin-bottom 0
 
@@ -387,6 +389,26 @@ pre
   background-size cover
   background-position center center
 
+.full-width.tiles
+  margin-bottom 0
+
+  > p:first-of-type
+    display flex
+    flex-wrap wrap
+    padding 0
+
+    > *
+      width auto
+      flex-basis 50%
+      max-width: 50%;
+
+
+  .full-width-text
+    position relative
+    margin-top -10%
+    margin-bottom 1.8em
+  
+  
 .post-title
   font-family $font-heading
   font-weight 900

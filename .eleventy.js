@@ -42,6 +42,7 @@ module.exports = function(eleventyConfig) {
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");
   let markdownItImsize = require("markdown-it-imsize");
+  let mila = require('markdown-it-link-attributes');
   let options = {
     html: true,
     breaks: true,
@@ -54,9 +55,17 @@ module.exports = function(eleventyConfig) {
     permalinkSymbol: ""
   };
 
-  eleventyConfig.setLibrary("md", markdownIt(options)
-    .use(markdownItAnchor, opts)
-    .use(markdownItImsize)
+  eleventyConfig.setLibrary(
+    "md",
+    markdownIt(options)
+      .use(markdownItAnchor, opts)
+      .use(markdownItImsize)
+      .use(mila, {
+        attrs: {
+          target: '_blank',
+          rel: 'noopener'
+        }
+      })
   );
 
   return {

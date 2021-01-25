@@ -14,9 +14,8 @@ layout: layouts/post.njk
 
 <style>
 .post ol li {color: #555; margin-bottom: 1rem;}
-.post em {display: inline-block; margin-right: 4px; font-size: 1.8rem;font-weight: 600; color: #222;}
-.post strong {font-weight: 400; color: #002fa7;}
-.post small {font-size: 80%;}
+.post ol li em {display: inline-block; margin-right: 4px; font-size: 1.8rem;font-weight: 600; color: #222;}
+.post ol li strong {font-weight: 400; color: #002fa7;}
 </style>
 
 This year, I’ve been a bit overboard with 56 films.  
