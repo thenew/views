@@ -4,7 +4,7 @@
 	<subtitle>Views of thenew.</subtitle>
 	<link href="http://views.thenew.fr/feed/feed.xml" rel="self"/>
 	<link href="http://views.thenew.fr"/>
-	<updated>2021-01-17T01:00:00+01:00</updated>
+	<updated>2021-01-25T01:00:00+01:00</updated>
 	<id>http://views.thenew.fr</id>
 	<author>
 		<name>thenew</name>
@@ -1383,7 +1383,7 @@ All those films should be released in 2021 but nothing is sure any more, so don�
 	<entry>
 		<title>2020 films expectations versus reality</title>
 		<link href="http://views.thenew.fr/posts/2020-films-expectations-versus-reality/"/>
-		<updated>2021-01-17T01:00:00+01:00</updated>
+		<updated>2021-01-25T01:00:00+01:00</updated>
 		<id>http://views.thenew.fr/posts/2020-films-expectations-versus-reality/</id>
 		<content type="html">&lt;style&gt;
 .post ol li {color: #555; margin-bottom: 1rem;}
@@ -1393,8 +1393,8 @@ All those films should be released in 2021 but nothing is sure any more, so don�
 &lt;div class=&quot;full-width&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/2020reviews/soul_2020_17-3.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;full-width-text&quot;&gt;
-&lt;p&gt;For my first confrontation of films reviews versus my expectations of last year, I’ve been spoiled with 14 (!) films actually released in 2020 from the 32 films I’ve &lt;a href=&quot;http://localhost:1212/posts/2020-films-expectations/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ranked in my expectations last year&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;On every review, next to the title, I indicate the relative predicted rank out of the released films and the evolution with the final rank. And in parenthesis, the predicted rank out of the original 32 films.&lt;/p&gt;
+&lt;p&gt;For my first confrontation between reviews and presumptions, I’ve been spoiled with 14 (!) films actually released in 2020 from the 32 films I’ve &lt;a href=&quot;http://localhost:1212/posts/2020-films-expectations/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ranked in my expectations last year&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On every review, next to the title, I indicate the relative predicted rank out of the released films and the evolution with the final rank. And in parentheses, the predicted rank out of the original 32 films.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;full-width tiles&quot;&gt;

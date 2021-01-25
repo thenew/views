@@ -2,7 +2,7 @@
 title: 2020 films expectations versus reality
 description: Expected films from 2020 reviewed
 image: /assets/2020reviews/soul_2020_17-3.jpg
-date: 2021-01-17
+date: 2021-01-25
 tags:
   - post
   - 2020
@@ -24,9 +24,9 @@ layout: layouts/post.njk
 
 <div class="full-width-text">
 
-For my first confrontation of films reviews versus my expectations of last year, I’ve been spoiled with 14 (!) films actually released in 2020 from the 32 films I’ve [ranked in my expectations last year](http://localhost:1212/posts/2020-films-expectations/).
+For my first confrontation between reviews and presumptions, I’ve been spoiled with 14 (!) films actually released in 2020 from the 32 films I’ve [ranked in my expectations last year](http://localhost:1212/posts/2020-films-expectations/).
 
-On every review, next to the title, I indicate the relative predicted rank out of the released films and the evolution with the final rank. And in parenthesis, the predicted rank out of the original 32 films.
+On every review, next to the title, I indicate the relative predicted rank out of the released films and the evolution with the final rank. And in parentheses, the predicted rank out of the original 32 films.
 
 </div>
 
