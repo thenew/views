@@ -36,10 +36,13 @@
 <time class="date post-date" datetime="2020-11-15">15 Nov 2020</time>
 
 <div class="post">
-  <div class="full-width">
+  <p><em>version audio</em>, <small>music: <em>Sappy</em> by Neil D. Voss</small><br>
+<audio src="/assets/audiolog/radiokawa-retrospective.mp3" type="audio/mpeg" controls class="audio"></audio></p>
+<hr />
+<div class="full-width">
 <p><img src="/assets/rk/desktopIntro.gif" alt="RadioKawa retrospective Introduction"></p>
 <div class="full-width-text">
-<p>To honour the end of the French-speaking podcast network <em>RadioKawa</em>, with whom I have worked since 2015, I designed and developed this retrospective website: <a href="https://retrospective.radiokawa.com/">https://retrospective.radiokawa.com/</a>.</p>
+<p>To honour the end of the French-speaking podcast network <em>RadioKawa</em>, with whom I have worked since 2015, I designed and developed this retrospective website: <a href="https://retrospective.radiokawa.com/" target="_blank" rel="noopener">https://retrospective.radiokawa.com/</a>.</p>
 <p>I gathered the timeline, inspirations and some thoughts for a postmortem.</p>
 </div>
 </div>
@@ -47,11 +50,11 @@
 <em>RadioKawa</em> has tons of content (shows, authors, categories, episodes, etc.) I’m aware of and is a non-profit organisation, so it was a good client to animate some big numbers on my free time.</p>
 <h2 data-content='Timeline'>Timeline</h2>
 <p>I started noodling the design around 9 February 2020 and then send a message to the <em>RadioKawa</em> team to share my idea and a first mock-up on the 24th. I was glad to receive positive feedback.<br>
-In March, Yann, the <em>Big Boss</em>, helped me gather appropriate data and collect photographs. On the next three months, during a particularly enjoyable time called lockdown, I <a href="https://youtu.be/FgP5fEOIfA4">streamed</a>, for the first time, some coding sessions.</p>
+In March, Yann, the <em>Big Boss</em>, helped me gather appropriate data and collect photographs. On the next three months, during a particularly enjoyable time called lockdown, I <a href="https://youtu.be/FgP5fEOIfA4" target="_blank" rel="noopener">streamed</a>, for the first time, some coding sessions.</p>
 <p><img src="/assets/rk/stream_timelapse_2.gif" alt="RadioKawa retrospective dev stream timelapse"></p>
 <p>I continued working on it in the evenings and weekends, slowly but surely. Adding a few, simpler, blocks in the last days. The page was finally launched on the 3rd of July.</p>
 <h2 data-content='Design'>Design</h2>
-<p>My first wish in this project was to play around with <em>Figma</em> and I got more accustomed with it. I’m still missing some features from <em>Illustrator</em> but it’s an amazing tool and web-based, so you can share it in a blink of an eye.  You can try my <a href="https://www.figma.com/community/plugin/746097413727734148/Font-Fascia">font plugin</a>, by the way ;).</p>
+<p>My first wish in this project was to play around with <em>Figma</em> and I got more accustomed with it. I’m still missing some features from <em>Illustrator</em> but it’s an amazing tool and web-based, so you can share it in a blink of an eye.  You can try my <a href="https://www.figma.com/community/plugin/746097413727734148/Font-Fascia" target="_blank" rel="noopener">font plugin</a>, by the way ;).</p>
 <p>Not being a designer, I want to stress it, my biggest mistake was to not choose a correct format/ratio to work on, way too much high, it did not correspond to any realistic devices viewports. So the transition to development was a bit tricky.</p>
 <div class="row">
   <div class="left">
@@ -61,15 +64,15 @@ In March, Yann, the <em>Big Boss</em>, helped me gather appropriate data and col
 <p><img src="/assets/rk/design_workbench_4.jpg" alt="RadioKawa retrospective designs screenshot"></p>
   </div>
 </div>
-<p>Then, while finishing the development, I realised I totally ignored mobile version, which is pretty foolish. I thought it would be complicated to redesign this big blocks in a small viewport, but it was less a conundrum than expected. It made me test the <a href="https://www.figma.com/downloads/"><em>Figma Mirror</em> mobile app</a>, which is awesome to live preview on your device, it’s literally just <em>log in and play</em>.</p>
+<p>Then, while finishing the development, I realised I totally ignored mobile version, which is pretty foolish. I thought it would be complicated to redesign this big blocks in a small viewport, but it was less a conundrum than expected. It made me test the <a href="https://www.figma.com/downloads/" target="_blank" rel="noopener"><em>Figma Mirror</em> mobile app</a>, which is awesome to live preview on your device, it’s literally just <em>log in and play</em>.</p>
 <h2 data-content='Development'>Development</h2>
-<p>I started to code my own scroll animation manager but <a href="https://greensock.com/docs/v3/Plugins/ScrollTrigger"><em>ScrollTrigger</em></a> was announced and released just at the beginning of the development so I quickly drop my draft to try the new toy from <em>Greensock</em>.<br>
-It’s well done and kills <a href="http://scrollmagic.io/"><em>ScrollMagic</em></a>, IMHO. The debug tools are nice, but I’m not sure if I’ll ever get used to the syntax. As an efficient but limited framework, it was perfect for this kind of project.</p>
+<p>I started to code my own scroll animation manager but <a href="https://greensock.com/docs/v3/Plugins/ScrollTrigger" target="_blank" rel="noopener"><em>ScrollTrigger</em></a> was announced and released just at the beginning of the development so I quickly drop my draft to try the new toy from <em>Greensock</em>.<br>
+It’s well done and kills <a href="http://scrollmagic.io/" target="_blank" rel="noopener"><em>ScrollMagic</em></a>, IMHO. The debug tools are nice, but I’m not sure if I’ll ever get used to the syntax. As an efficient but limited framework, it was perfect for this kind of project.</p>
 <p><img src="/assets/rk/spotify-wrapped.jpg" alt="Spotify Wrapped screenshot"></p>
-<p>I wanted to try replicate this wrapped typography animation with just CSS and JS. I know they are made with WebGL but when you see <a href="https://medium.com/active-theory/spotify-wrapped-2018-technical-case-study-5b7cfb7e9d3a">how complex it is</a>, I wanted to play dumb. So I’m surprised it kinda works visually but the performances are terrible, will not recommend.<br>
+<p>I wanted to try replicate this wrapped typography animation with just CSS and JS. I know they are made with WebGL but when you see <a href="https://medium.com/active-theory/spotify-wrapped-2018-technical-case-study-5b7cfb7e9d3a" target="_blank" rel="noopener">how complex it is</a>, I wanted to play dumb. So I’m surprised it kinda works visually but the performances are terrible, will not recommend.<br>
 This was my swan song of dumb HTML animations before jumping on the GL train, <em>maybe</em>.</p>
 <p><img src="/assets/rk/desktopTitles.gif" alt="RadioKawa retrospective Les Tauliers &quot;slot machine&quot; block"></p>
-<p>In the same idea of ​​playing low-key, I didn’t want to code any lazy loading for the assets so I tried the HTML version: if you want a quick lazy loading, the <code>loading</code> img attribute (<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/loading">mdn</a>, <a href="https://web.dev/native-lazy-loading/">web.dev</a>) is a nice native feature, you don’t have control on the loading of the images but it’s plug-and-play.<br>
+<p>In the same idea of ​​playing low-key, I didn’t want to code any lazy loading for the assets so I tried the HTML version: if you want a quick lazy loading, the <code>loading</code> img attribute (<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/loading" target="_blank" rel="noopener">mdn</a>, <a href="https://web.dev/native-lazy-loading/" target="_blank" rel="noopener">web.dev</a>) is a nice native feature, you don’t have control on the loading of the images but it’s plug-and-play.<br>
 Just one thing to consider: if the image is on <code>position: fixed</code> the browser will load it immediately so you should change the image styles with JavaScript <em>after</em> the document load: put the position to <code>fixed</code> or remove a <code>display: none</code>, for example.</p>
 <p>I had to abandon some designs by lack of time, I’m still glum about it.</p>
 <p>Finally, thanks to Valockar for putting it on a new subdomain for more premium feeling ✨</p>
@@ -85,16 +88,16 @@ Just one thing to consider: if the image is on <code>position: fixed</code> the 
 <p>The <em>Spotify</em> annual reports were the main inspiration, they are sadly almost impossible to browse again but we have some case studies:</p>
 <ul>
 <li>
-<p><a href="https://www.awwwards.com/sites/your-2018-wrapped">Spotify Wrapped 2018</a> and <a href="https://medium.com/active-theory/spotify-wrapped-2018-technical-case-study-5b7cfb7e9d3a">Active Theory’s great case study</a></p>
+<p><a href="https://www.awwwards.com/sites/your-2018-wrapped" target="_blank" rel="noopener">Spotify Wrapped 2018</a> and <a href="https://medium.com/active-theory/spotify-wrapped-2018-technical-case-study-5b7cfb7e9d3a" target="_blank" rel="noopener">Active Theory’s great case study</a></p>
 </li>
 <li>
-<p><a href="https://medium.com/throughdesign/spotify-2019-wrapped-a-design-masterstroke-1d06b27b0aec">An analysis of Spotify Wrapped 2019</a></p>
+<p><a href="https://medium.com/throughdesign/spotify-2019-wrapped-a-design-masterstroke-1d06b27b0aec" target="_blank" rel="noopener">An analysis of Spotify Wrapped 2019</a></p>
 </li>
 <li>
-<p>I love Area17 design and its 2019 report was an inspiration, especially the first hero block, obviously: <a href="https://2019.area17.com/">https://2019.area17.com/</a></p>
+<p>I love Area17 design and its 2019 report was an inspiration, especially the first hero block, obviously: <a href="https://2019.area17.com/" target="_blank" rel="noopener">https://2019.area17.com/</a></p>
 </li>
 <li>
-<p>Cineville, a Dutch cinema subscription, did a good job with its year report: <a href="https://filmblik.cineville.nl/">https://filmblik.cineville.nl/</a></p>
+<p>Cineville, a Dutch cinema subscription, did a good job with its year report: <a href="https://filmblik.cineville.nl/" target="_blank" rel="noopener">https://filmblik.cineville.nl/</a></p>
 </li>
 <li>
 <p>Or random Corn Flakes box cover ¯_(ツ)_/¯</p>
