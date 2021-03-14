@@ -47,6 +47,21 @@
   </url>
   
   <url>
+    <loc>http://views.thenew.fr/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/tags/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/tags/2018/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
     <loc>http://views.thenew.fr/posts/trailers-jv-les-plus-marquants/</loc>
     <lastmod>2020-07-15</lastmod>
   </url>
@@ -57,33 +72,13 @@
   </url>
   
   <url>
+    <loc>http://views.thenew.fr/audiolog.xml</loc>
+    <lastmod>2020-10-29</lastmod>
+  </url>
+  
+  <url>
     <loc>http://views.thenew.fr/posts/radiokawa-retrospective-postmortem/</loc>
     <lastmod>2020-11-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/audiolog.xml</loc>
-    <lastmod>2020-12-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/</loc>
-    <lastmod>2020-12-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/readme/</loc>
-    <lastmod>2020-12-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/tags/</loc>
-    <lastmod>2020-12-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/tags/2018/</loc>
-    <lastmod>2020-12-30</lastmod>
   </url>
   
   <url>
@@ -99,5 +94,15 @@
   <url>
     <loc>http://views.thenew.fr/posts/2020-films-expectations-versus-reality/</loc>
     <lastmod>2021-01-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/posts/one-year-desk-upgrades/</loc>
+    <lastmod>2021-03-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/readme/</loc>
+    <lastmod>2021-03-14</lastmod>
   </url>
 </urlset>
