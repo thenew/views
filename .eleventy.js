@@ -30,7 +30,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("posts", function(collection) {
     return collection.getFilteredByGlob("./posts/*").sort(function(a, b) {
       return a.date - b.date;
-    });
+    }).filter(post => process.env.ELEVENTY_ENV !== "production" || !post.data.draft);
   });
 
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
