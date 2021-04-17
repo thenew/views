@@ -41,7 +41,7 @@
           />
           <guid isPermaLink="false">http://views.thenew.fr/assets/audiolog/radiokawa-retrospective.mp3</guid>
           <itunes:explicit>false</itunes:explicit>
-          <pubDate>2020-11-15T00:00:00Z</pubDate>
+          <pubDate>2020-11-15T01:00:00+01:00</pubDate>
           <itunes:episode>3</itunes:episode>
           <itunes:episodeType>Full</itunes:episodeType>
           <itunes:duration>06:53</itunes:duration>
@@ -53,53 +53,53 @@
           
             <language> en</language>
           <content:encoded type="html">
-            &lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;, &lt;small&gt;music: &lt;em&gt;Sappy&lt;/em&gt; by Neil D. Voss&lt;/small&gt;&lt;br /&gt;
+            &lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;, &lt;small&gt;music: &lt;em&gt;Sappy&lt;/em&gt; by Neil D. Voss&lt;/small&gt;&lt;br&gt;
 &lt;audio src=&quot;http://views.thenew.fr/assets/audiolog/radiokawa-retrospective.mp3&quot; type=&quot;audio/mpeg&quot; controls=&quot;&quot; class=&quot;audio&quot;&gt;&lt;/audio&gt;&lt;/p&gt;
-&lt;hr /&gt;
+&lt;hr&gt;
 &lt;div class=&quot;full-width&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/desktopIntro.gif&quot; alt=&quot;RadioKawa retrospective Introduction&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/desktopIntro.gif&quot; alt=&quot;RadioKawa retrospective Introduction&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;full-width-text&quot;&gt;
 &lt;p&gt;To honour the end of the French-speaking podcast network &lt;em&gt;RadioKawa&lt;/em&gt;, with whom I have worked since 2015, I designed and developed this retrospective website: &lt;a href=&quot;https://retrospective.radiokawa.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://retrospective.radiokawa.com/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I gathered the timeline, inspirations and some thoughts for a postmortem.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;While I was working on complex websites, doing more backend than frontend in my day-to-day work, I was searching to do more web animations and reconnect a bit with GSAP.&lt;br /&gt;
+&lt;p&gt;While I was working on complex websites, doing more backend than frontend in my day-to-day work, I was searching to do more web animations and reconnect a bit with GSAP.&lt;br&gt;
 &lt;em&gt;RadioKawa&lt;/em&gt; has tons of content (shows, authors, categories, episodes, etc.) I’m aware of and is a non-profit organisation, so it was a good client to animate some big numbers on my free time.&lt;/p&gt;
 &lt;h2 data-content=&quot;Timeline&quot;&gt;Timeline&lt;/h2&gt;
-&lt;p&gt;I started noodling the design around 9 February 2020 and then send a message to the &lt;em&gt;RadioKawa&lt;/em&gt; team to share my idea and a first mock-up on the 24th. I was glad to receive positive feedback.&lt;br /&gt;
+&lt;p&gt;I started noodling the design around 9 February 2020 and then send a message to the &lt;em&gt;RadioKawa&lt;/em&gt; team to share my idea and a first mock-up on the 24th. I was glad to receive positive feedback.&lt;br&gt;
 In March, Yann, the &lt;em&gt;Big Boss&lt;/em&gt;, helped me gather appropriate data and collect photographs. On the next three months, during a particularly enjoyable time called lockdown, I &lt;a href=&quot;https://youtu.be/FgP5fEOIfA4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;streamed&lt;/a&gt;, for the first time, some coding sessions.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/stream_timelapse_2.gif&quot; alt=&quot;RadioKawa retrospective dev stream timelapse&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/stream_timelapse_2.gif&quot; alt=&quot;RadioKawa retrospective dev stream timelapse&quot;&gt;&lt;/p&gt;
 &lt;p&gt;I continued working on it in the evenings and weekends, slowly but surely. Adding a few, simpler, blocks in the last days. The page was finally launched on the 3rd of July.&lt;/p&gt;
 &lt;h2 data-content=&quot;Design&quot;&gt;Design&lt;/h2&gt;
 &lt;p&gt;My first wish in this project was to play around with &lt;em&gt;Figma&lt;/em&gt; and I got more accustomed with it. I’m still missing some features from &lt;em&gt;Illustrator&lt;/em&gt; but it’s an amazing tool and web-based, so you can share it in a blink of an eye.  You can try my &lt;a href=&quot;https://www.figma.com/community/plugin/746097413727734148/Font-Fascia&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;font plugin&lt;/a&gt;, by the way ;).&lt;/p&gt;
 &lt;p&gt;Not being a designer, I want to stress it, my biggest mistake was to not choose a correct format/ratio to work on, way too much high, it did not correspond to any realistic devices viewports. So the transition to development was a bit tricky.&lt;/p&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;left&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/design_workbench_1.jpg&quot; alt=&quot;RadioKawa retrospective designs screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/design_workbench_1.jpg&quot; alt=&quot;RadioKawa retrospective designs screenshot&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;right&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/design_workbench_4.jpg&quot; alt=&quot;RadioKawa retrospective designs screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/design_workbench_4.jpg&quot; alt=&quot;RadioKawa retrospective designs screenshot&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Then, while finishing the development, I realised I totally ignored mobile version, which is pretty foolish. I thought it would be complicated to redesign this big blocks in a small viewport, but it was less a conundrum than expected. It made me test the &lt;a href=&quot;https://www.figma.com/downloads/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Figma Mirror&lt;/em&gt; mobile app&lt;/a&gt;, which is awesome to live preview on your device, it’s literally just &lt;em&gt;log in and play&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 data-content=&quot;Development&quot;&gt;Development&lt;/h2&gt;
-&lt;p&gt;I started to code my own scroll animation manager but &lt;a href=&quot;https://greensock.com/docs/v3/Plugins/ScrollTrigger&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;ScrollTrigger&lt;/em&gt;&lt;/a&gt; was announced and released just at the beginning of the development so I quickly drop my draft to try the new toy from &lt;em&gt;Greensock&lt;/em&gt;.&lt;br /&gt;
+&lt;p&gt;I started to code my own scroll animation manager but &lt;a href=&quot;https://greensock.com/docs/v3/Plugins/ScrollTrigger&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;ScrollTrigger&lt;/em&gt;&lt;/a&gt; was announced and released just at the beginning of the development so I quickly drop my draft to try the new toy from &lt;em&gt;Greensock&lt;/em&gt;.&lt;br&gt;
 It’s well done and kills &lt;a href=&quot;http://scrollmagic.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;ScrollMagic&lt;/em&gt;&lt;/a&gt;, IMHO. The debug tools are nice, but I’m not sure if I’ll ever get used to the syntax. As an efficient but limited framework, it was perfect for this kind of project.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/spotify-wrapped.jpg&quot; alt=&quot;Spotify Wrapped screenshot&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;I wanted to try replicate this wrapped typography animation with just CSS and JS. I know they are made with WebGL but when you see &lt;a href=&quot;https://medium.com/active-theory/spotify-wrapped-2018-technical-case-study-5b7cfb7e9d3a&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;how complex it is&lt;/a&gt;, I wanted to play dumb. So I’m surprised it kinda works visually but the performances are terrible, will not recommend.&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/spotify-wrapped.jpg&quot; alt=&quot;Spotify Wrapped screenshot&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I wanted to try replicate this wrapped typography animation with just CSS and JS. I know they are made with WebGL but when you see &lt;a href=&quot;https://medium.com/active-theory/spotify-wrapped-2018-technical-case-study-5b7cfb7e9d3a&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;how complex it is&lt;/a&gt;, I wanted to play dumb. So I’m surprised it kinda works visually but the performances are terrible, will not recommend.&lt;br&gt;
 This was my swan song of dumb HTML animations before jumping on the GL train, &lt;em&gt;maybe&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/desktopTitles.gif&quot; alt=&quot;RadioKawa retrospective Les Tauliers &amp;quot;slot machine&amp;quot; block&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;In the same idea of ​​playing low-key, I didn’t want to code any lazy loading for the assets so I tried the HTML version: if you want a quick lazy loading, the &lt;code&gt;loading&lt;/code&gt; img attribute (&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/loading&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;mdn&lt;/a&gt;, &lt;a href=&quot;https://web.dev/native-lazy-loading/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;web.dev&lt;/a&gt;) is a nice native feature, you don’t have control on the loading of the images but it’s plug-and-play.&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/desktopTitles.gif&quot; alt=&quot;RadioKawa retrospective Les Tauliers &amp;quot;slot machine&amp;quot; block&quot;&gt;&lt;/p&gt;
+&lt;p&gt;In the same idea of ​​playing low-key, I didn’t want to code any lazy loading for the assets so I tried the HTML version: if you want a quick lazy loading, the &lt;code&gt;loading&lt;/code&gt; img attribute (&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/loading&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;mdn&lt;/a&gt;, &lt;a href=&quot;https://web.dev/native-lazy-loading/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;web.dev&lt;/a&gt;) is a nice native feature, you don’t have control on the loading of the images but it’s plug-and-play.&lt;br&gt;
 Just one thing to consider: if the image is on &lt;code&gt;position: fixed&lt;/code&gt; the browser will load it immediately so you should change the image styles with JavaScript &lt;em&gt;after&lt;/em&gt; the document load: put the position to &lt;code&gt;fixed&lt;/code&gt; or remove a &lt;code&gt;display: none&lt;/code&gt;, for example.&lt;/p&gt;
 &lt;p&gt;I had to abandon some designs by lack of time, I’m still glum about it.&lt;/p&gt;
 &lt;p&gt;Finally, thanks to Valockar for putting it on a new subdomain for more premium feeling ✨&lt;/p&gt;
 &lt;h2 data-content=&quot;Refs&quot;&gt;Refs&lt;/h2&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;left&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/area17.jpg&quot; alt=&quot;Area17 2019 year in review screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/area17.jpg&quot; alt=&quot;Area17 2019 year in review screenshot&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;right&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/corn_flakes.jpg&quot; alt=&quot;Corn Flakes box&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/corn_flakes.jpg&quot; alt=&quot;Corn Flakes box&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The &lt;em&gt;Spotify&lt;/em&gt; annual reports were the main inspiration, they are sadly almost impossible to browse again but we have some case studies:&lt;/p&gt;
@@ -122,11 +122,11 @@ Just one thing to consider: if the image is on &lt;code&gt;position: fixed&lt;/c
 &lt;/ul&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;left&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/desktop.jpg&quot; alt=&quot;RadioKawa retrospective screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/desktop.jpg&quot; alt=&quot;RadioKawa retrospective screenshot&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;right&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/stream_timelapse_1.gif&quot; alt=&quot;RadioKawa retrospective dev stream timelapse&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;http://views.thenew.fr/assets/rk/stream_timelapse_3.gif&quot; alt=&quot;RadioKawa retrospective dev stream timelapse&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/rk/stream_timelapse_1.gif&quot; alt=&quot;RadioKawa retrospective dev stream timelapse&quot;&gt;&lt;br&gt;
+&lt;img src=&quot;http://views.thenew.fr/assets/rk/stream_timelapse_3.gif&quot; alt=&quot;RadioKawa retrospective dev stream timelapse&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -143,7 +143,7 @@ Just one thing to consider: if the image is on &lt;code&gt;position: fixed&lt;/c
           />
           <guid isPermaLink="false">http://views.thenew.fr/assets/vg.mp3</guid>
           <itunes:explicit>false</itunes:explicit>
-          <pubDate>2019-03-20T00:00:00Z</pubDate>
+          <pubDate>2019-03-20T01:00:00+01:00</pubDate>
           <itunes:episode>2</itunes:episode>
           <itunes:episodeType>Full</itunes:episodeType>
           <itunes:duration>447</itunes:duration>
@@ -155,24 +155,24 @@ Just one thing to consider: if the image is on &lt;code&gt;position: fixed&lt;/c
           
             <language> fr</language>
           <content:encoded type="html">
-            &lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;&lt;br /&gt;
+            &lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;&lt;br&gt;
 &lt;audio src=&quot;http://views.thenew.fr/assets/vg.mp3&quot; type=&quot;audio/mpeg&quot; controls=&quot;&quot; class=&quot;audio&quot;&gt;&lt;/audio&gt;&lt;/p&gt;
 &lt;div class=&quot;full-width&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_13.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_13.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;full-width-text&quot;&gt;
 &lt;p&gt;&lt;strong&gt;Quelle sera la nation qui ouvrira le premier grand musée du jeu vidéo ?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;En attendant, la Grande-Bretagne est plutôt active : &lt;a href=&quot;https://www.vam.ac.uk/exhibitions/videogames&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Videogames: Design/Play/Disrupt&lt;/a&gt; est la dernière d’une courte liste d’expositions majeures sur le jeu.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Videogames&lt;/em&gt; était organisée du 8 septembre 2018 au 24 février 2019 dans le magnifique et immense musée Victoria &amp;amp; Albert.&lt;br /&gt;
-Le V&amp;amp;A a été fondé en 1852 en tant que Musée des manufactures après l’Exposition universelle de 1851, spécialisé dans l’art et le design, il était le lieu parfait pour monter ce projet.&lt;br /&gt;
+&lt;p&gt;&lt;em&gt;Videogames&lt;/em&gt; était organisée du 8 septembre 2018 au 24 février 2019 dans le magnifique et immense musée Victoria &amp;amp; Albert.&lt;br&gt;
+Le V&amp;amp;A a été fondé en 1852 en tant que Musée des manufactures après l’Exposition universelle de 1851, spécialisé dans l’art et le design, il était le lieu parfait pour monter ce projet.&lt;br&gt;
 L’exposition va d’ailleurs continuer son existence dans &lt;a href=&quot;https://www.vam.ac.uk/dundee/exhibitions/videogames&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;l’antenne écossaise du V&amp;amp;A&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;left&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;right&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_8.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_8.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;L’exposition s’ouvrait sur une citation de Frank Lantz :&lt;/p&gt;
@@ -182,7 +182,7 @@ L’exposition va d’ailleurs continuer son existence dans &lt;a href=&quot;htt
 &lt;p&gt;Le but du projet était donc bien de présenter les structures qui soutiennent la création d’un jeu vidéo à un public plutôt néophyte.&lt;/p&gt;
 &lt;h2 data-content=&quot;Design&quot;&gt;Design&lt;/h2&gt;
 &lt;p&gt;La première partie consistait à mettre à nu la conception d’un jeu, à travers plusieurs œuvres :&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_3.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;L’écriture d’une histoire avec &lt;em&gt;Journey&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;La création visuelle de l’univers de &lt;em&gt;Last of Us&lt;/em&gt;&lt;/li&gt;
@@ -192,35 +192,35 @@ L’exposition va d’ailleurs continuer son existence dans &lt;a href=&quot;htt
 &lt;/ul&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;left&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_4.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;right&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_9.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_9.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;left&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_5.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;right&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_6.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Amusant de noter la multitude de carnets de notes utilisés par les concepteurs. Peut-être le seul outil universel.&lt;/p&gt;
 &lt;p&gt;Un écran géant affichait ensuite le grandiose du jeu vidéo à travers les affrontements en esport ou dans les MMO avec des extraits de &lt;em&gt;League of Legends&lt;/em&gt; et &lt;em&gt;EVE Online&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_20.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_20.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h2 data-content=&quot;Disrupt&quot;&gt;Disrupt&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_11.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;La section suivante servait de rappel nécessaire que la politique dans le jeu vidéo, ce n’est pas sale.&lt;br /&gt;
-La scénographie, très soignée, présentait les différents sujets avec des intercalaires colorés sur des tables rétroéclairées, dans une ambiance studieuse.&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_11.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;La section suivante servait de rappel nécessaire que la politique dans le jeu vidéo, ce n’est pas sale.&lt;br&gt;
+La scénographie, très soignée, présentait les différents sujets avec des intercalaires colorés sur des tables rétroéclairées, dans une ambiance studieuse.&lt;br&gt;
 Pour résumer grossièrement le propos : l’industrie est toujours très centrée sur la culture occidentale dominante.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_17.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_17.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h2 data-content=&quot;Play&quot;&gt;Play&lt;/h2&gt;
 &lt;p&gt;L’exposition ne manquait pas de proposer des interactions à chaque étape du parcours, mais le playground final permet de se concentrer sur le fun, l’expérimentation des appareils physiques et le multi joueur avec des jeux conçus pour des festivals, donc parfaits pour être manipulés par un grand nombre.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_21.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_21.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Dernière étape obligatoire, la boutique, semble bien petite et laissée pour compte, l’univers de Splatoon est tellement conçu autour de la surconsommation que je m’attendais à être submergé de goodies.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;La sélection de jeux était une très bonne surprise : éclectique et pertinente. Comme &lt;em&gt;Journey&lt;/em&gt;, premier titre exposé, qui est une œuvre esthétiquement magnifique et facile à aborder mais qui renferme plus de complexité, comme le révélait le prototype des mécaniques multijoueurs.&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vg/videogames_design-play-disrupt_14.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;La sélection de jeux était une très bonne surprise : éclectique et pertinente. Comme &lt;em&gt;Journey&lt;/em&gt;, premier titre exposé, qui est une œuvre esthétiquement magnifique et facile à aborder mais qui renferme plus de complexité, comme le révélait le prototype des mécaniques multijoueurs.&lt;br&gt;
 Cette exposition était un plaisir à explorer, les nombreux aspects du médium étaient enchainés avec fluidité. Même si elle méritait un plus grand espace, nous nous sentions un peu à l’étroit.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://photos.app.goo.gl/HLa9xVjBkGMU9AyTA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Plus de photos et vidéos&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Fin &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -238,7 +238,7 @@ Cette exposition était un plaisir à explorer, les nombreux aspects du médium 
           />
           <guid isPermaLink="false">http://views.thenew.fr/assets/2018-awards.mp3</guid>
           <itunes:explicit>false</itunes:explicit>
-          <pubDate>2019-01-01T00:00:00Z</pubDate>
+          <pubDate>2019-01-01T01:00:00+01:00</pubDate>
           <itunes:episode>1</itunes:episode>
           <itunes:episodeType>Full</itunes:episodeType>
           <itunes:duration>2528</itunes:duration>
@@ -250,20 +250,20 @@ Cette exposition était un plaisir à explorer, les nombreux aspects du médium 
           
             <language> fr</language>
           <content:encoded type="html">
-            &lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;&lt;br /&gt;
+            &lt;p&gt;&lt;em&gt;version audio&lt;/em&gt;&lt;br&gt;
 &lt;audio src=&quot;http://views.thenew.fr/assets/2018-awards.mp3&quot; type=&quot;audio/mpeg&quot; controls=&quot;&quot; class=&quot;audio&quot;&gt;&lt;/audio&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Avant de commencer 2019, je fais mon bilan personnel de l‘année passée dans divers domaines artistiques. Vu le nombre de très bonnes séries TV, le calendrier de sorties JV, etc, inutile de préciser que cette liste est partiale.&lt;br /&gt;
+&lt;hr&gt;
+&lt;p&gt;Avant de commencer 2019, je fais mon bilan personnel de l‘année passée dans divers domaines artistiques. Vu le nombre de très bonnes séries TV, le calendrier de sorties JV, etc, inutile de préciser que cette liste est partiale.&lt;br&gt;
 L‘année 2018 était &lt;a href=&quot;https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ultra-violette&lt;/a&gt;, ma couleur préférée, voyons si j’ai été gâté dans mes tops.&lt;/p&gt;
 &lt;h2 data-content=&quot;Cinema&quot;&gt;Cinema&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/spiderman.jpg&quot; alt=&quot;Spider-Man: Into the Spider-Verse&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;🏆 &lt;strong&gt;Spider-Man: Into the Spider-Verse&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/spiderman.jpg&quot; alt=&quot;Spider-Man: Into the Spider-Verse&quot;&gt;&lt;/p&gt;
+&lt;p&gt;🏆 &lt;strong&gt;Spider-Man: Into the Spider-Verse&lt;/strong&gt;&lt;br&gt;
 Je suis sorti la george serrée de la séance, submergé par l’émotion subtilement égrainée par le film mais surtout par la puissance visuelle maintenue tout au long de ces 2 heures et par l’hommage à des décennies de comics.&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;A Quiet place&lt;/em&gt;&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;A Quiet place&lt;/em&gt;&lt;br&gt;
 Enfin un bon film de genre &lt;em&gt;high-concept&lt;/em&gt;. Une expérience inhabituelle en cinéma.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Annihilation&lt;/em&gt;&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;Annihilation&lt;/em&gt;&lt;br&gt;
 Encore une expérience marquante de l’année, la scène de fin avec l&#39;inconnu m’a glacé comme rarement.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Roma&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Lawrence of Arabia&lt;/em&gt; et &lt;em&gt;2001: A Space Odyssey&lt;/em&gt; en 70mm à EYE Film (Amsterdam), c‘est grandiose.&lt;/li&gt;
@@ -272,52 +272,52 @@ Encore une expérience marquante de l’année, la scène de fin avec l&#39;inco
 &lt;h2 data-content=&quot;Film trailer&quot;&gt;Film trailer&lt;/h2&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;left&quot;&gt;
-&lt;p&gt;🏆 &lt;a href=&quot;https://www.youtube.com/watch?v=1roy4o4tqQM&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;POKÉMON Detective Pikachu&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://www.youtube.com/watch?v=1roy4o4tqQM&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;POKÉMON Detective Pikachu&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
 Bon, ça pourrait être pour la blague mais la bande-annonce est sincèrement bizarre et, surtout, sortie de  (presque) nulle part.&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=g09a9laLh0k&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;VICE&lt;/em&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=g09a9laLh0k&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;VICE&lt;/em&gt;&lt;/a&gt;&lt;br&gt;
 Je déteste &lt;em&gt;The Big Short&lt;/em&gt;, mais Bush joué par Sam Rockwell et Dick Cheney par Christian Bale fonctionnent tellement bien, en tout cas, dans la B-A.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hA6hldpSTF8&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Avengers End Game&lt;/em&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hA6hldpSTF8&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Avengers End Game&lt;/em&gt;&lt;/a&gt;&lt;br&gt;
 “Part of the journey is the end”&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
   &lt;/div&gt;
   &lt;div class=&quot;right&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/pokemon-detective-pikachu.jpg&quot; alt=&quot;POKÉMON Detective Pikachu&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/pokemon-detective-pikachu.jpg&quot; alt=&quot;POKÉMON Detective Pikachu&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 data-content=&quot;TV&quot;&gt;TV&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vermin.jpg&quot; alt=&quot;Vermin&quot; /&gt;&lt;br /&gt;
-🏆 &lt;a href=&quot;https://www.blackpills.com/series/dd9adb523b19b9d03d23dbe63a66657bf5b1542ae62&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;Vermin&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/vermin.jpg&quot; alt=&quot;Vermin&quot;&gt;&lt;br&gt;
+🏆 &lt;a href=&quot;https://www.blackpills.com/series/dd9adb523b19b9d03d23dbe63a66657bf5b1542ae62&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;Vermin&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
 Diffusée sur Blackpills, cette série devrait être plus connue. Direction artistique impeccable et doublage hilarant, mention spéciale au personnage du commissaire par Gaël Mectoob.&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Wild Wild Country&lt;/em&gt;&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;Wild Wild Country&lt;/em&gt;&lt;br&gt;
 Pas fan des “histoires vraies” mais cette série documentaire est fictionnelle, ce n’est pas possible autrement !&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Maniac&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Homecoming&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;The good place&lt;/em&gt;&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;The good place&lt;/em&gt;&lt;br&gt;
 Il me tarde de regarder la saison 3 de ma série SF actuelle préférée&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Final Space&lt;/em&gt;&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;Final Space&lt;/em&gt;&lt;br&gt;
 L&#39;humour lourdingue du perso principal gâche un peu la fête mais ça fait super plaisir de voir une série d&#39;animation Space opera, vous en connaissez d’autres vous ?&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Leftovers&lt;/em&gt;&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;Leftovers&lt;/em&gt;&lt;br&gt;
 J&#39;ai un an de retard pour la dernière saison, mais cette série est exceptionnelle. La musique, seule, me fout les frissons.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.senscritique.com/top/Les_meilleures_series_de_2018/2192547&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mon top sur SensCritique&lt;/a&gt;&lt;/p&gt;
 &lt;h2 data-content=&quot;Music video&quot;&gt;Music video&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/dollyzero.jpg&quot; alt=&quot;Dolly.Zero - Antoine Debarge&quot; /&gt;&lt;br /&gt;
-🏆 &lt;a href=&quot;https://www.youtube.com/watch?v=l9x5AmY11n4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;Dolly.Zero&lt;/strong&gt; - Antoine Debarge - Ugo Bienvenu&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/dollyzero.jpg&quot; alt=&quot;Dolly.Zero - Antoine Debarge&quot;&gt;&lt;br&gt;
+🏆 &lt;a href=&quot;https://www.youtube.com/watch?v=l9x5AmY11n4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;Dolly.Zero&lt;/strong&gt; - Antoine Debarge - Ugo Bienvenu&lt;/a&gt;&lt;br&gt;
 Coup de cœur découvert au KLIK Amsterdam Animation Festival, je vais suivre Ugo Bienvenu avec grand attention.&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=VYOjWnS4cMY&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;This is america&lt;/em&gt; - Childish Gambino - Hiro Murai&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=VYOjWnS4cMY&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;This is america&lt;/em&gt; - Childish Gambino - Hiro Murai&lt;/a&gt;&lt;br&gt;
 Notes: la &lt;a href=&quot;http://futureweaponslighting.com/media/#block-yui_3_17_2_1_1527337512443_16084&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;performance live au SNL&lt;/a&gt; m&#39;a fait découvrir cette technique folle de &lt;em&gt;Future Weapons&lt;/em&gt; qui synchronise les lasers avec le framerate de la caméra.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.domandnic.com/music-video?wix-vod-video-id=a9fb37cde82143ba8ca0defc3727f867&amp;amp;wix-vod-comp-id=comp-j0s7b5ac#&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Free Yourself&lt;/em&gt; - The Chemical Brothers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UOxkGD8qRB4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;POP/STARS&lt;/em&gt; - K/DA - Fortiche Prod&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UOxkGD8qRB4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;POP/STARS&lt;/em&gt; - K/DA - Fortiche Prod&lt;/a&gt;&lt;br&gt;
 La chanson est oubliable, bien que catchy, mais la réalisation par le studio parisien &lt;a href=&quot;https://forticheprod.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;FORTICHE&lt;/a&gt; est de très haut niveau. Eh oui, League of Legends crée des pop stars.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EKLWC93nvAU&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Mr. FEAR&lt;/em&gt; - SIAMÉS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=jq8yU1ZyULk&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;My Way&lt;/em&gt; - BVG&lt;/a&gt;&lt;/li&gt;
@@ -326,59 +326,59 @@ La chanson est oubliable, bien que catchy, mais la réalisation par le studio pa
 &lt;h2 data-content=&quot;Music live&quot;&gt;Music live&lt;/h2&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;left&quot;&gt;
-&lt;p&gt;🏆 &lt;strong&gt;The Chemicals Brothers&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;🏆 &lt;strong&gt;The Chemicals Brothers&lt;/strong&gt;&lt;br&gt;
 Un show plein de surprises et de bons titres, les mecs sont bons, forcément, ça aide.&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Silent Alarm&lt;/em&gt; - Bloc Party&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;datamatics [ver.2.0]&lt;/em&gt; - Ryoji Ikeda&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Alt-J&lt;/em&gt;&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;Alt-J&lt;/em&gt;&lt;br&gt;
 Vu au Bostheater, un théatre en plein air, au milieu de la foret d’Amsterdam, je recommande le lieu et le groupe.&lt;/li&gt;
 &lt;/ul&gt;
   &lt;/div&gt;
   &lt;div class=&quot;right&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/che.jpg&quot; alt=&quot;The Chemicals Brothers&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/che.jpg&quot; alt=&quot;The Chemicals Brothers&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 data-content=&quot;Music&quot;&gt;Music&lt;/h2&gt;
 &lt;p&gt;Difficile de faire un top quand j’ai majoritairement écouté d’anciennes chansons dont mes deux chouchous : la découverte d’Operator Please (&lt;em&gt;Gloves, Yes Yes Vindictive&lt;/em&gt;) et &lt;em&gt;Lastman (Original Series Soundtrack)&lt;/em&gt; par Avril &amp;amp; Monthaye&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Francis Trouble&lt;/em&gt; - Albert Hammond Jr.&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;Francis Trouble&lt;/em&gt; - Albert Hammond Jr.&lt;br&gt;
 Je me suis senti tellement honteux par le manque d’engouement du public les deux fois où il a joué à Amsterdam cette année. Encore meilleur que ces précédents albums.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Marble Skies&lt;/em&gt; et &lt;em&gt;Winter’s Beach&lt;/em&gt; - Django Django&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;Marble Skies&lt;/em&gt; et &lt;em&gt;Winter’s Beach&lt;/em&gt; - Django Django&lt;br&gt;
 Aussi vu deux fois en live cette année, décidement, dont une fois au Razzmatazz à Barcelone. Imaginez le rideau qui tombe sur la scène d’un club à 1 h du mat alors que le DJ joué 10 secondes plus tôt, c’était surréaliste.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Lavender by Half Waif&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;First Man (Original Motion Picture Soundtrack)&lt;/em&gt; - Justin Hurwitz&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.last.fm/user/newory&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mon profil Last.fm&lt;/a&gt;&lt;/p&gt;
 &lt;h2 data-content=&quot;Video game trailer&quot;&gt;Video game trailer&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/cyberpunk2077.jpg&quot; alt=&quot;Cyberpunk 2077&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;🏆 &lt;a href=&quot;https://youtu.be/8X2kIfS6fb8&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;Cyberpunk 2077&lt;/strong&gt; (E3)&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/cyberpunk2077.jpg&quot; alt=&quot;Cyberpunk 2077&quot;&gt;&lt;/p&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://youtu.be/8X2kIfS6fb8&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;Cyberpunk 2077&lt;/strong&gt; (E3)&lt;/a&gt;&lt;br&gt;
 Meilleure bagnole de l’année. Bonne bande-son, parti pris original de l’univers cyberpunk. Et cette voiture, mon dieu !&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=KJFQhEY9udE&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Sable&lt;/em&gt; (E3)&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=KJFQhEY9udE&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Sable&lt;/em&gt; (E3)&lt;/a&gt;&lt;br&gt;
 Magnifique avec la musique de &lt;em&gt;Japanese Breakfast&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ap39Y_cyLr4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Beyond Good &amp;amp; Evil 2&lt;/em&gt; (E3)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=btmN-bWwv0A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;The Last of Us Part II&lt;/em&gt; (E3)&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=btmN-bWwv0A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;The Last of Us Part II&lt;/em&gt; (E3)&lt;/a&gt;&lt;br&gt;
 Les animations faciales sont gênantes et la séquence de gameplay est conformiste mais le reste est très touchant. La musique de &lt;em&gt;Crooked Still&lt;/em&gt; est superbement utilisée.&lt;/li&gt;
 &lt;li&gt;Tous &lt;em&gt;Death Stranding&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 data-content=&quot;Video games&quot;&gt;Video games&lt;/h2&gt;
-&lt;p&gt;🏆 &lt;strong&gt;Super Smash Bros. Ultimate&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;🏆 &lt;strong&gt;Super Smash Bros. Ultimate&lt;/strong&gt;&lt;br&gt;
 Un poil par défaut, c’est le jeu le plus carré qui remporte la coupe. Un système qui a fait ses preuves mais avec encore plus de contenu, mais vraiment beaucoup plus, il en devient incomparable à d’autres jeux de combat.&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Dead Cells&lt;/em&gt;&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;Dead Cells&lt;/em&gt;&lt;br&gt;
 Ma relation amour/haine avec les roguelites m’étonne toujours.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Subnautica&lt;/em&gt;&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;Subnautica&lt;/em&gt;&lt;br&gt;
 que je découvre en ce moment donc j&#39;espère encore être surpris.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.senscritique.com/top/Les_meilleurs_jeux_video_de_2018/2274224&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mon top sur SensCritique&lt;/a&gt;&lt;/p&gt;
 &lt;h2 data-content=&quot;Titles&quot;&gt;Titles&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/dragon-pilot.jpg&quot; alt=&quot;Pilote Dragon ending&quot; /&gt;&lt;br /&gt;
-🏆 &lt;strong&gt;Pilote Dragon ending&lt;/strong&gt; - Le temps de la rentrée: Koi no Ieji (Shingakki)&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/dragon-pilot.jpg&quot; alt=&quot;Pilote Dragon ending&quot;&gt;&lt;br&gt;
+🏆 &lt;strong&gt;Pilote Dragon ending&lt;/strong&gt; - Le temps de la rentrée: Koi no Ieji (Shingakki)&lt;br&gt;
 La série est étrangement amusante même si j’aurai du mal à la recommander. Mais il suffit de me passer du France Gall sauce japonaise en générique de fin et j’ai envie de twister.&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
@@ -386,8 +386,8 @@ La série est étrangement amusante même si j’aurai du mal à la recommander.
 &lt;/ul&gt;
 &lt;p&gt;Sinon une belle sélection sur Art of the Title : &lt;a href=&quot;http://www.artofthetitle.com/feature/top-10-title-sequences-of-2018/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Top 10 Title Sequences of 2018&lt;/a&gt;&lt;/p&gt;
 &lt;h2 data-content=&quot;Podcast&quot;&gt;Podcast&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/cosy.jpg&quot; alt=&quot;Cosy&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;🏆 &lt;a href=&quot;https://soundcloud.com/lecosycorner&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Le Cosy Corner&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/cosy.jpg&quot; alt=&quot;Cosy&quot;&gt;&lt;/p&gt;
+&lt;p&gt;🏆 &lt;a href=&quot;https://soundcloud.com/lecosycorner&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Le Cosy Corner&lt;/a&gt;&lt;br&gt;
 Toujours de très haute qualité, les podcasts de Médoc et Moguri sont intéressants, amusants et constamment surprenants alors que le format n’a presque pas changé. C’est le seul podcast que je sacralise un peu, j’attends toujours le meilleur moment pour me l’écouter.&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;p&gt;Tellement de bons podcasts à mentionner, mais peu de nouveautés cette année dans ma liste d’abonnements et toujours aucun en langue anglaise :&lt;/p&gt;
@@ -409,8 +409,8 @@ Toujours de très haute qualité, les podcasts de Médoc et Moguri sont intéres
 &lt;/ul&gt;
 &lt;h2 data-content=&quot;Brand identity&quot;&gt;Brand identity&lt;/h2&gt;
 &lt;p&gt;Comme l’année dernière avec la &lt;a href=&quot;https://www.underconsideration.com/brandnew/archives/new_logo_for_formula_1_by_wieden_kennedy.php&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;F1&lt;/a&gt;, le sport est toujours très porteur de jolis projets.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/francetv.jpg&quot; alt=&quot;France.tv&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;🏆 &lt;strong&gt;&lt;a href=&quot;http://france.tv/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;France.tv&lt;/a&gt;&lt;/strong&gt; - &lt;a href=&quot;https://www.joosnabhan.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Joosnabhan&lt;/a&gt; et &lt;a href=&quot;http://www.movement.paris/works/france-tv/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Movement&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/francetv.jpg&quot; alt=&quot;France.tv&quot;&gt;&lt;/p&gt;
+&lt;p&gt;🏆 &lt;strong&gt;&lt;a href=&quot;http://france.tv/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;France.tv&lt;/a&gt;&lt;/strong&gt; - &lt;a href=&quot;https://www.joosnabhan.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Joosnabhan&lt;/a&gt; et &lt;a href=&quot;http://www.movement.paris/works/france-tv/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Movement&lt;/a&gt;&lt;br&gt;
 D’autres infos sur &lt;a href=&quot;http://blog.lenodal.com/index.php?/archives/0410-La-nouvelle-identite-visuelle-de-France-Televisions.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;lenodal&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
@@ -422,7 +422,7 @@ D’autres infos sur &lt;a href=&quot;http://blog.lenodal.com/index.php?/archive
 &lt;/ul&gt;
 &lt;p&gt;Et merci à &lt;a href=&quot;https://www.underconsideration.com/brandnew/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Brand New&lt;/a&gt; pour sa couverture impeccable de l’actualité.&lt;/p&gt;
 &lt;h2 data-content=&quot;Sport&quot;&gt;Sport&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/champions.jpg&quot; alt=&quot;Champions&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/champions.jpg&quot; alt=&quot;Champions&quot;&gt;&lt;br&gt;
 Champions ★★&lt;/p&gt;
 &lt;h2 data-content=&quot;Web&quot;&gt;Web&lt;/h2&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
@@ -444,18 +444,18 @@ Champions ★★&lt;/p&gt;
 &lt;/blockquote&gt;
   &lt;/div&gt;
   &lt;div class=&quot;right&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/evangeline-lilly-champions.jpg&quot; alt=&quot;Evangeline Lily&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/evangeline-lilly-champions.jpg&quot; alt=&quot;Evangeline Lily&quot;&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 data-content=&quot;Déception&quot;&gt;Déception&lt;/h2&gt;
-&lt;p&gt;💩 &lt;strong&gt;Dragon Ball Super&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;💩 &lt;strong&gt;Dragon Ball Super&lt;/strong&gt;&lt;br&gt;
 Rahhhhh !!! Les mangas d’Akira Toriyama sont tellement bons, presque chaque case est iconique. Tout le contraire de cette suite, que ce soit sur papier ou en série animé.&lt;/p&gt;
 &lt;h3&gt;Mentions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Solo&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Mute&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Anon&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Jump Force&lt;/em&gt;&lt;br /&gt;
+&lt;li&gt;&lt;em&gt;Jump Force&lt;/em&gt;&lt;br&gt;
 Ahah, meilleure blague de l’E3&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Fin &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;

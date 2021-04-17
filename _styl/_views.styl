@@ -250,23 +250,35 @@ pre
       top 0;
       left 0
       text-shadow none
+      color $color
       background-image linear-gradient(
           45deg,
           transparent 65%,
-          $color 65%,
-          $color 85%,
+          currentColor 65%,
+          currentColor 85%,
           transparent 0
         ),
         linear-gradient(
           45deg,
           transparent 15%,
-          $color 15%,
-          $color 35%,
+          currentColor 15%,
+          currentColor 35%,
           transparent 0
         )
       background-size .1em .1em
       -webkit-background-clip text
       -webkit-text-fill-color transparent
+ 
+  h2[data-content=""]
+    display block
+    margin-top .5rem
+    color $color
+    
+    @media (min-width 600px)
+      margin-left 0
+
+    &::after
+      display none
 
   h3
     position relative
