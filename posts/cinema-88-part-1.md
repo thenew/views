@@ -24,9 +24,11 @@ layout: layouts/post.njk
 .post h2::after {color: #da1505;}
 </style>
 
-1988 was the first steps of the World Wide Web, the World Expo in Brisbane, only time The Netherlands has been champion male football (UEFA Euro 88 in Germany), president François Mitterrand is reelected in France but I'm also born. So, for no more reason, I decided last year to watch as many films from 88 as possible.
+1988 was the year of the first steps of the *World Wide Web*, the *World Expo* in Brisbane, the unique time the male football team of The Netherlands has been champion and, closer to me, French president François Mitterrand was reelected.  
+But more importantely I also came to this world.  
+So, for no more reason, I decided a few months ago to watch as many films from 88 as possible.
 
-Let’s start with
+Let’s start with the films I already saw: 
 
 <h2 data-content="">The Obvious Ones</h2>
 
@@ -76,7 +78,7 @@ It was not a bad year for animation, clearly. I understand the praise for Grave 
 
 ***
 
-<h2 data-content="">The Early Surprises</h2>
+<h2 data-content="">And The First Surprises</h2>
 
 <h2 class="with-credits" data-content='They Live'>They Live</h2>
 <div class="credits">by John Carpenter</div>
