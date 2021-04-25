@@ -11,6 +11,11 @@ tags:
   - cinema
   - list
 layout: layouts/post.njk
+mp3: '/assets/audiolog/cinema-88-partie-1.mp3'
+duration: 32:01
+podcastImage: '/assets/audiolog/views_audiolog_4.jpg'
+episode: 4
+podcastLang: fr
 ---
 
 <style>
@@ -23,6 +28,11 @@ layout: layouts/post.njk
 .post h2:not([data-content=""]) {padding: 1px 4px; background-color: #da1505;}
 .post h2::after {color: #da1505;}
 </style>
+
+_French audio version_, <small>music: *Kaneda (from "AKIRA Symphonic Suite")* by Geinoh Yamashirogumi</small>
+<audio src="{{ '/assets/audiolog/cinema-88-partie-1.mp3' | url }}" type="audio/mpeg" controls class="audio"></audio>
+
+<hr />
 
 1988 was the year of the first steps of the *World Wide Web*, the *World Expo* in Brisbane, the unique time the male football team of The Netherlands has been champion and, closer to me, French president François Mitterrand was reelected.  
 But more importantely I also came to this world.  
