@@ -250,4 +250,4 @@ I believe it should be replaced in medium term by a human **and** machine-readab
 
 - Don’t forget to add a `title` attribute to a SVG to make it accesible.
 
-<span class="end"></span>
+<p>Fin <span class="end"></span></p>
