@@ -47,6 +47,21 @@
   </url>
   
   <url>
+    <loc>http://views.thenew.fr/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/tags/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/tags/1988/</loc>
+    <lastmod>2020-05-09</lastmod>
+  </url>
+  
+  <url>
     <loc>http://views.thenew.fr/posts/trailers-jv-les-plus-marquants/</loc>
     <lastmod>2020-07-15</lastmod>
   </url>
@@ -57,28 +72,13 @@
   </url>
   
   <url>
+    <loc>http://views.thenew.fr/audiolog.xml</loc>
+    <lastmod>2020-10-29</lastmod>
+  </url>
+  
+  <url>
     <loc>http://views.thenew.fr/posts/radiokawa-retrospective-postmortem/</loc>
     <lastmod>2020-11-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/audiolog.xml</loc>
-    <lastmod>2020-12-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/</loc>
-    <lastmod>2020-12-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/tags/</loc>
-    <lastmod>2020-12-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/tags/1988/</loc>
-    <lastmod>2020-12-30</lastmod>
   </url>
   
   <url>
@@ -102,6 +102,11 @@
   </url>
   
   <url>
+    <loc>http://views.thenew.fr/readme/</loc>
+    <lastmod>2021-03-14</lastmod>
+  </url>
+  
+  <url>
     <loc>http://views.thenew.fr/posts/generate-and-animate-a-qr-code/</loc>
     <lastmod>2021-04-06</lastmod>
   </url>
@@ -114,5 +119,10 @@
   <url>
     <loc>http://views.thenew.fr/posts/tracking-subscriptions/</loc>
     <lastmod>2021-06-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/posts/cinema-88-part-2/</loc>
+    <lastmod>2021-06-13</lastmod>
   </url>
 </urlset>
