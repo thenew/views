@@ -15,11 +15,21 @@ layout: layouts/post.njk
 draft: true
 ---
 
+<div class="full-width">
+
+![2021 awards](/assets/2021awards/2021awards.jpg)
+
+<div class="full-width-text">
 X
+</div>
+
+</div>
 
 <h2 data-content='Music video'>Music video</h2>
 
-🏆 
+![Para One - SPECTRE Shin Sekai](/assets/2021awards/para-one-spectre.jpg)
+
+🏆 Para One - SPECTRE: Shin Sekai
 
 <div class="ratio-239-1">
 <iframe
@@ -31,22 +41,12 @@ X
 ></iframe>
 </div>
 
-Para One - SPECTRE: Shin Sekai
 
-<div class="ratio-239-1">
-<iframe
-  src="https://www.youtube-nocookie.com/embed/b-mGA4V2LK0"
-  srcdoc="<style>*{padding:0;margin:0;overflow:hidden;box-sizing:border-box}html,body,a{height:100%;}a{display:flex;justify-content:center;align-items:center;text-align:center;text-decoration:none;text-shadow:2px 3px 0 #002fa7;background-image: linear-gradient(0deg, #002fa7, #002fa7), url('https://img.youtube.com/vi/b-mGA4V2LK0/maxresdefault.jpg');background-color: white;background-blend-mode: screen, luminosity;background-position: center;background-size:cover;box-shadow:inset 0 0 0 4px #002fa7}span{font:48px/1.5 sans-serif;color:white;-webkit-text-stroke:2px #002fa7;}a:hover,a:focus{text-shadow:3px 4px 0 #002fa7;background-blend-mode: screen, darken;box-shadow:inset 0 0 0 1px #002fa7}</style><a href=https://www.youtube-nocookie.com/embed/b-mGA4V2LK0?autoplay=1><span>▶</span></a>"
-  frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
-</div>
-
-The Chemical Brothers - The Darkness That You Fear]
 
 
 ### Mentions
+
+- [The Chemical Brothers - The Darkness That You Fear](https://youtu.be/b-mGA4V2LK0)
 
 - [Imagine Dragons & JID - Enemy (from the series Arcane League of Legends)](https://youtu.be/F5tSoaJ93ac)
 
@@ -79,26 +79,18 @@ The Chemical Brothers - The Darkness That You Fear]
 
 - [L’Accord - Chamber Agent Trailer // VALORANT](https://youtu.be/FUoqAn5T4h4)
 
-WTF
+### WTF
 
 - [TOGETHER BnB](https://youtu.be/h_9sfoyKcKU)
 
 <h2 data-content='Streams'>Streams</h2>
 
-- Gta RP antoinedaniel
-- Mister France Kumite ALB
-- Gautoz matinale
-- PogChamps
-- BlitzStream
-- Le Tribunal des Bureaux - CanardpC Ackboo
-
-<h2 data-content='Commercials'>Commercials</h2>
-
-[Pocari Sweat](https://youtu.be/lcZo5sVK6QM)
-
-[Behind the Scenes](https://youtu.be/JUR16rk7Smg)
-
-[d](https://youtu.be/BmT9d-mLXJc)
+- [GTA RP RPZ](https://rpz.gdoc.fr/) - [Antoine Daniel](https://www.twitch.tv/antoinedaniel) and many others
+- [Mister France Kumite](https://genevievedefrontend.tumblr.com/) - [Moguri (À L’aise Blaze)
+](https://www.twitch.tv/alaiseblaze)
+- [La Matinale Jeux Vidéo](https://youtube.com/playlist?list=PLyh2wbBeYS9izB0S6JUiwq4cYdXcR_tjg) - [Gautoz](https://www.twitch.tv/gautoz) 
+- [PogChamps 3](https://www.pogchampschess.com/) - [BlitzStream](https://www.twitch.tv/blitzstream)
+- [Le Tribunal des Bureaux](https://youtu.be/YglE-FnSd3g) - [ackboo (Canard PC)](https://www.twitch.tv/canardpc)
 
 <h2 data-content='Film trailer'>Film trailer</h2>
 
@@ -127,8 +119,7 @@ WTF
 
 <h2 data-content='Film'>Film</h2>
 
-
-
+![Luca](/assets/2021awards/luca.jpg)
 
 
 
@@ -138,9 +129,7 @@ WTF
 
 <h2 data-content='TV'>TV</h2>
 
-🏆 
-
-### Mentions
+🏆 Arcane
 
 [My top on SensCritique](https://www.senscritique.com/top/Les_meilleures_series_de_2021/2937315)
 
