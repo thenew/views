@@ -102,11 +102,6 @@
   </url>
   
   <url>
-    <loc>http://views.thenew.fr/readme/</loc>
-    <lastmod>2021-03-14</lastmod>
-  </url>
-  
-  <url>
     <loc>http://views.thenew.fr/posts/generate-and-animate-a-qr-code/</loc>
     <lastmod>2021-04-06</lastmod>
   </url>
@@ -137,17 +132,17 @@
   </url>
   
   <url>
-    <loc>http://views.thenew.fr/posts/cinema-88-part-4/</loc>
-    <lastmod>2021-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/posts/my-musical-culture-through-music-video/</loc>
-    <lastmod>2021-11-13</lastmod>
-  </url>
-  
-  <url>
     <loc>http://views.thenew.fr/posts/2021awards/</loc>
     <lastmod>2022-01-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/</loc>
+    <lastmod>2022-03-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/</loc>
+    <lastmod>2022-03-03</lastmod>
   </url>
 </urlset>

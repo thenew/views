@@ -2,7 +2,7 @@
 title: Cinema 88, part four
 description: "Films from 1988, fourth part: Forgotten Famous"
 image: /assets/88_4/the-beast.jpg
-date: 2021-11-13
+date: 2022-02-31
 tags:
   - post
   - 2021
