@@ -9,6 +9,7 @@ tags:
   - 1988
   - EN
   - cinema
+  - cinema1988
   - list
   - streaming
 layout: layouts/post.njk

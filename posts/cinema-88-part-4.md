@@ -9,6 +9,7 @@ tags:
   - 1988
   - EN
   - cinema
+  - cinema1988
   - list
 layout: layouts/post.njk
 draft: true

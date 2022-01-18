@@ -1,7 +1,9 @@
 $color = #002fa7
 $black = #000102
 $yellow = #ffff02
-$grey = #666
+$red = #da1505
+$light-red = #ff2c7b
+$light-grey = #aaa
 $color-bg = #fff
 $global-ease = cubic-bezier(.4,0,.5,1)
 $font-body = "Suisse", "HelveticaNeue", Helvetica, Arial, Verdana, sans-serif
@@ -78,7 +80,7 @@ hr
   font-family courier
   font-size 1.3rem
   letter-spacing -.05rem
-  color $grey
+  color $light-grey
 
 .end
   $size = .5rem
@@ -190,18 +192,44 @@ pre
       display none
 
 .postlist-link
+  position relative
   margin-left 1rem
 
   &::before
-    content: ''
+    content ''
     display inline-block
     vertical-align middle
     width 8px
     height 8px
     background-color $color
     // box-shadow 0 0 0 4px $color-bg, 0 0 0 6px $color
-    transform: rotate(45deg);
+    transform rotate(45deg)
     margin-right 1.8rem
+
+  &::after
+    .postlist-item-awards &
+    .postlist-item-cinema1988 &
+      content ''
+      position absolute
+      top 0
+      bottom 0
+      left -4px
+      vertical-align middle
+      width 8px
+      height 8px
+      // background-color red
+      border-left: 2px solid blue;
+      border-bottom: 2px solid blue;
+      transform rotate(45deg) translate(50%, 50%)
+
+    .postlist-item-awards &
+      // box-shadow -2px 2px 0 2px $yellow
+      border-color #ffc13b
+    
+    .postlist-item-cinema1988 &
+      // box-shadow -1px 1px 0 1px rgba($light-red, 0.5)
+      border-color #fc698e
+      
 
   &:hover::before
     content: ''
