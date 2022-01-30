@@ -24,6 +24,11 @@ body
   @media (min-width 1300px)
     font-size 1.9rem
 
+&::selection
+  text-shadow none
+  background-color rgba($color, .2)
+
+
 // Layout
 
 .row
@@ -459,12 +464,21 @@ pre
       flex-basis 50%
       max-width: 50%;
 
-
   .full-width-text
     position relative
     margin-top -10%
     margin-bottom 1.8em
   
+  &.tiles-nowrap
+    > p:first-of-type
+      flex-wrap nowrap
+
+  a
+    box-shadow none
+
+    &:hover
+      box-shadow none
+
   
 .post-title
   font-family $font-heading
@@ -487,6 +501,13 @@ pre
   @media (min-width 1200px)
     width calc(100vw - 20rem)
 
+.post-title-long
+  font-size 3.8rem
+  letter-spacing -.1rem
+
+  @media (min-width 600px)
+    font-size 7rem
+    letter-spacing -.5rem
 
 .post-date
   display block
@@ -518,3 +539,14 @@ pre
 
 .ratio-4-3
   padding-top 75%
+
+.bar {
+  position fixed
+  z-index 10
+  bottom 0
+  left 0
+  padding 5px 15px
+  background-color $color-bg
+  border-top 1px solid $color
+  border-right 1px solid $color
+}

@@ -37,7 +37,11 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 </script>
 
-<button type="button" class="js-ratio-toggle ratio-button">collapse videos</button>
+<div class="full-width">
+
+[![](/assets/music-videos/music-videos.jpg)](/assets/music-videos/music-videos.jpg)
+
+</div>
 
 How the MTV|➁ best music videos from the early 2000s forged my tastes in music, video and animation.
 
@@ -107,12 +111,29 @@ He did the most famous Jamiroquai video, it’s a perfect snapshot of the period
 
 <h2 data-content='Jamie Thraves'>Jamie Thraves</h2>
 
+WIP
+
+He is responsible for, maybe, my favorite song/video from Radiohead, same with Coldplay!
+He directed the video for the first single of **Bloc Party** and **Franz Ferdinand**, this guy is everywhere.
+
+[▸ *Just* — Radiohead, Jamie Thraves (1995)](https://youtu.be/oIFLtNYI3Ls)
+
+[▸ *The Scientist* — Coldplay, Jamie Thraves (2002)](https://youtu.be/RB-RcX5DS5A)
+
+[▸ *Little Thoughts* — Bloc Party, Ben Dawkins (2004)](https://youtu.be/q6cS26oEX64)
+
+This video has nothing new but it was such a joy to discover pretty late this early single, with this simple but cheerful video.
+
+[▸ *Take me out* — Franz Ferdinand, Jonas Odell (2004)](https://youtu.be/GhCXAiNz9Jo)
+
 
 <h2 data-content='Michel Gondry'>Michel Gondry</h2>
 
+x
 
 <h2 data-content='Shynola'>Shynola</h2>
 
+x
 
 <h2 data-content='Interstella 5555'>Interstella 5555</h2>
 
@@ -277,6 +298,10 @@ Marc Klasfeld also directed the fun *Times Like These* (version 2) for Foo Fight
 
 
 
+
+<div class="bar">
+<button type="button" class="js-ratio-toggle ratio-button">collapse videos</button>
+</div>
 
 
 
