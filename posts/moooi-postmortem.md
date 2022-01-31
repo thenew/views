@@ -2,7 +2,7 @@
 title: 'Moooi.com postmortem: between complexity and accessibility (2020)'
 description: 'Moooi.com postmortem first published in French, in 2020'
 image: /assets/moooi-postmortem/moooi_shop.jpg
-date: 2022-02-10
+date: 2022-01-31
 tags:
   - post
   - EN
@@ -10,7 +10,6 @@ tags:
   - development
   - accessibility
 layout: layouts/post.njk
-draft: true
 ---
 
 _This a translation of an article first published, in French, on the 19th of December 2020 for *[24joursdeweb.fr](https://www.24joursdeweb.fr/2020/retour-d-experience-moooi-com-entre-complexite-et-accessibilite/)*._
@@ -27,17 +26,17 @@ I’m lead developer on [moooi.com](http://moooi.com) website since two years in
 Moooi is a Dutch high end furniture company that concentrates a family of designers creating extraordinary products. There are multiple brick and mortar stores around the world and it’s from the one in New York that the obligation of accessibility came more than two years ago. We are seeing the same raise of concerns around accessibility from our others clients, Suitsupply, adidas or Reebok.
 
 Moooi is the most intricate project I’ve worked on. Manifold types of products (simple, variable, bundles, configurable), multilingual website, B2B features, internationalization (multi currency, multi units), multiple stock management, a lot of product's technical specs (country specific certifications, packaging dimensions, electrical, materials and fabrics), customisable homepage, product pages and story pages. 
-But a11y was the most original and welcome necessity. Not that, as a developer, I never considered it, of course, but it has never been part of the briefing, from the client.
+But <abbr title="accessibility">a11y</abbr> was the most original and welcome requirement. Of course, as a frontend developer, I was already considering it, but it has never been part of the briefing, from the client.
 
-The goal was to refund the e-shop with a new visual identity and to make it accessible following WCAG 2.1 AA guidelines.
+The goal was to refund the e-shop with a new visual identity and to make it accessible following <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 AA.
 
 <div class="row">
   <div class="left">
 
-The website is using WooCommerce to handle products and orders et WordPress for the editorial. It's a CMS (Content Manager System) that we know very well, I'm working with it since 2010, and it can be heavily customised.
+The website is using WooCommerce to handle products and orders et WordPress for the editorial. It's a <abbr title="Content Manager System">CMS</abbr> that we know very well, I'm working with it since 2010, and it can be heavily customised.
 The frontend of the website is developed with [React](https://reactjs.org) and Redux. The server side is Node.js with Express.
 
-To follow accessibility guidelines, we are using a lot of tools described by David Dias in his article (French) *[Outils et astuces pour rendre accessible et performante son application React](https://www.24joursdeweb.fr/2018/outils-et-astuces-pour-rendre-accessible-et-performante-son-application-react/)*. In particular, [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) or [react-axe](https://github.com/dequelabs/react-axe) module that running a live audit of the website and displays the errors directly in the browser console, with a top of the class documentation. But this has a cost and impacts the performance. It's impossible to work properly on animations while the module is running so we added a switch in a custom dev panel, like [dat.GUI](https://github.com/dataarts/dat.gui). It's sadly more than common to forget to enable it again.
+To follow accessibility guidelines, we are using a lot of tools described by David Dias in his article *[Outils et astuces pour rendre accessible et performante son application React](https://www.24joursdeweb.fr/2018/outils-et-astuces-pour-rendre-accessible-et-performante-son-application-react/)* (in French). In particular, [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) or [react-axe](https://github.com/dequelabs/react-axe) module that is running a live audit of the website and displays the errors directly in the browser console, with a top of the class documentation. But this has a cost and impacts the performance. It's impossible to work properly on animations while the module is running so we added a switch in a custom dev panel, like [dat.GUI](https://github.com/dataarts/dat.gui). It's sadly more than common to forget to enable it again.
 
 But the best help didn't come from any packages of [npm](https://www.npmjs.com/).
 
@@ -58,7 +57,7 @@ Next, we organised reviews of the first developed pages, sometimes with temporar
 In January 2020, the result of the first audit from *The Accessibility Foundation* was encouraging but, despite our efforts, some errors kept us from getting a perfect score. After asking more details on some points, our contact told us that he disagreed with the audit’s author on one specific point.  
 It’s a good example to remind that it’s not a mathematics exam, the human factor is very important in the interpretation of the rules and the uses cases are numerous.
 
-Our errors were mainly oversights or clumsiness:
+Our errors were mainly oversights or mistakes:
 
 - title attribute missing on the SVG logo
 - one missing alternative text on a video
@@ -126,7 +125,7 @@ Developed with [React UseGesture]([https://use-gesture.netlify.app/](https://use
 
 The Button is also multifunctional and serves as an audio player if an article, product or designer has an audio track.
 
-Une intéressante directive de WCAG est l'obligation de pouvoir accéder à un contenu de plus d'une manière. C'est généralement un lien dans le menu et une recherche ou un plan du site. Le menu propose donc un champ de recherche qui affiche les résultats d’un service tiers: [https://www.tweakwise.com](https://www.tweakwise.com/). Très rapide et optimisable.
+Une intéressante directive de WCAG est l'obligation de pouvoir accéder à un contenu de plus d'une manière. C'est généralement un lien dans le menu et une recherche ou un plan du site. Le menu propose donc un champ de recherche qui affiche les résultats d’un service tiers: [Tweakwise](https://www.tweakwise.com/). Très rapide et optimisable.
 
 To offer as many as possible entries, we added a voice search thanks to the [Web Speech API in Google Chrome](https://developers.google.com/web/updates/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API). It is not available in other browsers but doesn’t ask for much work to implement. For the users, if their devices is not compatible, the feature is not displayed. This is just a bonus.
 
@@ -144,11 +143,9 @@ In the same fashion, to show the products in Augmented Reality, we are using the
   </div>
 </div>
 
-That brings us to develop a comparison tool for each product
-
 This led us to develop a tool that allow users to compare each product with other objects to grasp the size, often surprising, of lamps or other sofas. The implementation is simple: CSS percentages to manage the size of the two objects. With different positioning for suspended or floor-standing products.
 
-On the other hand, this comparison tool is in a carousel, itself in a modal, it may seem like a UX and accessibility nightmare but it was thought out and allows information to be shown only if the user needs it. The important thing was to ensure that keyboard navigation was respected. [Flickity](https://flickity.metafizzy.co/) is my favorite carousel for this. For modals we used [React Portals](https://reactjs.org/docs/portals.html) but to manage keyboard focus we tested several modules before settling on [React FocusLock](https: [//github.com/theKashey/react-focus-lock#readme](notion://github.com/theKashey/react-focus-lock#readme)).
+On the other hand, this comparison tool is in a carousel, itself in a modal, it may seem like a UX and accessibility nightmare but it was thought out and allows information to be shown only if the user needs it. The important thing was to ensure that keyboard navigation was respected. [Flickity](https://flickity.metafizzy.co/) is my favorite carousel for this. For modals we used [React Portals](https://reactjs.org/docs/portals.html) but to manage keyboard focus we tested several modules before settling on [React FocusLock](https://github.com/theKashey/react-focus-lock#readme).
 
 <p>
 <video controls loop muted>
@@ -161,21 +158,26 @@ Like the title of the collection page that transforms the filters (categories, d
 
 <h2 data-content='6725 commits the Parents'>6725 commits the Parents</h2>
 
-Development began in May 2019, the v1.0 of the redesign went live in November 2019, and we've rolled out 143 new versions since then. The development team was most often composed of three people, but up to eight developers participated in the project, producing over 400 merge requests and 6725 commits. The React application now includes 227 components. 478 additional fields have been added to WordPress (with the essential ACF plugin).
+Development began in May 2019, the v1.0 of the redesign went live in November 2019, and we’ve rolled out 143 new versions since then. [editor’s note: over 300 versions now]  
+The development team was most often composed of three people, but up to eight developers participated in the project, producing over 400 merge requests and 6725 commits. [over 600 MR and 8500 commits today]  
+The React application now includes 227 components. 478 additional fields have been added to WordPress (with the essential [ACF plugin](https://www.advancedcustomfields.com/)).
 
 [![](/assets/moooi-postmortem/moooi_design_system.jpg)](/assets/moooi-postmortem/moooi_design_system.jpg)
 
 In addition to the classic features of an ecommerce website, you can create mood boards with product photos, you can download 3D files of many products.
 We also designed [Milan salone](https://moooi.com/a-life-extraordinary), a campaign site to make up for the *Salone del Mobile* in Milan, postponed to next year. It was developed in six weeks by two developers, starting at the same time as the lockdown; for more details, we wrote [a case study](https://www.awwwards.com/case-study-moooi-a-life-extraordinary.html).
 
-Just a note on designers who, I think, have an even more crucial role than us, developers, to make sure websites are as accessible as possible. Close collaboration is also a key to success. Designs of the site, emails and social networks, the design system and a digital brand guidelines were created on [Figma](https://www.figma.com) with the [Able](https://www.figma.com/community/plugin/734693888346260052/Able-%E2%80%93-Friction-free-accessibility) plug-in. You can watch a [presentation](https://www.youtube.com/watch?v=m6J6e0Dj91Q) by my colleague Margot Gabel on this project, from her point of view as a designer, although she also talk about development issues.
+Just a note on designers who, I think, have an even more crucial role than us, developers, to make sure websites are as accessible as possible.  
+Close collaboration is also a key to success.  
+Designs of the site, emails and social networks, the design system and a digital brand guidelines were created on [Figma](https://www.figma.com) with the [Able](https://www.figma.com/community/plugin/734693888346260052/Able-%E2%80%93-Friction-free-accessibility) plug-in.  
+You can watch a [presentation](https://www.youtube.com/watch?v=m6J6e0Dj91Q) by my colleague Margot Gabel on this project, from her point of view as a designer, although she also talk about development issues.
 
 [![](/assets/moooi-postmortem/moooi_tech.jpg)](/assets/moooi-postmortem/moooi_tech.jpg)
 
-I must confess that doing things well takes more time and requires to learn knowledge and skills, which is why asking help from experts, at least occasionally, is essential.
-Accessibility should not be seen as a feature but as a requirement.
+I must confess that doing things well takes more time and requires to learn knowledge and skills, which is why asking help from experts, at least occasionally, is essential.  
+Accessibility should not be seen as a feature but as a requirement.  
 Accessibility cannot be an obstacle to creativity.
 
-By not approaching the WCAG guidelines as constraints but as a chance to learn more about our users, we were able to stay true to our principle of always pushing the boundaries of the industry and delivering an extraordinary experience.
+By not approaching the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> guidelines as constraints but as a chance to learn more about our users, we were able to stay true to our principle of always pushing the boundaries of the industry and delivering an extraordinary experience.
 
 Fin <span class="end"></span>

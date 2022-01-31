@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Moooi.com postmortem: between complexity and accessibility (2020)</title>
+		<meta property="og:title" content="Moooi.com postmortem: between complexity and accessibility (2020)" />
+		<meta name="twitter:title" content="Moooi.com postmortem: between complexity and accessibility (2020)" />
+		<meta name="Description" content="Moooi.com postmortem first published in French, in 2020">
+		<meta property="og:description" content="Moooi.com postmortem first published in French, in 2020" />
+		<meta name="twitter:description" content="Moooi.com postmortem first published in French, in 2020" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Views" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@remybarthez" />
+		<meta name="twitter:creator" content="@remybarthez" />
+		
+		<meta property="og:image" content="http://views.thenew.fr/assets/moooi-postmortem/moooi_shop.jpg">
+		<meta name="twitter:image" content="http://views.thenew.fr/assets/moooi-postmortem/moooi_shop.jpg" />
+		
+		<link rel="me" href="https://twitter.com/remybarthez" />
+		<link rel="stylesheet" href="/css/index.css">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Views">
+		<meta name="msapplication-TileColor" content="#002fa7">
+		<meta name="theme-color" content="#002fa7">
+	</head>
+	<body>
+		<div class="template-post">
+			<div class="main">
+				<header>
+					<h2 class="blog-title"><a class="blog-title__link" href="/">Views</a></h2>
+				</header>
+
+				<main>
+					<h1 class="post-title post-title-long">Moooi.com postmortem: between complexity and accessibility (2020)</h1>
+<time class="date post-date" datetime="2022-01-31">31 Jan 2022</time>
+
+<div class="post">
+  <p><em>This a translation of an article first published, in French, on the 19th of December 2020 for <em><a href="https://www.24joursdeweb.fr/2020/retour-d-experience-moooi-com-entre-complexite-et-accessibilite/" target="_blank" rel="noopener">24joursdeweb.fr</a></em>.</em></p>
+<div class="full-width">
+<p><a href="/assets/moooi-postmortem/moooi_shop.jpg" target="_blank" rel="noopener"><img src="/assets/moooi-postmortem/moooi_shop.jpg" alt=""></a></p>
+</div>
+<p>I’m lead developer on <a href="http://moooi.com" target="_blank" rel="noopener">moooi.com</a> website since two years in the agency <a href="https://www.buildinamsterdam.com" target="_blank" rel="noopener">Build in Amsterdam</a>, based in ... Amsterdam. I will try to share some knowledge I learnt during this project in this article. Accessibility was a new requirement for me, on top of the most complicated website I’ve done but this didn't lower our ambitions.</p>
+<p>Moooi is a Dutch high end furniture company that concentrates a family of designers creating extraordinary products. There are multiple brick and mortar stores around the world and it’s from the one in New York that the obligation of accessibility came more than two years ago. We are seeing the same raise of concerns around accessibility from our others clients, Suitsupply, adidas or Reebok.</p>
+<p>Moooi is the most intricate project I’ve worked on. Manifold types of products (simple, variable, bundles, configurable), multilingual website, B2B features, internationalization (multi currency, multi units), multiple stock management, a lot of product's technical specs (country specific certifications, packaging dimensions, electrical, materials and fabrics), customisable homepage, product pages and story pages.<br>
+But <abbr title="accessibility">a11y</abbr> was the most original and welcome requirement. Of course, as a frontend developer, I was already considering it, but it has never been part of the briefing, from the client.</p>
+<p>The goal was to refund the e-shop with a new visual identity and to make it accessible following <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 AA.</p>
+<div class="row">
+  <div class="left">
+<p>The website is using WooCommerce to handle products and orders et WordPress for the editorial. It's a <abbr title="Content Manager System">CMS</abbr> that we know very well, I'm working with it since 2010, and it can be heavily customised.<br>
+The frontend of the website is developed with <a href="https://reactjs.org" target="_blank" rel="noopener">React</a> and Redux. The server side is Node.js with Express.</p>
+<p>To follow accessibility guidelines, we are using a lot of tools described by David Dias in his article <em><a href="https://www.24joursdeweb.fr/2018/outils-et-astuces-pour-rendre-accessible-et-performante-son-application-react/" target="_blank" rel="noopener">Outils et astuces pour rendre accessible et performante son application React</a></em> (in French). In particular, <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y" target="_blank" rel="noopener">eslint-plugin-jsx-a11y</a> or <a href="https://github.com/dequelabs/react-axe" target="_blank" rel="noopener">react-axe</a> module that is running a live audit of the website and displays the errors directly in the browser console, with a top of the class documentation. But this has a cost and impacts the performance. It's impossible to work properly on animations while the module is running so we added a switch in a custom dev panel, like <a href="https://github.com/dataarts/dat.gui" target="_blank" rel="noopener">dat.GUI</a>. It's sadly more than common to forget to enable it again.</p>
+<p>But the best help didn't come from any packages of <a href="https://www.npmjs.com/" target="_blank" rel="noopener">npm</a>.</p>
+  </div>
+  <div class="right" style="padding: 0 5rem">
+<p><a href="/assets/moooi-postmortem/moooi_device.jpg" target="_blank" rel="noopener"><img src="/assets/moooi-postmortem/moooi_device.jpg" alt=""></a></p>
+  </div>
+</div>
+<h2 data-content='The Human Show'>The Human Show</h2>
+<p>Starting July 2019, we had meetings with the consultant from <a href="%5Bhttps://www.accessibility.nl/en/english%5D(https://www.accessibility.nl/en/english)" target="_blank" rel="noopener"><em>The Accessibility Foundation</em></a>, based in Utretch, Pays-Bas. First of all to get feedback on design deliveries, then, quickly, also for technical questions.</p>
+<p>Next, we organised reviews of the first developed pages, sometimes with temporary content, by the same consultant to prepare the audit planned for December.</p>
+<p>In January 2020, the result of the first audit from <em>The Accessibility Foundation</em> was encouraging but, despite our efforts, some errors kept us from getting a perfect score. After asking more details on some points, our contact told us that he disagreed with the audit’s author on one specific point.<br>
+It’s a good example to remind that it’s not a mathematics exam, the human factor is very important in the interpretation of the rules and the uses cases are numerous.</p>
+<p>Our errors were mainly oversights or mistakes:</p>
+<ul>
+<li>title attribute missing on the SVG logo</li>
+<li>one missing alternative text on a video</li>
+<li>a non semantic use of the tag <code>em</code> instead of styling with CSS</li>
+<li>wrong values for the <code>autocomplete</code> values on form inputs</li>
+<li>wrong interpretations on the hierarchy of the content. It’s sometimes complicated to find the logical sequence of headings when the layout is funky. The simplest rule to follow is that the hierarchy is strict: <code>h3</code> is not possible before a <code>h2</code>.</li>
+</ul>
+<p>The second audit, in February, revealed a few errors left but it gave us one week to fix them before a complementary audit.<br>
+Third time’s a charm! I was so relieved and proud to finally pass the test that I printed the page showing the 50/50 mark to decorate my desk.</p>
+<p><a href="/assets/moooi-postmortem/moooi_audit.jpg" target="_blank" rel="noopener"><img src="/assets/moooi-postmortem/moooi_audit.jpg" alt=""></a></p>
+<p>We should not forget that these audits are not absolute certificates. The website is evolving every days with content publishing and code updates. Although, it’s a meaningful proof that externals experts audited it.</p>
+<h2 data-content='The Customisation of Jesse James'>The Customisation of Jesse James</h2>
+<p><a href="/assets/moooi-postmortem/moooi_custom.jpg" target="_blank" rel="noopener"><img src="/assets/moooi-postmortem/moooi_custom.jpg" alt=""></a></p>
+<p>Customisation of editorial content was a big challenge, on the homepage or in the stories.<br>
+We added many settings in the CMS to create uniques blocks: you can change layout, fonts, image, video, copy and animations.<br>
+Maintaining readability and contrast of the text above photos or videos are always complicated.<br>
+It’s impossible to automatise the process, especially on video, so we put a manual option to select a light and dark theme on every block, to darken the media if the text is in white. We have developed a preview of the block in WordPress UI to help the editors.</p>
+<p><a href="/assets/moooi-postmortem/moooi_pdps.jpg" target="_blank" rel="noopener"><img src="/assets/moooi-postmortem/moooi_pdps.jpg" alt=""></a></p>
+<p>Other tip, I would not recommend to have a fixed transparent background header if you want to avoid readability issues. On Moooi, we use the theme from every block to update the color of the header when displayed above it.</p>
+<h2 data-content='Tabman Forever'>Tabman Forever</h2>
+<p>
+<video controls loop muted>
+    <source src="/assets/moooi-postmortem/moooi_video_keyboard.mp4" type="video/mp4">
+</video>
+</p>
+<p>Before this project, I was only considering keyboard navigation on forms, and mostly for power users, like me. But we should manage <code>focus</code> and <code>tabindex</code> through the all website to offer a functional keyboard accessibility. It is very easy to test with the tab key on your keyboard, even if the results may vary depending on the browser and/or operating system: I had weird experiences on Firefox/macOs so I was testing on Chrome.</p>
+<p><a href="/assets/moooi-postmortem/moooi_forms.jpg" target="_blank" rel="noopener"><img src="/assets/moooi-postmortem/moooi_forms.jpg" alt=""></a></p>
+<p>To facilitate debugging of the focus, we log in the console the <code>document.activeElement</code> on a click or when the esc or tab key are pressed. This way, we can track, even the hidden, focusable elements.</p>
+<p>The focus state must be visible for the users navigating solely with keyboard but we don’t want to bother users with mouse or other pointers.</p>
+<pre class="language-scss"><code class="language-scss"><span class="token punctuation">:</span><span class="token function">global</span><span class="token punctuation">(</span>.js-focus-visible<span class="token punctuation">)</span> &amp;<span class="token punctuation">:</span><span class="token property">focus</span><span class="token punctuation">:</span><span class="token function">global</span><span class="token punctuation">(</span>.focus-visible<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token property">outline</span><span class="token punctuation">:</span> 1px dashed <span class="token variable">$light_grey</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>A component that required special attention to handle correctly the keyboard navigation was the main menu.</p>
+<h2 data-content='The Curious Case of Benjamain Button'>The Curious Case of Benjamain Button</h2>
+<p><a href="/assets/moooi-postmortem/moooi_menu_button.jpg" target="_blank" rel="noopener"><img src="/assets/moooi-postmortem/moooi_menu_button.jpg" alt=""></a></p>
+<p>The main menu button embodies the will to hide complexity behind simples things.</p>
+<p>It’s an echo to brick and mortar stores because each products has a <a href="https://www.moooi.com/nl/story/introducing-the-button-our-digital-superhero" target="_blank" rel="noopener">NFC button</a>, invented by Moooi, to prove their authenticity.</p>
+<p>The menu button is placed at the bottom of the screen, contrary to the classical burger menu, for an easier use on mobile devices and it’s big enough to be noticed and manipulated. For a better a11y but also to make it more fun and “physically real”, you can click and drag it on other corners of the screen, to content lefties and righties.<br>
+Developed with <a href="%5Bhttps://use-gesture.netlify.app/%5D(https://use-gesture.netlify.app/)" target="_blank" rel="noopener">React UseGesture</a>, it has been my first experience with React <em><a href="https://reactjs.org/docs/hooks-intro.html" target="_blank" rel="noopener">Hooks</a></em>. The project mixes <em>class components</em> and <em>Hooks</em>. It works very well but requires a bit of mental gymnastics.</p>
+<div class="row">
+  <div class="left">
+<p>The Button is also multifunctional and serves as an audio player if an article, product or designer has an audio track.</p>
+<p>Une intéressante directive de WCAG est l'obligation de pouvoir accéder à un contenu de plus d'une manière. C'est généralement un lien dans le menu et une recherche ou un plan du site. Le menu propose donc un champ de recherche qui affiche les résultats d’un service tiers: <a href="https://www.tweakwise.com/" target="_blank" rel="noopener">Tweakwise</a>. Très rapide et optimisable.</p>
+<p>To offer as many as possible entries, we added a voice search thanks to the <a href="https://developers.google.com/web/updates/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API" target="_blank" rel="noopener">Web Speech API in Google Chrome</a>. It is not available in other browsers but doesn’t ask for much work to implement. For the users, if their devices is not compatible, the feature is not displayed. This is just a bonus.</p>
+<p>In the same fashion, to show the products in Augmented Reality, we are using the solutions from the mobile operating systems: <em>AR Quick look</em> on iOs and <em>Scene Viewer</em> on Android. The development effort is minimal and accessibility is covered. <em>Quick Look</em> supports <em>Voice Over</em>, for example. We are trying to reduce the gap between IRL and digital shopping.</p>
+  </div>
+  <div class="right" style="padding: 0 5rem">
+<p>
+<video controls loop muted>
+    <source src="/assets/moooi-postmortem/moooi_video_voice_search.mp4" type="video/mp4">
+</video>
+</p>
+  </div>
+</div>
+<p>This led us to develop a tool that allow users to compare each product with other objects to grasp the size, often surprising, of lamps or other sofas. The implementation is simple: CSS percentages to manage the size of the two objects. With different positioning for suspended or floor-standing products.</p>
+<p>On the other hand, this comparison tool is in a carousel, itself in a modal, it may seem like a UX and accessibility nightmare but it was thought out and allows information to be shown only if the user needs it. The important thing was to ensure that keyboard navigation was respected. <a href="https://flickity.metafizzy.co/" target="_blank" rel="noopener">Flickity</a> is my favorite carousel for this. For modals we used <a href="https://reactjs.org/docs/portals.html" target="_blank" rel="noopener">React Portals</a> but to manage keyboard focus we tested several modules before settling on <a href="https://github.com/theKashey/react-focus-lock#readme" target="_blank" rel="noopener">React FocusLock</a>.</p>
+<p>
+<video controls loop muted>
+    <source src="/assets/moooi-postmortem/moooi_video_safe_zone.mp4" type="video/mp4">
+</video>
+</p>
+<p>I love this solutions which do not require major technical implementations but make the website more human and welcoming.<br>
+Like the title of the collection page that transforms the filters (categories, designers, colors, etc.) handled by Tweakwise in a human sentence.</p>
+<h2 data-content='6725 commits the Parents'>6725 commits the Parents</h2>
+<p>Development began in May 2019, the v1.0 of the redesign went live in November 2019, and we’ve rolled out 143 new versions since then. [editor’s note: over 300 versions now]<br>
+The development team was most often composed of three people, but up to eight developers participated in the project, producing over 400 merge requests and 6725 commits. [over 600 MR and 8500 commits today]<br>
+The React application now includes 227 components. 478 additional fields have been added to WordPress (with the essential <a href="https://www.advancedcustomfields.com/" target="_blank" rel="noopener">ACF plugin</a>).</p>
+<p><a href="/assets/moooi-postmortem/moooi_design_system.jpg" target="_blank" rel="noopener"><img src="/assets/moooi-postmortem/moooi_design_system.jpg" alt=""></a></p>
+<p>In addition to the classic features of an ecommerce website, you can create mood boards with product photos, you can download 3D files of many products.<br>
+We also designed <a href="https://moooi.com/a-life-extraordinary" target="_blank" rel="noopener">Milan salone</a>, a campaign site to make up for the <em>Salone del Mobile</em> in Milan, postponed to next year. It was developed in six weeks by two developers, starting at the same time as the lockdown; for more details, we wrote <a href="https://www.awwwards.com/case-study-moooi-a-life-extraordinary.html" target="_blank" rel="noopener">a case study</a>.</p>
+<p>Just a note on designers who, I think, have an even more crucial role than us, developers, to make sure websites are as accessible as possible.<br>
+Close collaboration is also a key to success.<br>
+Designs of the site, emails and social networks, the design system and a digital brand guidelines were created on <a href="https://www.figma.com" target="_blank" rel="noopener">Figma</a> with the <a href="https://www.figma.com/community/plugin/734693888346260052/Able-%E2%80%93-Friction-free-accessibility" target="_blank" rel="noopener">Able</a> plug-in.<br>
+You can watch a <a href="https://www.youtube.com/watch?v=m6J6e0Dj91Q" target="_blank" rel="noopener">presentation</a> by my colleague Margot Gabel on this project, from her point of view as a designer, although she also talk about development issues.</p>
+<p><a href="/assets/moooi-postmortem/moooi_tech.jpg" target="_blank" rel="noopener"><img src="/assets/moooi-postmortem/moooi_tech.jpg" alt=""></a></p>
+<p>I must confess that doing things well takes more time and requires to learn knowledge and skills, which is why asking help from experts, at least occasionally, is essential.<br>
+Accessibility should not be seen as a feature but as a requirement.<br>
+Accessibility cannot be an obstacle to creativity.</p>
+<p>By not approaching the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> guidelines as constraints but as a chance to learn more about our users, we were able to stay true to our principle of always pushing the boundaries of the industry and delivering an extraordinary experience.</p>
+<p>Fin <span class="end"></span></p>
+
+</div>
+				</main>
+			</div>
+		</div>
+
+		<footer>﹒</footer>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164644-9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-164644-9');
+    </script>
+
+		<!-- Current page: /posts/moooi-postmortem/ -->
+	</body>
+</html>

@@ -2,7 +2,7 @@
 title: 2021 films expectations versus reality
 description: Expected films from 2021 reviewed
 image: /assets/2021reviews/soul_2020_17-3.jpg
-date: 2022-01-25
+date: 2022-02-04
 tags:
   - post
   - 2021

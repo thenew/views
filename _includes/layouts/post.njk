@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 templateClass: template-post
 ---
-<h1 class="post-title {% if title.length > 25 %}post-title-long{%- endif %}">{{ title }}</h1>
+<h1 class="post-title{% if title.length > 30 %} post-title-long{%- endif %}">{{ title }}</h1>
 <time class="date post-date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
 
 <div class="post">
