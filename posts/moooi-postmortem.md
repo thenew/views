@@ -36,7 +36,8 @@ The goal was to refund the e-shop with a new visual identity and to make it acce
 The website is using WooCommerce to handle products and orders et WordPress for the editorial. It's a <abbr title="Content Manager System">CMS</abbr> that we know very well, I'm working with it since 2010, and it can be heavily customised.
 The frontend of the website is developed with [React](https://reactjs.org) and Redux. The server side is Node.js with Express.
 
-To follow accessibility guidelines, we are using a lot of tools described by David Dias in his article *[Outils et astuces pour rendre accessible et performante son application React](https://www.24joursdeweb.fr/2018/outils-et-astuces-pour-rendre-accessible-et-performante-son-application-react/)* (in French). In particular, [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) or [react-axe](https://github.com/dequelabs/react-axe) module that is running a live audit of the website and displays the errors directly in the browser console, with a top of the class documentation. But this has a cost and impacts the performance. It's impossible to work properly on animations while the module is running so we added a switch in a custom dev panel, like [dat.GUI](https://github.com/dataarts/dat.gui). It's sadly more than common to forget to enable it again.
+To follow accessibility guidelines, we are using a lot of tools described by David Dias in his article *[Outils et astuces pour rendre accessible et performante son application React](https://www.24joursdeweb.fr/2018/outils-et-astuces-pour-rendre-accessible-et-performante-son-application-react/)* (in French).  
+In particular, [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) or [react-axe](https://github.com/dequelabs/react-axe) module that is running a live audit of the website and displays the errors directly in the browser console, with a top of the class documentation. But this has a cost and impacts the performance. It's impossible to work properly on animations while the module is running so we added a switch in a custom dev panel, like [dat.GUI](https://github.com/dataarts/dat.gui). It's sadly more than common to forget to enable it again.
 
 But the best help didn't come from any packages of [npm](https://www.npmjs.com/).
 
@@ -125,7 +126,7 @@ Developed with [React UseGesture]([https://use-gesture.netlify.app/](https://use
 
 The Button is also multifunctional and serves as an audio player if an article, product or designer has an audio track.
 
-Une intéressante directive de WCAG est l'obligation de pouvoir accéder à un contenu de plus d'une manière. C'est généralement un lien dans le menu et une recherche ou un plan du site. Le menu propose donc un champ de recherche qui affiche les résultats d’un service tiers: [Tweakwise](https://www.tweakwise.com/). Très rapide et optimisable.
+An interesting <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> directive is the requirement to be able to access content in more than one way. Usually a link in the menu and search or a sitemap. The menu therefore offers a search form that displays results from a third-party service: [Tweakwise](https://www.tweakwise.com/). Very fast and optimisable.
 
 To offer as many as possible entries, we added a voice search thanks to the [Web Speech API in Google Chrome](https://developers.google.com/web/updates/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API). It is not available in other browsers but doesn’t ask for much work to implement. For the users, if their devices is not compatible, the feature is not displayed. This is just a bonus.
 
