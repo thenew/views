@@ -72,11 +72,6 @@
   </url>
   
   <url>
-    <loc>http://views.thenew.fr/audiolog.xml</loc>
-    <lastmod>2020-10-29</lastmod>
-  </url>
-  
-  <url>
     <loc>http://views.thenew.fr/posts/radiokawa-retrospective-postmortem/</loc>
     <lastmod>2020-11-15</lastmod>
   </url>
@@ -142,8 +137,13 @@
   </url>
   
   <url>
-    <loc>http://views.thenew.fr/</loc>
-    <lastmod>2022-02-04</lastmod>
+    <loc>http://views.thenew.fr/posts/2021-films-expectations-versus-reality/</loc>
+    <lastmod>2022-02-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/audiolog.xml</loc>
+    <lastmod>2022-02-14</lastmod>
   </url>
   
   <url>
