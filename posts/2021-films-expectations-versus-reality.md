@@ -94,7 +94,7 @@ I didn’t know what to expect, except a good cast, and that’s maybe a good re
 
 [![screenshot of The Matrix Resurrections](/assets/2021reviews/matrix-resurrections-1.jpg)](/assets/2021reviews/matrix-resurrections-1.jpg)
 [![screenshot of The Matrix Resurrections](/assets/2021reviews/matrix-resurrections-3.jpg)](/assets/2021reviews/matrix-resurrections-3.jpg)
-[![screenshot of The Matrix Resurrections](/assets/2021reviews/matrix-resurrections-7.jpg)](/assets/7021reviews/matrix-resurrections-7.jpg)
+[![screenshot of The Matrix Resurrections](/assets/2021reviews/matrix-resurrections-7.jpg)](/assets/2021reviews/matrix-resurrections-7.jpg)
 [![screenshot of The Matrix Resurrections](/assets/2021reviews/matrix-resurrections-9.jpg)](/assets/2021reviews/matrix-resurrections-9.jpg)
 
 </div>
