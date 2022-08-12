@@ -1,7 +1,7 @@
 ---
 title: Cinema 88, fourth part
 description: "Films from 1988, fourth part: low-key VIPs"
-image: /assets/88_4/colors_5.jpg
+image: /assets/88_4/colors_5.png
 date: 2022-08-12
 tags:
   - post
