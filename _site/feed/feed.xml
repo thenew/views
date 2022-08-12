@@ -4,7 +4,7 @@
 	<subtitle>Views of thenew.</subtitle>
 	<link href="http://views.thenew.fr/feed/feed.xml" rel="self"/>
 	<link href="http://views.thenew.fr"/>
-	<updated>2022-02-14T00:00:00Z</updated>
+	<updated>2022-08-12T00:00:00Z</updated>
 	<id>http://views.thenew.fr</id>
 	<author>
 		<name>thenew</name>
@@ -1708,7 +1708,7 @@ Just replace put whatever text you want to share at the end of this URL, after &
 &lt;p&gt;But many libraries exist to generate it ourself and therefore choose the output format.&lt;br /&gt;
 SVG is better than a PNG: we can zoom on it as much as we want, it will stay sharp and it’s so much lighter, because it’s vector graphics.&lt;/p&gt;
 &lt;p&gt;For example, in JavaScript, with &lt;a href=&quot;https://github.com/soldair/node-qrcode&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;node-qrcode&lt;/a&gt;:&lt;/p&gt;
-&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// JavaScript&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; QRCode &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;qrcode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;QRCode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token comment&quot;&gt;// the URL to encode&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token string&quot;&gt;&quot;http://views.thenew.fr/posts/generate-and-animate-a-qr-code&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;// the format&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token literal-property property&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;svg&quot;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;// insert the SVG into the HTML element &amp;lt;div id=&quot;qrcode&quot;&gt;&amp;lt;/div&gt;&lt;/span&gt;&lt;br /&gt;    document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;qrcode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; url&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// JavaScript&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; QRCode &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;qrcode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;QRCode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token comment&quot;&gt;// the URL to encode&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token string&quot;&gt;&quot;http://views.thenew.fr/posts/generate-and-animate-a-qr-code&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;// the format&lt;/span&gt;&lt;br /&gt;    type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;svg&quot;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;// insert the SVG into the HTML element &amp;lt;div id=&quot;qrcode&quot;&gt;&amp;lt;/div&gt;&lt;/span&gt;&lt;br /&gt;    document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;qrcode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; url&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;SVG images are XML files, so we can change the color easily directly in the code or with CSS. But this SVG is containing only one &lt;code&gt;&amp;lt;path&amp;gt;&lt;/code&gt; so there is no room to play with it.&lt;/p&gt;
 &lt;div class=&quot;qr-post-media&quot;&gt;
 &lt;p&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 41 41&quot; shape-rendering=&quot;crispEdges&quot;&gt;&lt;path stroke=&quot;#002fa7&quot; d=&quot;M4 4.5h7m3 0h1m5 0h1m2 0h2m1 0h2m2 0h7M4 5.5h1m5 0h1m3 0h2m3 0h2m1 0h1m2 0h1m2 0h1m1 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h5m1 0h1m1 0h1m2 0h5m2 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h2m7 0h1m2 0h1m1 0h3m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h2m4 0h3m2 0h3m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h1m2 0h4m2 0h2m1 0h3m1 0h1m1 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h2m1 0h1M4 12.5h1m1 0h5m2 0h1m3 0h2m2 0h3m2 0h3m1 0h5M4 13.5h4m1 0h1m1 0h2m4 0h1m4 0h3m2 0h4m2 0h4M5 14.5h7m2 0h1m1 0h7m2 0h2m5 0h1m1 0h2M5 15.5h1m2 0h2m1 0h3m1 0h3m4 0h8m2 0h4M4 16.5h2m4 0h5m3 0h2m1 0h3m2 0h1m1 0h2m1 0h3m1 0h1M4 17.5h2m6 0h1m3 0h1m2 0h1m1 0h3m3 0h1m2 0h1m3 0h3M6 18.5h1m1 0h3m1 0h2m1 0h2m1 0h4m2 0h2m3 0h1m5 0h1M6 19.5h4m2 0h2m1 0h2m2 0h2m4 0h1m2 0h1m1 0h1m1 0h3M6 20.5h1m3 0h1m1 0h2m1 0h1m1 0h1m1 0h3m4 0h1m2 0h1m1 0h2m3 0h1M4 21.5h6m1 0h2m4 0h1m2 0h2m1 0h1m1 0h1m1 0h1m2 0h2m1 0h2m1 0h1M5 22.5h2m2 0h2m4 0h5m4 0h2m3 0h2m1 0h1m1 0h2M6 23.5h2m1 0h1m3 0h2m1 0h5m2 0h5m2 0h1m1 0h3m1 0h1M4 24.5h1m1 0h1m2 0h9m1 0h1m1 0h1m4 0h1m1 0h2m1 0h3m1 0h2M4 25.5h2m1 0h1m1 0h1m1 0h2m2 0h1m4 0h1m1 0h6m2 0h2m2 0h1m1 0h1M4 26.5h1m1 0h2m1 0h3m6 0h2m2 0h1m1 0h3m3 0h1m2 0h3M4 27.5h1m3 0h1m3 0h9m1 0h1m1 0h3m2 0h1m3 0h4M4 28.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h2m1 0h5m1 0h2m1 0h8m2 0h1M12 29.5h5m1 0h1m1 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m2 0h2m3 0h5m1 0h5m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h3m3 0h1m5 0h2m1 0h2m3 0h1m1 0h2M4 32.5h1m1 0h3m1 0h1m1 0h1m5 0h2m1 0h1m4 0h1m1 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h2m3 0h1m2 0h4m3 0h3m1 0h6M4 34.5h1m1 0h3m1 0h1m1 0h1m1 0h3m1 0h4m2 0h1m1 0h3m1 0h2m2 0h1M4 35.5h1m5 0h1m2 0h3m1 0h1m2 0h1m3 0h2m3 0h1m1 0h4M4 36.5h7m1 0h1m4 0h2m1 0h2m4 0h1m1 0h1m2 0h2m2 0h1&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/p&gt;
@@ -2491,7 +2491,7 @@ Beautiful, stimulating and very well directed musical even if I’m not a fan of
 &lt;div class=&quot;full-width tiles&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;http://views.thenew.fr/assets/2021reviews/matrix-resurrections-1.jpg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/2021reviews/matrix-resurrections-1.jpg&quot; alt=&quot;screenshot of The Matrix Resurrections&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;http://views.thenew.fr/assets/2021reviews/matrix-resurrections-3.jpg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/2021reviews/matrix-resurrections-3.jpg&quot; alt=&quot;screenshot of The Matrix Resurrections&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://views.thenew.fr/assets/7021reviews/matrix-resurrections-7.jpg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/2021reviews/matrix-resurrections-7.jpg&quot; alt=&quot;screenshot of The Matrix Resurrections&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://views.thenew.fr/assets/2021reviews/matrix-resurrections-7.jpg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/2021reviews/matrix-resurrections-7.jpg&quot; alt=&quot;screenshot of The Matrix Resurrections&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;http://views.thenew.fr/assets/2021reviews/matrix-resurrections-9.jpg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/2021reviews/matrix-resurrections-9.jpg&quot; alt=&quot;screenshot of The Matrix Resurrections&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;ol start=&quot;5&quot;&gt;
@@ -2643,6 +2643,93 @@ Hiroyuki Sanada, as a guest, is the only thing to save.&lt;/p&gt;
 &lt;li&gt;&lt;em&gt;Coming 2 America&lt;/em&gt; &lt;span class=&quot;rank-bottom&quot;&gt;26&lt;/span&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;A comedy film that did not make me laugh and affords itself, in addition, to reach an unequally level of lethargy. Sad.&lt;/p&gt;
+&lt;p&gt;Fin &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cinema 88, fourth part</title>
+		<link href="http://views.thenew.fr/posts/cinema-88-part-4/"/>
+		<updated>2022-08-12T00:00:00Z</updated>
+		<id>http://views.thenew.fr/posts/cinema-88-part-4/</id>
+		<content type="html">&lt;style&gt;
+.post ol li {color: #555; margin-bottom: 1rem;}
+.post ol li em {display: inline-block; margin-right: 4px; font-size: 1.8rem;font-weight: 600; color: #222;}
+.post ol li strong {font-weight: 400; color: #002fa7;}
+.post .with-credits {margin-bottom: 5px;}
+.credits {margin-bottom: 2rem;color: #555;}
+.credits .network {font-weight: 400; color: #002fa7;}
+.post .with-credits {font-family: Gill Sans, Gill Sans MT, Calibri, Century Gothic, CenturyGothic, AppleGothic, sans-serif;margin-bottom: 5px;}
+.post h2:not([data-content=&quot;&quot;]) {padding: 1px 4px; background-color: #9f1e27;}
+.post h2::after {
+  color: #dfadb0;
+  background-size: 0.1em 0.4em;
+  left: 4px;
+}
+
+&lt;/style&gt;
+&lt;p&gt;The more I look for films released in 1988 and the more I found new ones, so after the &lt;a href=&quot;http://views.thenew.fr/posts/cinema-88-part-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;first&lt;/a&gt; &lt;a href=&quot;http://views.thenew.fr/posts/cinema-88-part-2&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;three&lt;/a&gt; &lt;a href=&quot;http://views.thenew.fr/posts/cinema-88-disney-plus-edition&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;parts&lt;/a&gt;, this fourth list is far from the last.&lt;/p&gt;
+&lt;p&gt;Thankfully, once again, I had good (and bad) surprises discovering some films from 88. This time, they all have, at least, one star in the casting.&lt;br /&gt;
+I’m still watching them on streaming services and French TVs, but I’ll soon have to find other ways.&lt;/p&gt;
+&lt;h2 data-content=&quot;&quot;&gt;Low-key VIPs&lt;/h2&gt;
+&lt;h2 class=&quot;with-credits&quot; data-content=&quot;Bloodsport&quot;&gt;Bloodsport&lt;/h2&gt;
+&lt;div class=&quot;credits&quot;&gt;directed by Newt Arnold&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;http://views.thenew.fr/assets/88_4/bloodsport.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/88_4/bloodsport.png&quot; alt=&quot;screenshot of Bloodsport&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JCVD is really strong in this one, even if the martial quality of the film is poor and the story is thin. But I enjoyed some sceneries, like the intro showing the arena. The French dubbed version is as bad as you can imagine from 1988.&lt;br /&gt;
+I was surprised to learn, at the end, that the film is based on the true story of Frank Dux. It kind of changed my whole perspective.&lt;br /&gt;
+It’s been some months since I saw &lt;em&gt;Bloodsport&lt;/em&gt; and I can no longer tell it apart from another Jean-Claude Van Damme flick from one year later: &lt;em&gt;Kickboxer&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 class=&quot;with-credits&quot; data-content=&quot;A Fish Called Wanda&quot;&gt;A Fish Called Wanda&lt;/h2&gt;
+&lt;div class=&quot;credits&quot;&gt;directed by Charles Crichton, screenplay by John Cleese&lt;/div&gt;
+&lt;div class=&quot;full-width&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://views.thenew.fr/assets/88_4/a-fish-called-wanda.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/88_4/a-fish-called-wanda.png&quot; alt=&quot;screenshot of A Fish Called Wanda&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;I heard this title a lot, but I think I never saw it before. No hot take here, it’s a solid funny movie.&lt;br /&gt;
+I love the opening presenting every character and the actor playing it. Every film should do it.&lt;br /&gt;
+And the actors are great: John Cleese is like expected. Kevin Kline is an actor I never noticed before, his character is so hectic, and I loved his improbable look.&lt;br /&gt;
+I like Jamie Lee Curtis since &lt;em&gt;True Lies&lt;/em&gt;, and she is shinning in this role, she is funny and sexy. For once, the sex jokes are good, like the one with foreign languages.&lt;br /&gt;
+Some good jokes, a good time.&lt;/p&gt;
+&lt;h2 class=&quot;with-credits&quot; data-content=&quot;Midnight Run&quot;&gt;Midnight Run&lt;/h2&gt;
+&lt;div class=&quot;credits&quot;&gt;directed by Martin Brest&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;http://views.thenew.fr/assets/88_4/midnight-run.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/88_4/midnight-run.png&quot; alt=&quot;screenshot of Midnight Run&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a href=&quot;https://www.arte.tv/en/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ARTE&lt;/a&gt;, I could catch up on this action comedy that didn’t leave a big mark. Its director Martin Brest has a bumpy career.&lt;br /&gt;
+&lt;em&gt;Midnight Run&lt;/em&gt; doesn’t reinvent the wheel, it’s the typical &amp;quot;American betrayed bounty hunter road trip buddy movie&amp;quot;.&lt;br /&gt;
+It reminds me of &lt;em&gt;The Gauntlet&lt;/em&gt;, but I’m sure it’s a cliché story. I still like the good twists.&lt;br /&gt;
+Action is a bit too comical for my taste, especially because of the music, but the film is charming. De Niro is doing De Niro.&lt;br /&gt;
+Mildly interesting fact, the music is from Danny Elfman.&lt;/p&gt;
+&lt;h2 class=&quot;with-credits&quot; data-content=&quot;Tears in the Rain&quot;&gt;Tears in the Rain&lt;/h2&gt;
+&lt;div class=&quot;credits&quot;&gt;directed by Don Sharp&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;left&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://views.thenew.fr/assets/88_4/tears-in-the-rain.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/88_4/tears-in-the-rain.png&quot; alt=&quot;screenshot of Tears in the Rain&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;right&quot;&gt;
+&lt;p&gt;A nice poster and Sharon Stone as lead got my attention on the eerie library of Plex. But it was two years before her breakthrough in &lt;em&gt;Total Recall&lt;/em&gt; then &lt;em&gt;Basic Instinct&lt;/em&gt;, thanks to Paul Verhoeven. So in 1988, she was playing in smaller productions, to say the least, but I wasn’t prepared for a TV movie. &lt;em&gt;Tears in the Rain&lt;/em&gt; (no connection with &lt;em&gt;Blade Runner&lt;/em&gt;) is a Harlequin Romance TV film telling the story of an American learning about her late mother’s past in England. Twists are hackneyed and directing feels amateurish: it’s as if they never bothered doing more than one take.&lt;/p&gt;
+&lt;p&gt;Sharon Stone is the only highlight. She acted in two other films this year, so I might talk about her again.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 class=&quot;with-credits&quot; data-content=&quot;À gauche en sortant de l’ascenseur&quot;&gt;À gauche en sortant de l’ascenseur&lt;/h2&gt;
+&lt;div class=&quot;credits&quot;&gt;directed by Edouard Molinaro&lt;/div&gt;
+&lt;p&gt;A typical French Vaudeville filmed theatre play. With the typical 80s gratuitous nudity and borderline racist black characters.&lt;br /&gt;
+If you want to watch it, it’s for the trio of actors: Pierre Richard deploys his great comedic timing, Richard Bohringer is so intense and Emmanuelle Béart is crazy young.&lt;br /&gt;
+Produced by Claude Berri, he was the godfather of the French cinema. Famous director, but I know him mostly for his zillions productions.&lt;/p&gt;
+&lt;div class=&quot;full-width tiles&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://views.thenew.fr/assets/88_4/colors_1.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/88_4/colors_1.png&quot; alt=&quot;screenshot of Colors&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://views.thenew.fr/assets/88_4/colors_6.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/88_4/colors_6.png&quot; alt=&quot;screenshot of Colors&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://views.thenew.fr/assets/88_4/colors_2.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/88_4/colors_2.png&quot; alt=&quot;screenshot of Colors&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://views.thenew.fr/assets/88_4/colors_3.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;http://views.thenew.fr/assets/88_4/colors_3.png&quot; alt=&quot;screenshot of Colors&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 class=&quot;with-credits&quot; data-content=&quot;Colors&quot;&gt;Colors&lt;/h2&gt;
+&lt;div class=&quot;credits&quot;&gt;directed by Dennis Hoper&lt;/div&gt;
+&lt;p&gt;Surprisingly very good and aged well. We are far way from the road trip of &lt;em&gt;Easy Rider&lt;/em&gt; (1969) and more in the hoods of Los Angeles, but the violence of the US society is still the main topic.&lt;br /&gt;
+Made me think a lot of &lt;em&gt;The Wire&lt;/em&gt; (2002), especially the character played by Don Cheadle: he has a small role but looks a lot like Omar.&lt;br /&gt;
+Who can’t say no to a buddy movie when the two actors are lovable: Robert Duval is always great and Sean Penn is playing well the young, obnoxious hot shot.&lt;/p&gt;
+&lt;p&gt;That’s a film that stays in your mind days after watching it.&lt;/p&gt;
+&lt;h2 class=&quot;with-credits&quot; data-content=&quot;Buster&quot;&gt;Buster&lt;/h2&gt;
+&lt;div class=&quot;credits&quot;&gt;directed by David Green&lt;/div&gt;
+&lt;p&gt;Advertised as a comedy on &lt;em&gt;Arte&lt;/em&gt;, I was expected more humour than this light, but dramatic, story based on a true event.&lt;br /&gt;
+Besides the surprising main actor, Phil Collins, the depiction of the Great Train Robbery, happening in a 1963 England, is forgettable.&lt;br /&gt;
+Like for &lt;a href=&quot;http://views.thenew.fr/posts/cinema-88-disney-plus-edition&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Cocktail&lt;/em&gt;&lt;/a&gt; and its song &lt;em&gt;Kokomo&lt;/em&gt;, I will remember the (even more cheesy) song written by Phil Collins for the film: &lt;em&gt;Loco in Acapulco&lt;/em&gt; by the Four Tops.&lt;/p&gt;
+&lt;p&gt;Fun fact, the film is scored by Anne Dudley, who is a huge name in the music industry. I didn’t know she wrote so many soundtracks: &lt;em&gt;The Full Monty&lt;/em&gt;, &lt;em&gt;American History X&lt;/em&gt;, &lt;em&gt;Les Misérables&lt;/em&gt; and all the late Paul Verhoeven’s films.&lt;/p&gt;
 &lt;p&gt;Fin &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 </content>
 	</entry>

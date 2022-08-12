@@ -1,8 +1,8 @@
 ---
 title: Cinema 88, fourth part
-description: "Films from 1988, fourth part: Forgotten Famous"
+description: "Films from 1988, fourth part: low-key VIPs"
 image: /assets/88_4/colors_5.jpg
-date: 2022-02-31
+date: 2022-08-12
 tags:
   - post
   - 2021
@@ -12,7 +12,6 @@ tags:
   - cinema1988
   - list
 layout: layouts/post.njk
-draft: true
 ---
 
 <style>
@@ -32,19 +31,19 @@ draft: true
 
 </style>
 
-The more I look for films released in 1988 and the more I found ones so after the [first](/posts/cinema-88-part-1) [three](/posts/cinema-88-part-2) [parts](/posts/cinema-88-disney-plus-edition), this fourth list is far from the last.
+The more I look for films released in 1988 and the more I found new ones, so after the [first](/posts/cinema-88-part-1) [three](/posts/cinema-88-part-2) [parts](/posts/cinema-88-disney-plus-edition), this fourth list is far from the last.
 
-Thankfully, I had again good (and bad) surprises discovering some notable films from 88.  
-I’m still watching them on streaming services and French TVs but I’ll soon have to find other ways.
+Thankfully, once again, I had good (and bad) surprises discovering some films from 88. This time, they all have, at least, one star in the casting.  
+I’m still watching them on streaming services and French TVs, but I’ll soon have to find other ways.
 
-<h2 data-content="">Forgotten Famous</h2>
+<h2 data-content="">Low-key VIPs</h2>
 
 <h2 class="with-credits" data-content='Bloodsport'>Bloodsport</h2>
 <div class="credits">directed by Newt Arnold</div>
 
 [![screenshot of Bloodsport](/assets/88_4/bloodsport.png)](/assets/88_4/bloodsport.png)
 
-JCVD is really strong in this one even if the martial quality of the film is poor and the story is thin. But I enjoyed some sceneries, like the intro showing the arena. French dubbed version is as bad as you can imagine from 1988.  
+JCVD is really strong in this one, even if the martial quality of the film is poor and the story is thin. But I enjoyed some sceneries, like the intro showing the arena. The French dubbed version is as bad as you can imagine from 1988.  
 I was surprised to learn, at the end, that the film is based on the true story of Frank Dux. It kind of changed my whole perspective.
 It’s been some months since I saw *Bloodsport* and I can no longer tell it apart from another Jean-Claude Van Damme flick from one year later: *Kickboxer*.
 
@@ -57,21 +56,21 @@ It’s been some months since I saw *Bloodsport* and I can no longer tell it apa
 
 </div>
 
-I heard this film title a lot but I think I never saw it before. No hot take, it’s a solid funny movie.  
-I love the opening presenting every character and the actor playing it. Every film should do it. 
-And the actors are great: John Cleese is like expected. Kevin Kline is an actor I never noticed before, his character is so hectic and I loved his improbable look. 
-I like Jamie Lee Curtis since *True Lies* and she is shinning in this role, she is funny and sexy. For once, the sex jokes are good, like the one with foreign languages.  
-Some good jokes, good time.
+I heard this title a lot, but I think I never saw it before. No hot take here, it’s a solid funny movie.  
+I love the opening presenting every character and the actor playing it. Every film should do it.  
+And the actors are great: John Cleese is like expected. Kevin Kline is an actor I never noticed before, his character is so hectic, and I loved his improbable look.  
+I like Jamie Lee Curtis since *True Lies*, and she is shinning in this role, she is funny and sexy. For once, the sex jokes are good, like the one with foreign languages.  
+Some good jokes, a good time.
 
 <h2 class="with-credits" data-content='Midnight Run'>Midnight Run</h2>
 <div class="credits">directed by Martin Brest</div>
 
 [![screenshot of Midnight Run](/assets/88_4/midnight-run.png)](/assets/88_4/midnight-run.png)
 
-Thanks to [ARTE](https://www.arte.tv/en/), I could catch up on this action-comedy that didn’t leave a big mark. Its director Martin Brest has a bumpy career.
-*Midnight Run* doesn’t reinvent the wheel, it’s the typical American betrayed bounty hunter road trip buddy movie. 
-It reminds me of *The Gauntlet* but I’m sure it’s a cliché story. I still like the good twists. 
-Action is a bit too comical to my taste, especially because of the music but the film is charming. De Niro is doing De Niro. 
+Thanks to [ARTE](https://www.arte.tv/en/), I could catch up on this action comedy that didn’t leave a big mark. Its director Martin Brest has a bumpy career.
+*Midnight Run* doesn’t reinvent the wheel, it’s the typical "American betrayed bounty hunter road trip buddy movie".  
+It reminds me of *The Gauntlet*, but I’m sure it’s a cliché story. I still like the good twists.  
+Action is a bit too comical for my taste, especially because of the music, but the film is charming. De Niro is doing De Niro.  
 Mildly interesting fact, the music is from Danny Elfman.
 
 <h2 class="with-credits" data-content='Tears in the Rain'>Tears in the Rain</h2>
@@ -85,9 +84,9 @@ Mildly interesting fact, the music is from Danny Elfman.
   </div>
   <div class="right">
 
-A nice poster and Sharon Stone as lead got my attention on the eerie library of Plex. But it was 2 years before her breakthrough in *Total Recall* then *Basic Instinct*, thanks to Paul Verhoeven. So in 1988, she was playing in smaller production, to say the least, but I wasn’t prepared for a TV movie. *Tears in the Rain* (no connection with *Blade Runner*) is a Harlequin Romance TV film telling the story of an American learning about her late mother’s past in England. Twists are hackneyed and directing feels amateurish: it's like they never bothered doing more than one take.
+A nice poster and Sharon Stone as lead got my attention on the eerie library of Plex. But it was two years before her breakthrough in *Total Recall* then *Basic Instinct*, thanks to Paul Verhoeven. So in 1988, she was playing in smaller productions, to say the least, but I wasn’t prepared for a TV movie. *Tears in the Rain* (no connection with *Blade Runner*) is a Harlequin Romance TV film telling the story of an American learning about her late mother’s past in England. Twists are hackneyed and directing feels amateurish: it’s as if they never bothered doing more than one take.
 
-Sharon Stone is the only highlight. She acted in two others films this year, so I might talked about her again.
+Sharon Stone is the only highlight. She acted in two other films this year, so I might talk about her again.
 
   </div>
 </div>
@@ -95,18 +94,9 @@ Sharon Stone is the only highlight. She acted in two others films this year, so 
 <h2 class="with-credits" data-content='À gauche en sortant de l’ascenseur'>À gauche en sortant de l’ascenseur</h2>
 <div class="credits">directed by Edouard Molinaro</div>
 
-La femme noir nue évidemment, mais wtf danseuse et femme de ménage new Joséphine baker? Elle fait une blague sur les bananes, c'est vraiment conscient ?
-The self conscious joke about the bananas will not excuse them to use stereotypical black characters
-
-Vaudeville théâtre filmé
-
-Nudité féminine gratuite
-
-Pierre Richard has a Great comedic timing, beauringer is so intense
-
-Beard is beautiful , so young
-
-Produced by Claude Berri, he was the godfather of the French cinema. Great director, I knew him mostly for his zillions productions
+A typical French Vaudeville filmed theatre play. With the typical 80s gratuitous nudity and borderline racist black characters.  
+If you want to watch it, it’s for the trio of actors: Pierre Richard deploys his great comedic timing, Richard Bohringer is so intense and Emmanuelle Béart is crazy young.  
+Produced by Claude Berri, he was the godfather of the French cinema. Famous director, but I know him mostly for his zillions productions.
 
 <div class="full-width tiles">
 
@@ -122,8 +112,17 @@ Produced by Claude Berri, he was the godfather of the French cinema. Great direc
 
 Surprisingly very good and aged well. We are far way from the road trip of *Easy Rider* (1969) and more in the hoods of Los Angeles, but the violence of the US society is still the main topic.
 Made me think a lot of *The Wire* (2002), especially the character played by Don Cheadle: he has a small role but looks a lot like Omar.
-Who can’t say no to a buddy movie when the two actors are lovable: Robert Duval is always great and Sean Penn is playing well the young obnixious hot shot.
+Who can’t say no to a buddy movie when the two actors are lovable: Robert Duval is always great and Sean Penn is playing well the young, obnoxious hot shot.
 
-That's a film that stays in your mind days after watching it.
+That’s a film that stays in your mind days after watching it.
+
+<h2 class="with-credits" data-content='Buster'>Buster</h2>
+<div class="credits">directed by David Green</div>
+
+Advertised as a comedy on *Arte*, I was expected more humour than this light, but dramatic, story based on a true event.
+Besides the surprising main actor, Phil Collins, the depiction of the Great Train Robbery, happening in a 1963 England, is forgettable.
+Like for [*Cocktail*](/posts/cinema-88-disney-plus-edition) and its song *Kokomo*, I will remember the (even more cheesy) song written by Phil Collins for the film: *Loco in Acapulco* by the Four Tops.
+
+Fun fact, the film is scored by Anne Dudley, who is a huge name in the music industry. I didn’t know she wrote so many soundtracks: *The Full Monty*, *American History X*, *Les Misérables* and all the late Paul Verhoeven’s films.
 
 Fin <span class="end"></span>
