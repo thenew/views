@@ -1,6 +1,6 @@
 ---
-title: My musical culture through music video
-description: "My musical culture through music video"
+title: My musical culture through music videos
+description: "My musical culture through music videos"
 image: /assets/mtv2/x.jpg
 date: 2022-09-31
 tags:
@@ -26,19 +26,24 @@ document.addEventListener('DOMContentLoaded', () => {
       if(ratio === '4:3') {
         el.classList.add("ratio-16-9");
         el.classList.remove("ratio-4-3");
-        ratio = '16:9'
-      } else if(ratio === '16-9') {
+      } else if(ratio === '16:9') {
         el.classList.add("ratio-16-3");
         el.classList.remove("ratio-16-9");
-        ratio = '16:3'
       } else if(ratio === '16:3') {
         el.classList.add("ratio-4-3");
-        el.classList.remove("ratio-16-9");
-        ratio = '4:3'
+        el.classList.remove("ratio-16-3");
       }
     })
+
+    if(ratio === '4:3') {
+      ratio = '16:9'
+    } else if(ratio === '16:9') {
+      ratio = '16:3'
+    } else if(ratio === '16:3') {
+      ratio = '4:3'
+    }
+
     button.innerHTML = ratio
-console.log('ratio: ', ratio)
   })
 })
 </script>
