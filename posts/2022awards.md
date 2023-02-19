@@ -89,8 +89,20 @@ Every time I’ve shown the trailer to people, they’ve gone from doubtful to c
 
 I adored the first one, so I'm already sold on this one. However, I'm amazed to see they used a mother's speech in the trailer.
 
-<a class="video-link ratio-box ratio-16-3" href="https://www.youtube.com/watch?v=XWMAVkiz_gk">
+<a class="video-link ratio-box ratio-16-3" href="https://www.youtube.com/watch?v=cqGjhVJWtEg">
   <img src="https://img.youtube.com/vi/cqGjhVJWtEg/maxresdefault.jpg" alt="">
+</a>
+
+- *Skate Story* reveal trailer, made by [kertgartner](https://twitter.com/kertgartner)
+
+<a class="video-link ratio-box ratio-16-3" href="https://www.youtube.com/watch?v=x6j0zKSXAFE">
+  <img src="https://img.youtube.com/vi/x6j0zKSXAFE/maxresdefault.jpg" alt="">
+</a>
+
+- *Death Stranding 2 (Working Title)* TGA 2022 Teaser Trailer, made by *you-know-who*
+
+<a class="video-link ratio-box ratio-16-3" href="https://www.youtube.com/watch?v=Tr2yB93pIGw">
+  <img src="https://img.youtube.com/vi/Tr2yB93pIGw/maxresdefault.jpg" alt="">
 </a>
 
 <h2 data-content='Film'>Film</h2>

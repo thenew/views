@@ -111,7 +111,7 @@ hr
 
 // Text
 
-h1, h2, h3, h4, p, ol, ul, pre, blockquote, hr, .full-width-background
+h1, h2, h3, h4, p, ol, ul, pre, blockquote, hr, .full-width-background, .video-link
   margin-bottom 1.8em
 
 h1, h2, h3, h4
@@ -521,9 +521,9 @@ pre
   display block
   width 100%
   height 0
-  margin-bottom 1em
   text-shadow 2px 3px 0 $color
   background-image linear-gradient(0deg, $color, $color)
+  box-shadow none
 
   &::after
     content "▶"
@@ -550,6 +550,7 @@ pre
   &:hover,
   &:focus
     text-shadow 3px 4px 0 $color
+    box-shadow none
 
     &::after
       box-shadow inset 0 0 0 1px $color
