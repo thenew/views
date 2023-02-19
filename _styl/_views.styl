@@ -359,6 +359,7 @@ pre
     @media (min-width 600px)
       max-width none
 
+  .video-link
   iframe
   > p > img
     max-width calc(100% + 2rem)
@@ -514,6 +515,47 @@ pre
   display block
   font-size 1.5rem
   margin-bottom 3rem
+
+.video-link.video-link
+  position relative
+  display block
+  width 100%
+  height 0
+  margin-bottom 1em
+  text-shadow 2px 3px 0 $color
+  background-image linear-gradient(0deg, $color, $color)
+
+  &::after
+    content "▶"
+    display flex
+    align-items center
+    justify-content center
+    position absolute
+    top 0
+    left 0
+    font 48px/1.5 sans-serif
+    width 100%
+    height 100%
+    color white
+    -webkit-text-stroke 2px $color
+    box-shadow inset 0 0 0 4px $color
+
+  img
+    object-fit cover
+    background-image linear-gradient(0deg, $color, $color)
+    mix-blend-mode screen
+    filter grayscale(100%)
+
+
+  &:hover,
+  &:focus
+    text-shadow 3px 4px 0 $color
+
+    &::after
+      box-shadow inset 0 0 0 1px $color
+
+    img
+      filter grayscale(0%)
 
 .ratio-box
   position relative
