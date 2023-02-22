@@ -1,6 +1,6 @@
 ---
 title: 2022 Awards
-description: The best films, video games, music video, tv show and more of 2022. According to me.
+description: All manga, films, music, TV and games I liked in 2022. It took me two months to write this review of last year, so it should worth it.
 image: /assets/2022awards/2022awards.jpg
 date: 2023-02-22
 tags:
@@ -74,7 +74,8 @@ I'm watching *We Crashed* and *Billion dollar code* so I will write something ab
 
 *L'Imperatrice* was the first real concert after the pandemic, and the audience was on fire. I highly recommend checking out this French pop-disco band live.
 
-For logistical reasons, I saw *Phoenix* twice and *Metronomy* three times this year. I love both of these bands, so I always had a great time.
+For logistical reasons, I saw *Phoenix* twice and *Metronomy* three times this year. I love both of these bands, so I had a blast every time.  
+I would recommend their music videos too. I particularly liked *Phoenix*’s videos for their latest album and how they use them in their live shows. Check out [Alpha Zulu](https://www.youtube.com/watch?v=gqN9flclRio), [After Midnight](https://www.youtube.com/watch?v=kVsgdURODeg) and [Tonight](https://www.youtube.com/watch?v=FxTCTAnTP6Q)!
 
 I really enjoyed *Beach House* at Best Kept Secret festival, and seeing *The Strokes* for the first time live was something. Sadly, it was a bit spoiled by the attitude of their frontman.
 
