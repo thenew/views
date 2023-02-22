@@ -82,16 +82,21 @@ A big frustration was to not being able to see Leonie Pernet live. She was my di
 
 <h2 data-content='Trailers'>Trailers</h2>
 
-- [Barbie Teaser](https://www.youtube.com/watch?v=XWMAVkiz_gk)
+- *Fresh* Trailer  
+This trailer does a good job keeping the twist a mystery while showcasing a great cast, good music, and a nice visual identity. And The film lives up to its promise.
 
+<a class="video-link ratio-box ratio-16-3" href="https://www.youtube.com/watch?v=iUT4YskFTig">
+  <img src="https://img.youtube.com/vi/iUT4YskFTig/maxresdefault.jpg" alt="">
+</a>
+
+- *Barbie* Teaser  
 Every time I’ve shown the trailer to people, they’ve gone from doubtful to curious about this weird project.
 
 <a class="video-link ratio-box ratio-16-3" href="https://www.youtube.com/watch?v=XWMAVkiz_gk">
   <img src="https://img.youtube.com/vi/XWMAVkiz_gk/maxresdefault.jpg" alt="">
 </a>
 
-- [Spider-Man: Across the SpiderVerse](https://www.youtube.com/watch?v=cqGjhVJWtEg)
-
+- *Spider-Man: Across the SpiderVerse* Trailer  
 I adored the first one, so I'm already sold on this one. However, I'm amazed to see they used a mother's speech in the trailer.
 
 <a class="video-link ratio-box ratio-16-3" href="https://www.youtube.com/watch?v=cqGjhVJWtEg">
@@ -104,9 +109,8 @@ I adored the first one, so I'm already sold on this one. However, I'm amazed to 
   <img src="https://img.youtube.com/vi/x6j0zKSXAFE/maxresdefault.jpg" alt="">
 </a>
 
-- *Death Stranding 2 (Working Title)* TGA 2022 Teaser Trailer, made by *you-know-who*
-
-It's more of the same and less surprising than most of his trailers, but I’ll take it any day.
+- *Death Stranding 2 (Working Title)* TGA 2022 Teaser Trailer - made by *you-know-who*  
+It’s more of the same and less surprising than most of his trailers, but I’ll take it any day.
 
 <a class="video-link ratio-box ratio-16-3" href="https://www.youtube.com/watch?v=Tr2yB93pIGw">
   <img src="https://img.youtube.com/vi/Tr2yB93pIGw/maxresdefault.jpg" alt="">
@@ -155,7 +159,7 @@ But to reward games released or updated in 2022, this is my personal *weird* top
 - *Sifu*
 - *Destiny 2*
 
-[Senscritique top](https://www.senscritique.com/top/les_meilleurs_jeux_video_de_2022/3318813)
+[My top on SensCritique](https://www.senscritique.com/top/les_meilleurs_jeux_video_de_2022/3318813)
 
 
 <h2 data-content='In Memoriam'>In Memoriam</h2>
