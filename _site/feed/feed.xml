@@ -4,7 +4,7 @@
 	<subtitle>Views of thenew.</subtitle>
 	<link href="http://views.thenew.fr/feed/feed.xml" rel="self"/>
 	<link href="http://views.thenew.fr"/>
-	<updated>2022-08-12T00:00:00Z</updated>
+	<updated>2023-02-22T00:00:00Z</updated>
 	<id>http://views.thenew.fr</id>
 	<author>
 		<name>thenew</name>
@@ -964,7 +964,7 @@ Exception faite du tout récent et excellent &lt;a href=&quot;https://www.youtub
 &lt;p&gt;Utiliser des phases de jeu dans de vrais niveaux pour la promo est évident pour un jeu dont le concept est &amp;quot;créer, partager, jouer&amp;quot; et si, en plus, c’est bien fait, le résultat sort du lot.&lt;br /&gt;
 La chanson &lt;em&gt;My Patch&lt;/em&gt; de Jim Noir est un très bon choix, on retrouve l’humour, la fraîcheur et l’originalité de la vidéo et du jeu en général.&lt;/p&gt;
 &lt;h2 data-content=&quot;Star&amp;nbsp;Wars The&amp;nbsp;Old Republic&quot;&gt;Star&amp;nbsp;Wars The&amp;nbsp;Old Republic&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/jv/tor.jpg&quot; alt=&quot;Star Wars The Old Republic&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/jv/tor.jpg&quot; alt=&quot;StarWars TheOld Republic&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.youtube.com/v/VjhJcm-lpjc&amp;amp;hl=fr_FR&amp;amp;fs=1&amp;amp;hd=1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;▸ Star Wars The Old Republic &amp;quot;Deceived&amp;quot;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Réalisé par &lt;a href=&quot;http://www.blur.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Blur&lt;/a&gt; pour LucasArts et Bioware, on rentre là dans le trailer blockbuster sous-traité. C’est tellement à l’ouest par rapport à ce qu’on voit du jeu (un MMORPG au style cartoon) qu’on pourrait le classer dans le court métrage. Mais c’est magnifique !&lt;br /&gt;
 Les vidéos Square et Blur sont vraiment le top du trailer jeu vidéo CGI (images de synthèse précalculées) : les cinématiques de &lt;em&gt;Halo Wars&lt;/em&gt;, la dernière BA de Deus Ex 3, les &lt;a href=&quot;http://www.youtube.com/watch?v=TcuEqTzRXl4&amp;amp;hd=1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Assassin’s Creed&lt;/em&gt;&lt;/a&gt; aussi.&lt;br /&gt;
@@ -1708,7 +1708,7 @@ Just replace put whatever text you want to share at the end of this URL, after &
 &lt;p&gt;But many libraries exist to generate it ourself and therefore choose the output format.&lt;br /&gt;
 SVG is better than a PNG: we can zoom on it as much as we want, it will stay sharp and it’s so much lighter, because it’s vector graphics.&lt;/p&gt;
 &lt;p&gt;For example, in JavaScript, with &lt;a href=&quot;https://github.com/soldair/node-qrcode&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;node-qrcode&lt;/a&gt;:&lt;/p&gt;
-&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// JavaScript&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; QRCode &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;qrcode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;QRCode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token comment&quot;&gt;// the URL to encode&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token string&quot;&gt;&quot;http://views.thenew.fr/posts/generate-and-animate-a-qr-code&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;// the format&lt;/span&gt;&lt;br /&gt;    type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;svg&quot;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;// insert the SVG into the HTML element &amp;lt;div id=&quot;qrcode&quot;&gt;&amp;lt;/div&gt;&lt;/span&gt;&lt;br /&gt;    document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;qrcode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; url&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// JavaScript&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; QRCode &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;qrcode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;QRCode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token comment&quot;&gt;// the URL to encode&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token string&quot;&gt;&quot;http://views.thenew.fr/posts/generate-and-animate-a-qr-code&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;// the format&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token literal-property property&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;svg&quot;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;// insert the SVG into the HTML element &amp;lt;div id=&quot;qrcode&quot;&gt;&amp;lt;/div&gt;&lt;/span&gt;&lt;br /&gt;    document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;qrcode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; url&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;SVG images are XML files, so we can change the color easily directly in the code or with CSS. But this SVG is containing only one &lt;code&gt;&amp;lt;path&amp;gt;&lt;/code&gt; so there is no room to play with it.&lt;/p&gt;
 &lt;div class=&quot;qr-post-media&quot;&gt;
 &lt;p&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 41 41&quot; shape-rendering=&quot;crispEdges&quot;&gt;&lt;path stroke=&quot;#002fa7&quot; d=&quot;M4 4.5h7m3 0h1m5 0h1m2 0h2m1 0h2m2 0h7M4 5.5h1m5 0h1m3 0h2m3 0h2m1 0h1m2 0h1m2 0h1m1 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h5m1 0h1m1 0h1m2 0h5m2 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h2m7 0h1m2 0h1m1 0h3m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h2m4 0h3m2 0h3m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h1m2 0h4m2 0h2m1 0h3m1 0h1m1 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h2m1 0h1M4 12.5h1m1 0h5m2 0h1m3 0h2m2 0h3m2 0h3m1 0h5M4 13.5h4m1 0h1m1 0h2m4 0h1m4 0h3m2 0h4m2 0h4M5 14.5h7m2 0h1m1 0h7m2 0h2m5 0h1m1 0h2M5 15.5h1m2 0h2m1 0h3m1 0h3m4 0h8m2 0h4M4 16.5h2m4 0h5m3 0h2m1 0h3m2 0h1m1 0h2m1 0h3m1 0h1M4 17.5h2m6 0h1m3 0h1m2 0h1m1 0h3m3 0h1m2 0h1m3 0h3M6 18.5h1m1 0h3m1 0h2m1 0h2m1 0h4m2 0h2m3 0h1m5 0h1M6 19.5h4m2 0h2m1 0h2m2 0h2m4 0h1m2 0h1m1 0h1m1 0h3M6 20.5h1m3 0h1m1 0h2m1 0h1m1 0h1m1 0h3m4 0h1m2 0h1m1 0h2m3 0h1M4 21.5h6m1 0h2m4 0h1m2 0h2m1 0h1m1 0h1m1 0h1m2 0h2m1 0h2m1 0h1M5 22.5h2m2 0h2m4 0h5m4 0h2m3 0h2m1 0h1m1 0h2M6 23.5h2m1 0h1m3 0h2m1 0h5m2 0h5m2 0h1m1 0h3m1 0h1M4 24.5h1m1 0h1m2 0h9m1 0h1m1 0h1m4 0h1m1 0h2m1 0h3m1 0h2M4 25.5h2m1 0h1m1 0h1m1 0h2m2 0h1m4 0h1m1 0h6m2 0h2m2 0h1m1 0h1M4 26.5h1m1 0h2m1 0h3m6 0h2m2 0h1m1 0h3m3 0h1m2 0h3M4 27.5h1m3 0h1m3 0h9m1 0h1m1 0h3m2 0h1m3 0h4M4 28.5h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h2m1 0h5m1 0h2m1 0h8m2 0h1M12 29.5h5m1 0h1m1 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m2 0h2m3 0h5m1 0h5m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h3m3 0h1m5 0h2m1 0h2m3 0h1m1 0h2M4 32.5h1m1 0h3m1 0h1m1 0h1m5 0h2m1 0h1m4 0h1m1 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h2m3 0h1m2 0h4m3 0h3m1 0h6M4 34.5h1m1 0h3m1 0h1m1 0h1m1 0h3m1 0h4m2 0h1m1 0h3m1 0h2m2 0h1M4 35.5h1m5 0h1m2 0h3m1 0h1m2 0h1m3 0h2m3 0h1m1 0h4M4 36.5h7m1 0h1m4 0h2m1 0h2m4 0h1m1 0h1m2 0h2m2 0h1&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/p&gt;
@@ -2730,6 +2730,127 @@ Who can’t say no to a buddy movie when the two actors are lovable: Robert Duva
 Besides the surprising main actor, Phil Collins, the depiction of the Great Train Robbery, happening in a 1963 England, is forgettable.&lt;br /&gt;
 Like for &lt;a href=&quot;http://views.thenew.fr/posts/cinema-88-disney-plus-edition&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Cocktail&lt;/em&gt;&lt;/a&gt; and its song &lt;em&gt;Kokomo&lt;/em&gt;, I will remember the (even more cheesy) song written by Phil Collins for the film: &lt;em&gt;Loco in Acapulco&lt;/em&gt; by the Four Tops.&lt;/p&gt;
 &lt;p&gt;Fun fact, the film is scored by Anne Dudley, who is a huge name in the music industry. I didn’t know she wrote so many soundtracks: &lt;em&gt;The Full Monty&lt;/em&gt;, &lt;em&gt;American History X&lt;/em&gt;, &lt;em&gt;Les Misérables&lt;/em&gt; and all the late Paul Verhoeven’s films.&lt;/p&gt;
+&lt;p&gt;Fin &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2022 Awards</title>
+		<link href="http://views.thenew.fr/posts/2022awards/"/>
+		<updated>2023-02-22T00:00:00Z</updated>
+		<id>http://views.thenew.fr/posts/2022awards/</id>
+		<content type="html">&lt;p&gt;This year, I tried paragliding for the first time, moved after five years, paddleboarded in Amsterdam&#39;s canals, travelled to seven countries, and even went to a techno day festival without drugs or alcohol - all unexpected experiences! That might just be my excuse to publish a year roundup in February.&lt;/p&gt;
+&lt;h2 data-content=&quot;Manga&quot;&gt;Manga&lt;/h2&gt;
+&lt;div class=&quot;full-width&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/2022awards/2022manga.jpg&quot; alt=&quot;Manga&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;For the first time in my annual awards, I want to give a shout-out to manga. I&#39;ve been a fan since I was a kid, but over the years we&#39;ve grown apart. To avoid buying hundreds of volumes, I purchased a refurbished iPad Mini 4 (2015). Even though the system is slow, it&#39;s been great catching up on comics.&lt;/p&gt;
+&lt;p&gt;I binged read all 🏆 &lt;em&gt;Blue Lock&lt;/em&gt; during the World Cup. I already forgot most of the characters but the shonen recipe works so well. Even when playing football in real life, I was scanning the field like in the manga.&lt;/p&gt;
+&lt;p&gt;I finally read the phenomenon &lt;em&gt;Demon Slayer&lt;/em&gt;, it’s not original but a perfect embodiment of shonen. I’m still amazed that the author decided to not continue it despite the world sensation.&lt;/p&gt;
+&lt;p&gt;Navigating the legal comic app world can be tricky, but I read the nice recent &lt;em&gt;Moon Deer&lt;/em&gt; and discovered the crazy &lt;em&gt;MetaBaron&lt;/em&gt; series.&lt;/p&gt;
+&lt;h2 data-content=&quot;TV&quot;&gt;TV&lt;/h2&gt;
+&lt;p&gt;I’m surprised by the number of TV shows I followed this year (and a lot of good ones!) Maybe because I’m less bothered to stop before the end if I don’t like it.&lt;/p&gt;
+&lt;p&gt;🏆 Parlement season 2 keeps up the feat of making the European parliament fun. I love to hear French, Italian, German and other languages in the same show. I felt even more in love with the characters.&lt;/p&gt;
+&lt;h3&gt;Animation&lt;/h3&gt;
+&lt;p&gt;Animated series were so great this year: &lt;em&gt;Cyberpunk: Edgerunners&lt;/em&gt;, &lt;em&gt;Genndy Tartakovsky’s Primal&lt;/em&gt; and &lt;em&gt;Lastman&lt;/em&gt; season 2&lt;/p&gt;
+&lt;h3&gt;So many good quirky comedies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Our Flag Means Death&lt;/em&gt; is the best thing Taika Waititi did in 2022,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The AfterParty&lt;/em&gt; from my favourite Christopher Miller (LEGO, Jump Street, Into the Spider-Verse),&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Loot&lt;/em&gt; with Maya Rudolph,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Avenue 5&lt;/em&gt; season 2 (how did we get a second season?),&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Peacemaker&lt;/em&gt; from a surprisingly inspired James Gunn,&lt;/li&gt;
+&lt;li&gt;And even &lt;em&gt;The Pentaverate&lt;/em&gt;, with the return of Mike Myers at his best.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The downfall of Disney&lt;/h3&gt;
+&lt;p&gt;2022 was a series fo facepalms for Disney (Marvel/Star Wars) TV productions: &lt;em&gt;Moon Knight&lt;/em&gt;, &lt;em&gt;Obi-Wan Kenobi&lt;/em&gt;, &lt;em&gt;The Book of Boba Fett&lt;/em&gt; and the fracking joke of &lt;em&gt;Zen - Grogu and Dust Bunnies&lt;/em&gt; by Ghibli.&lt;br /&gt;
+Thankfully, &lt;em&gt;Andor&lt;/em&gt; is technically well done and has good ideas, but it&#39;s too long to get started and is too inconsistent.&lt;/p&gt;
+&lt;h3&gt;Silicon Valley startups docudrama&lt;/h3&gt;
+&lt;p&gt;I have a perverse liking for dark comedies based on real life companies. It’s always baffling and infuriating. As the false hope of techno-solutionism fades, there are increasingly more series about it.&lt;br /&gt;
+This year, I enjoyed &lt;em&gt;The Dropout&lt;/em&gt;, about Theranos, and &lt;em&gt;SuperPumped&lt;/em&gt;, about Uber.&lt;br /&gt;
+I&#39;m watching &lt;em&gt;We Crashed&lt;/em&gt; and &lt;em&gt;Billion dollar code&lt;/em&gt; so I will write something about this type of fiction maybe one day.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.senscritique.com/top/les_meilleures_series_de_2022/3196877&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;My top on SensCritique&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 data-content=&quot;Music&quot;&gt;Music&lt;/h2&gt;
+&lt;div class=&quot;full-width&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/2022awards/2022music.jpg&quot; alt=&quot;Music&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;L&#39;Imperatrice&lt;/em&gt; was the first real concert after the pandemic, and the audience was on fire. I highly recommend checking out this French pop-disco band live.&lt;/p&gt;
+&lt;p&gt;For logistical reasons, I saw &lt;em&gt;Phoenix&lt;/em&gt; twice and &lt;em&gt;Metronomy&lt;/em&gt; three times this year. I love both of these bands, so I had a blast every time.&lt;br /&gt;
+I would recommend their music videos too. I particularly liked &lt;em&gt;Phoenix&lt;/em&gt;’s videos for their latest album and how they use them in their live shows. Check out &lt;a href=&quot;https://www.youtube.com/watch?v=gqN9flclRio&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Alpha Zulu&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=kVsgdURODeg&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;After Midnight&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=FxTCTAnTP6Q&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Tonight&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;I really enjoyed &lt;em&gt;Beach House&lt;/em&gt; at Best Kept Secret festival, and seeing &lt;em&gt;The Strokes&lt;/em&gt; for the first time live was something. Sadly, it was a bit spoiled by the attitude of their frontman.&lt;/p&gt;
+&lt;p&gt;A big frustration was to not being able to see Leonie Pernet live. She was my discovery of the year, and her music accompanied me on my trips. But there is a nice live session from &lt;a href=&quot;https://www.youtube.com/watch?v=99Wr8WCsQYk&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;france.tv&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 data-content=&quot;Trailers&quot;&gt;Trailers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Fresh&lt;/em&gt; Trailer&lt;br /&gt;
+This trailer does a good job keeping the twist a mystery while showcasing a great cast, good music, and a nice visual identity. And The film lives up to its promise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a class=&quot;video-link ratio-box ratio-16-3&quot; href=&quot;https://www.youtube.com/watch?v=iUT4YskFTig&quot;&gt;
+  &lt;img src=&quot;https://img.youtube.com/vi/iUT4YskFTig/maxresdefault.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Barbie&lt;/em&gt; Teaser&lt;br /&gt;
+Every time I’ve shown the trailer to people, they’ve gone from doubtful to curious about this weird project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a class=&quot;video-link ratio-box ratio-16-3&quot; href=&quot;https://www.youtube.com/watch?v=XWMAVkiz_gk&quot;&gt;
+  &lt;img src=&quot;https://img.youtube.com/vi/XWMAVkiz_gk/maxresdefault.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Spider-Man: Across the SpiderVerse&lt;/em&gt; Trailer&lt;br /&gt;
+I adored the first one, so I&#39;m already sold on this one. However, I&#39;m amazed to see they used a mother&#39;s speech in the trailer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a class=&quot;video-link ratio-box ratio-16-3&quot; href=&quot;https://www.youtube.com/watch?v=cqGjhVJWtEg&quot;&gt;
+  &lt;img src=&quot;https://img.youtube.com/vi/cqGjhVJWtEg/maxresdefault.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Skate Story&lt;/em&gt; reveal trailer - made by &lt;a href=&quot;https://twitter.com/kertgartner&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;kertgartner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a class=&quot;video-link ratio-box ratio-16-3&quot; href=&quot;https://www.youtube.com/watch?v=x6j0zKSXAFE&quot;&gt;
+  &lt;img src=&quot;https://img.youtube.com/vi/x6j0zKSXAFE/maxresdefault.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Death Stranding 2 (Working Title)&lt;/em&gt; TGA 2022 Teaser Trailer - made by &lt;em&gt;you-know-who&lt;/em&gt;&lt;br /&gt;
+It’s more of the same and less surprising than most of his trailers, but I’ll take it any day.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a class=&quot;video-link ratio-box ratio-16-3&quot; href=&quot;https://www.youtube.com/watch?v=Tr2yB93pIGw&quot;&gt;
+  &lt;img src=&quot;https://img.youtube.com/vi/Tr2yB93pIGw/maxresdefault.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;h2 data-content=&quot;Film&quot;&gt;Film&lt;/h2&gt;
+&lt;div class=&quot;full-width&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;http://views.thenew.fr/assets/2022awards/2022films.jpg&quot; alt=&quot;Films&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;I aimed to watch fewer movies in 2023 than in the previous year (139!), so I ended up watching only 76 films, but, surprisingly, including 40 released this year.&lt;/p&gt;
+&lt;h3&gt;Mentions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gasper Noé came to Amsterdam to present &lt;em&gt;Vortex&lt;/em&gt;, his film is very moving and I enjoyed the Q&amp;amp;A session as he is very chatty.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Batman&lt;/em&gt;, &lt;em&gt;The Bad Guys&lt;/em&gt; and &lt;em&gt;Nope&lt;/em&gt; have great, thrilling moments.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Coupez!&lt;/em&gt; (&lt;em&gt;Final Cut&lt;/em&gt;) is a clever and delightful meta-film from Michel Hazanavicius. Seems like it&#39;s the season for films exploring the medium with &lt;em&gt;Babylon&lt;/em&gt; and &lt;em&gt;The Fabelmans&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Everything everywhere all at once&lt;/em&gt; was a lot of fun and I’m glad to see it getting a lot of praise, but I still found it too long.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Shocks&lt;/h3&gt;
+&lt;p&gt;The two big shocks of my year were, once again, animated films (or almost).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Le Sommet des Dieux&lt;/em&gt; is a perfect adaptation of the manga (I’m reading it and the film is way less slow and depressing). It’s exhilarating and intense.&lt;/p&gt;
+&lt;p&gt;Much to my surprise, 🏆 &lt;em&gt;Avatar: The Way of Water&lt;/em&gt; has been my favourite screening of the year.&lt;br /&gt;
+In 3D, HFR, it’s a technological, gripping, tour de force, as well as a really fun adventure that takes you to another world. I was flabbergasted seeing the, unfortunately too few, gorgeous spaceship scenes, I would love full films set in space, without actors.&lt;/p&gt;
+&lt;p&gt;Even more interesting films in the rest of &lt;a href=&quot;https://www.senscritique.com/top/les_meilleurs_films_de_2022/3189085?page=1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;my top on SensCritique&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 data-content=&quot;Video Game&quot;&gt;Video Game&lt;/h2&gt;
+&lt;p&gt;Although the &lt;em&gt;Wordle&lt;/em&gt; craze has died down, I still play its cinematic version nearly every day: &lt;a href=&quot;https://framed.wtf/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Framed&lt;/a&gt;. About &lt;em&gt;Wordle&lt;/em&gt;, I recommend a really nice interview of its creator in &lt;a href=&quot;https://shows.acast.com/my-perfect-console/episodes/josh-wardle-creator-of-wordle&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;My Perfect Console&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’m still not playing many games on their initial release, because of time and money.&lt;br /&gt;
+Instead, I played two great games, from a few years ago, &lt;em&gt;Control&lt;/em&gt; and &lt;em&gt;Star Wars Jedi: Fallen Order&lt;/em&gt; (&lt;em&gt;Obi-Wan&lt;/em&gt; poorly copied a lot from it).&lt;/p&gt;
+&lt;p&gt;But to reward games released or updated in 2022, this is my personal &lt;em&gt;weird&lt;/em&gt; top:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🏆 &lt;em&gt;Marvel Snap&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Splatoon 3&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Halo Infinite&lt;/em&gt; &amp;amp; &lt;em&gt;For Honor&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sifu&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Destiny 2&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.senscritique.com/top/les_meilleurs_jeux_video_de_2022/3318813&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;My top on SensCritique&lt;/a&gt;&lt;/p&gt;
+&lt;h2 data-content=&quot;In Memoriam&quot;&gt;In Memoriam&lt;/h2&gt;
+&lt;p&gt;2022 was a very tough year for digital services I use daily and more widely the press, I wanted to mention them:&lt;br /&gt;
+We said goodbye to &lt;em&gt;Gamekult&lt;/em&gt;, the last good French video game news website, and more globally to video game journalism which has never been worse (Nibel, &lt;em&gt;IGN, Giant Bomb,&lt;/em&gt; &lt;em&gt;GameSpot&lt;/em&gt;, etc.)&lt;br /&gt;
+We said goodbye to &lt;a href=&quot;https://www.imdb.com/title/tt0310534/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Tracks&lt;/em&gt;&lt;/a&gt;, Germano-French TV magazine about underground cultures, unceremoniously killed by &lt;em&gt;Arte&lt;/em&gt; after 25 years.&lt;br /&gt;
+We said goodbye to &lt;em&gt;Figma&lt;/em&gt;, the great product fighting against Adobe, now bought by Adobe.&lt;br /&gt;
+We said goodbye to &lt;em&gt;Twitter&lt;/em&gt;, acquired by a mogul.&lt;/p&gt;
 &lt;p&gt;Fin &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 </content>
 	</entry>
