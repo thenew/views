@@ -10,7 +10,6 @@ tags:
   - music video
   - list
 layout: layouts/post.njk
-draft: true
 ---
 
 <script type="text/javascript">
