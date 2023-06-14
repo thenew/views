@@ -2867,7 +2867,7 @@ background-color: yellow;
 box-shadow: none;
 mix-blend-mode: difference;
 color: transparent;
-transform: translate(1.2rem, calc(1.2rem - 15%));
+transform: translate(1.2rem, 1.2rem);
 &quot;&gt;I like video games and trailers so here my favourite videos from all the conferences of this not-e3/Summer Game Fest edition.&lt;/div&gt;
 &lt;div class=&quot;full-width-text&quot; style=&quot;color: #fff;background-color: #002fa7;box-shadow: none;&quot;&gt;
 &lt;p&gt;I like video games and trailers so here my favourite videos from all the conferences of this not-e3/Summer Game Fest edition.&lt;/p&gt;
