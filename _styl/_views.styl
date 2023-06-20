@@ -403,9 +403,9 @@ pre
     margin-right -10rem
 
   @media (min-width 1200px)
-    width calc(100vw + 10rem)
-    max-width calc(100vw + 10rem)
-    min-width calc(100vw + 10rem)
+    width 100vw
+    max-width 100vw
+    min-width 100vw
     margin-right auto
 
   p
@@ -482,6 +482,13 @@ pre
     &:hover
       box-shadow none
 
+  p
+
+    > a > img
+    > img
+      width 100%
+      height 100%
+      object-fit cover
 
 .post-title
   font-family $font-heading
