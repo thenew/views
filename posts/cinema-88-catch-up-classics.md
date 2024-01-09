@@ -2,10 +2,10 @@
 title: Ciné 88, catch up classics
 description: "Films from 1988, fifth part: Catch up classics"
 image: /assets/88_5/1988_Frantic_3.jpg
-date: 2023-06-22
+date: 2024-01-22
 tags:
   - post
-  - 2023
+  - 2024
   - 1988
   - EN
   - cinema
@@ -36,7 +36,6 @@ draft: true
 </div>
 
 XXX
-
 
 <h2 data-content='Hairspray'>Hairspray</h2>
 
