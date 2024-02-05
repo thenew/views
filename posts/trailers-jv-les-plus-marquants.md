@@ -82,7 +82,7 @@ La chanson *My Patch* de Jim Noir est un très bon choix, on retrouve l’humour
 
 <h2 data-content='Star&nbsp;Wars The&nbsp;Old Republic'>Star&nbsp;Wars The&nbsp;Old Republic</h2>
 
-![Star&nbsp;Wars The&nbsp;Old Republic](/assets/jv/tor.jpg)
+![Star Wars The Old Republic](/assets/jv/tor.jpg)
 
 [▸ Star&nbsp;Wars The&nbsp;Old Republic "Deceived"](http://www.youtube.com/v/VjhJcm-lpjc&hl=fr_FR&fs=1&hd=1)
 
