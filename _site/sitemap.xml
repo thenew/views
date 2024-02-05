@@ -47,21 +47,6 @@
   </url>
   
   <url>
-    <loc>http://views.thenew.fr/</loc>
-    <lastmod>2020-05-09</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/tags/</loc>
-    <lastmod>2020-05-09</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/tags/1988/</loc>
-    <lastmod>2020-05-09</lastmod>
-  </url>
-  
-  <url>
     <loc>http://views.thenew.fr/posts/trailers-jv-les-plus-marquants/</loc>
     <lastmod>2020-07-15</lastmod>
   </url>
@@ -142,11 +127,6 @@
   </url>
   
   <url>
-    <loc>http://views.thenew.fr/audiolog.xml</loc>
-    <lastmod>2022-02-14</lastmod>
-  </url>
-  
-  <url>
     <loc>http://views.thenew.fr/posts/cinema-88-part-4/</loc>
     <lastmod>2022-08-12</lastmod>
   </url>
@@ -167,7 +147,32 @@
   </url>
   
   <url>
+    <loc>http://views.thenew.fr/audiolog.xml</loc>
+    <lastmod>2023-11-12</lastmod>
+  </url>
+  
+  <url>
     <loc>http://views.thenew.fr/</loc>
-    <lastmod>2023-06-22</lastmod>
+    <lastmod>2023-11-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/tags/</loc>
+    <lastmod>2023-11-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/tags/1988/</loc>
+    <lastmod>2023-11-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/</loc>
+    <lastmod>2024-01-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/posts/2023awards/</loc>
+    <lastmod>2024-02-05</lastmod>
   </url>
 </urlset>
