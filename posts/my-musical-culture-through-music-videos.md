@@ -2,7 +2,7 @@
 title: My musical culture through music videos
 description: "My musical culture through music videos"
 image: /assets/mtv2/x.jpg
-date: 2022-09-31
+date: 2024-02-31
 tags:
   - post
   - EN
@@ -60,7 +60,7 @@ How the MTV|➁ best music videos from the early 2000s forged my tastes in music
 
 Roman Coppola is an American director and screenwriter, born in France.  
 He participated to great films with his entourage: Francis Ford Coppola, Sofia Coppola and Wes Anderson.
-I love many of his music videos … 
+I love many of his music videos …
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -70,7 +70,7 @@ I love many of his music videos …
 ></iframe>
 </div>
 
-[*Get Free*](https://www.youtube.com/watch?v=asOvnGHwtDU) — The Vines (2002)
+[_Get Free_](https://www.youtube.com/watch?v=asOvnGHwtDU) — The Vines (2002)
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -80,9 +80,8 @@ I love many of his music videos …
 ></iframe>
 </div>
 
-[*Hard to Explain*](https://www.youtube.com/watch?v=BXkm6h6uq0k) — The Strokes (2002)
+[_Hard to Explain_](https://www.youtube.com/watch?v=BXkm6h6uq0k) — The Strokes (2002)
 Roman Coppola, Johannes Gamble, Julian Casablancas
-
 
 <h2 data-content='Jonathan Glazer'>Jonathan Glazer</h2>
 
@@ -97,7 +96,7 @@ He did the most famous Jamiroquai video, it’s a perfect snapshot of the period
 ></iframe>
 </div>
 
-[*Virtual Insanity*](https://www.youtube.com/watch?v=4JkIs37a2JE) — Jamiroquai (1996)
+[_Virtual Insanity_](https://www.youtube.com/watch?v=4JkIs37a2JE) — Jamiroquai (1996)
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -107,7 +106,7 @@ He did the most famous Jamiroquai video, it’s a perfect snapshot of the period
 ></iframe>
 </div>
 
-[*Street Spirit*](https://www.youtube.com/watch?v=LCJblaUkkfc) — Radiohead
+[_Street Spirit_](https://www.youtube.com/watch?v=LCJblaUkkfc) — Radiohead
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -117,45 +116,42 @@ He did the most famous Jamiroquai video, it’s a perfect snapshot of the period
 ></iframe>
 </div>
 
-[*Karma Police*](https://www.youtube.com/watch?v=1uYWYWPc9HU) — Radiohead
-
+[_Karma Police_](https://www.youtube.com/watch?v=1uYWYWPc9HU) — Radiohead
 
 <h2 data-content='Jamie Thraves'>Jamie Thraves</h2>
 
 He is responsible for, maybe, my favorite song/video from Radiohead, same with Coldplay!
 He directed the video for the first single of **Bloc Party** and **Franz Ferdinand**, this guy is everywhere.
 
-[▸ *Just* — Radiohead, Jamie Thraves (1995)](https://youtu.be/oIFLtNYI3Ls)
+[▸ _Just_ — Radiohead, Jamie Thraves (1995)](https://youtu.be/oIFLtNYI3Ls)
 
-[▸ *The Scientist* — Coldplay, Jamie Thraves (2002)](https://youtu.be/RB-RcX5DS5A)
+[▸ _The Scientist_ — Coldplay, Jamie Thraves (2002)](https://youtu.be/RB-RcX5DS5A)
 
-[▸ *Take me out* — Franz Ferdinand, Jonas Odell (2004)](https://youtu.be/GhCXAiNz9Jo)
+[▸ _Take me out_ — Franz Ferdinand, Jonas Odell (2004)](https://youtu.be/GhCXAiNz9Jo)
 
-[▸ *Little Thoughts* — Bloc Party, Ben Dawkins (2004)](https://youtu.be/q6cS26oEX64)
+[▸ _Little Thoughts_ — Bloc Party, Ben Dawkins (2004)](https://youtu.be/q6cS26oEX64)
 
 This video has nothing new but it was such a joy to discover pretty late this early single, with this simple but cheerful video.
 
-
-
 <h2 data-content='Michel Gondry'>Michel Gondry</h2>
 
-Pope of music videos, a great director, smart little rascal. Of his many many works, I would like to highlight *Star Guitar* video and its making of and the crazy lego-made *Fell in Love with a Girl*.
+Pope of music videos, a great director, smart little rascal. Of his many many works, I would like to highlight _Star Guitar_ video and its making of and the crazy lego-made _Fell in Love with a Girl_.
 
-[▸ *Star Guitar* — The Chemical Brothers, Michel Gondry (2001)](https://youtu.be/0S43IwBF0uM)
+[▸ _Star Guitar_ — The Chemical Brothers, Michel Gondry (2001)](https://youtu.be/0S43IwBF0uM)
 
-[▸ *Fell in Love with a Girl* — The White Stripes, Michel Gondry (2002)](https://youtu.be/fTH71AAxXmM)
+[▸ _Fell in Love with a Girl_ — The White Stripes, Michel Gondry (2002)](https://youtu.be/fTH71AAxXmM)
 
-[▸ *Come Into My World* — Kylie Minogue, Michel Gondry (2002)](https://youtu.be/63vqob-MljQ)
+[▸ _Come Into My World_ — Kylie Minogue, Michel Gondry (2002)](https://youtu.be/63vqob-MljQ)
 
-[▸ *The Hardest Button to Button* — The White Stripes, Michel Gondry (2003)](https://youtu.be/K4dx42YzQCE)
+[▸ _The Hardest Button to Button_ — The White Stripes, Michel Gondry (2003)](https://youtu.be/K4dx42YzQCE)
 
-[▸ *Around the World* — Daft Punk, Michel Gondry (1997)](https://youtu.be/K0HSD_i2DvA)
+[▸ _Around the World_ — Daft Punk, Michel Gondry (1997)](https://youtu.be/K0HSD_i2DvA)
 
-[▸ *No One Knows* — Queens Of The Stone Age, Dean Karr and Michel Gondry (2002)](https://youtu.be/s88r_q7oufE)
+[▸ _No One Knows_ — Queens Of The Stone Age, Dean Karr and Michel Gondry (2002)](https://youtu.be/s88r_q7oufE)
 
 <h2 data-content='Shynola'>Shynola</h2>
 
-*Go With The Flow* is a fracking slap in your face, musically and visually!
+_Go With The Flow_ is a fracking slap in your face, musically and visually!
 
 there are some cool behind the scenes photos on their instagram https://www.instagram.com/shynola_films/
 
@@ -169,11 +165,9 @@ https://www.shynola.com/shynola-video-beck-e-pro
 ></iframe>
 </div>
 
-[*Go With The Flow*](https://www.youtube.com/watch?v=DcHKOC64KnE) — Queens Of The Stone Age (2002)
+[_Go With The Flow_](https://www.youtube.com/watch?v=DcHKOC64KnE) — Queens Of The Stone Age (2002)
 
-
-[▸ *Pyramid Song* — Radiohead, Shynola (2001)](https://www.shynola.com/shynola-video-radiohead-pyramid-song)
-
+[▸ _Pyramid Song_ — Radiohead, Shynola (2001)](https://www.shynola.com/shynola-video-radiohead-pyramid-song)
 
 <h2 data-content='Interstella 5555'>Interstella 5555</h2>
 
@@ -185,13 +179,12 @@ https://www.shynola.com/shynola-video-beck-e-pro
 ></iframe>
 </div>
 
-[*Aerodynamic*](https://www.youtube.com/watch?v=BXkm6h6uq0k) — Daft Punk (2001)
+[_Aerodynamic_](https://www.youtube.com/watch?v=BXkm6h6uq0k) — Daft Punk (2001)
 Kazuhisa Takenouchi, Leiji Matsumoto
 
-*Interstella 5555: The 5tory of the 5ecret 5tar 5ystem* is a unique project of a musical animated feature film mixing the Japanese Leiji Matsumoto (*Captain Harlock*) as supervising director and the music from the French Daft Punk.
-Bits of the movie has been released as music videos, starting with *One More Time* and *Aerodynamic*, teasing the complete story.
+_Interstella 5555: The 5tory of the 5ecret 5tar 5ystem_ is a unique project of a musical animated feature film mixing the Japanese Leiji Matsumoto (_Captain Harlock_) as supervising director and the music from the French Daft Punk.
+Bits of the movie has been released as music videos, starting with _One More Time_ and _Aerodynamic_, teasing the complete story.
 A speechless masterpiece.
-
 
 <h2 data-content='Others'>Others</h2>
 
@@ -203,7 +196,7 @@ A speechless masterpiece.
 ></iframe>
 </div>
 
-[*The Bucket*](https://youtu.be/kWaFVvVoj4o) — King Of Leon (2004)
+[_The Bucket_](https://youtu.be/kWaFVvVoj4o) — King Of Leon (2004)
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -213,7 +206,7 @@ A speechless masterpiece.
 ></iframe>
 </div>
 
-[*untitled #1* (a.k.a. “Vaka”)](https://youtu.be/hqJ8hFgYwVg) — Sigur Rós (2003)  
+[_untitled #1_ (a.k.a. “Vaka”)](https://youtu.be/hqJ8hFgYwVg) — Sigur Rós (2003)  
 Floria Sigismondi
 
 <div class="ratio-box ratio-16-9">
@@ -224,15 +217,8 @@ Floria Sigismondi
 ></iframe>
 </div>
 
-[*19–2000*](https://youtu.be/WXR-bCF5dbM) — Gorillaz (2001)  
+[_19–2000_](https://youtu.be/WXR-bCF5dbM) — Gorillaz (2001)  
 Jamie Hewlett and Pete Candeland
-
-
-
-
-
-
-
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -242,8 +228,8 @@ Jamie Hewlett and Pete Candeland
 ></iframe>
 </div>
 
-[*Californication*](https://youtu.be/YlUKcNNmywk) — Red Hot Chili Peppers (2000)  
-What a surprise to learn that the duo behind *Little Mis Sunshine*, [Jonathan Dayton and Valerie Faris](https://en.wikipedia.org/wiki/Jonathan_Dayton_and_Valerie_Faris), directed this video!
+[_Californication_](https://youtu.be/YlUKcNNmywk) — Red Hot Chili Peppers (2000)  
+What a surprise to learn that the duo behind _Little Mis Sunshine_, [Jonathan Dayton and Valerie Faris](https://en.wikipedia.org/wiki/Jonathan_Dayton_and_Valerie_Faris), directed this video!
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -253,7 +239,7 @@ What a surprise to learn that the duo behind *Little Mis Sunshine*, [Jonathan Da
 ></iframe>
 </div>
 
-[*Shoot the Runner*](https://youtu.be/2C0OEVWKZv0) — Kasabian (2006)  
+[_Shoot the Runner_](https://youtu.be/2C0OEVWKZv0) — Kasabian (2006)  
 Alex and Martin
 
 <div class="ratio-box ratio-16-9">
@@ -264,7 +250,7 @@ Alex and Martin
 ></iframe>
 </div>
 
-[*Hate to Say I Told You So*](https://youtu.be/Uz1Jwyxd4tE) — The Hives (2000)  
+[_Hate to Say I Told You So_](https://youtu.be/Uz1Jwyxd4tE) — The Hives (2000)
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -274,7 +260,7 @@ Alex and Martin
 ></iframe>
 </div>
 
-[*Chop Suey!*](https://youtu.be/CSvFpBOe8eY) — System Of A Down
+[_Chop Suey!_](https://youtu.be/CSvFpBOe8eY) — System Of A Down
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -284,7 +270,7 @@ Alex and Martin
 ></iframe>
 </div>
 
-[*Evil*](https://youtu.be/7C5Eipt8xn0) — Interpol (2005)  
+[_Evil_](https://youtu.be/7C5Eipt8xn0) — Interpol (2005)  
 Charlie White
 
 <div class="ratio-box ratio-16-9">
@@ -295,7 +281,7 @@ Charlie White
 ></iframe>
 </div>
 
-[*Knights Of Cydonia*](https://youtu.be/Q3Yc3HhSl1Q) — Muse (2006)  
+[_Knights Of Cydonia_](https://youtu.be/Q3Yc3HhSl1Q) — Muse (2006)  
 Joseph Kahn
 
 <div class="ratio-box ratio-16-9">
@@ -306,9 +292,9 @@ Joseph Kahn
 ></iframe>
 </div>
 
-[*Chocolate*](https://youtu.be/FT62Gwv70kM) — Snow Patrol (2003)  
+[_Chocolate_](https://youtu.be/FT62Gwv70kM) — Snow Patrol (2003)  
 Marc Webb  
-Didn’t really find another interesting music video from Marc Webb, or any movie, in fact. I’m kidding, I liked *500 Days of Summer* at the time.
+Didn’t really find another interesting music video from Marc Webb, or any movie, in fact. I’m kidding, I liked _500 Days of Summer_ at the time.
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -318,7 +304,7 @@ Didn’t really find another interesting music video from Marc Webb, or any movi
 ></iframe>
 </div>
 
-[*Dreaming of you*](https://youtu.be/QXt723fN1ss) — The Coral (2002)  
+[_Dreaming of you_](https://youtu.be/QXt723fN1ss) — The Coral (2002)  
 Laurence Easeman
 
 <div class="ratio-box ratio-16-9">
@@ -329,24 +315,15 @@ Laurence Easeman
 ></iframe>
 </div>
 
-[*A Thousand Miles*](https://youtu.be/Cwkej79U3ek) — Vanessa Carlton (2000)  
+[_A Thousand Miles_](https://youtu.be/Cwkej79U3ek) — Vanessa Carlton (2000)  
 Marc Klasfeld  
 I’m not sure why I like the video and the song but they match perfectly.
 Iconic, so easy to parody.
-Marc Klasfeld also directed the fun *Times Like These* (version 2) for Foo Fighters.
-
-
-
-
+Marc Klasfeld also directed the fun _Times Like These_ (version 2) for Foo Fighters.
 
 <div class="bar">
 <button type="button" class="js-ratio-toggle ratio-button">collapse videos</button>
 </div>
-
-
-
-
-
 
 <div class="ratio-box ratio-16-9">
 <iframe
@@ -356,8 +333,6 @@ Marc Klasfeld also directed the fun *Times Like These* (version 2) for Foo Fight
 ></iframe>
 </div>
 
-[*YZX*](https://youtu.be/XYZ) — ZZZ (YYYY)  
-
-
+[_YZX_](https://youtu.be/XYZ) — ZZZ (YYYY)
 
 Fin <span class="end"></span>

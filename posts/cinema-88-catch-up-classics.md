@@ -2,7 +2,7 @@
 title: Ciné 88, catch up classics
 description: "Films from 1988, fifth part: Catch up classics"
 image: /assets/88_5/1988_Frantic_3.jpg
-date: 2024-01-22
+date: 2024-02-10
 tags:
   - post
   - 2024
@@ -73,5 +73,17 @@ XXX
 </div>
 
 XXX
+
+<h2 class="with-credits" data-content='Spoorloos'>Spoorloos</h2>
+<div class="credits">directed by George Sluizer</div>
+
+<div class="full-width">
+
+[![screenshot of Spoorloos](/assets/88_5/1988_Spoorloos.png)](/assets/88_5/1988_Spoorloos.png)
+
+</div>
+
+<h2 class="with-credits" data-content='Nuovo Cinema Paradiso'>Nuovo Cinema Paradiso</h2>
+<div class="credits">directed by Giuseppe Tornatore</div>
 
 Fin <span class="end"></span>
