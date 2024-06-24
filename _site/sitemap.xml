@@ -132,11 +132,6 @@
   </url>
   
   <url>
-    <loc>http://views.thenew.fr/</loc>
-    <lastmod>2022-10-01</lastmod>
-  </url>
-  
-  <url>
     <loc>http://views.thenew.fr/posts/2022awards/</loc>
     <lastmod>2023-02-22</lastmod>
   </url>
@@ -167,12 +162,22 @@
   </url>
   
   <url>
-    <loc>http://views.thenew.fr/</loc>
-    <lastmod>2024-01-22</lastmod>
+    <loc>http://views.thenew.fr/posts/2023awards/</loc>
+    <lastmod>2024-02-05</lastmod>
   </url>
   
   <url>
-    <loc>http://views.thenew.fr/posts/2023awards/</loc>
-    <lastmod>2024-02-05</lastmod>
+    <loc>http://views.thenew.fr/</loc>
+    <lastmod>2024-03-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/</loc>
+    <lastmod>2024-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/posts/not-e3-summer-game-2024/</loc>
+    <lastmod>2024-06-24</lastmod>
   </url>
 </urlset>
