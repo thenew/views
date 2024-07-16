@@ -2,7 +2,7 @@
 title: My musical culture through music videos
 description: "My musical culture through music videos"
 image: /assets/mtv2/x.jpg
-date: 2024-02-31
+date: 2024-11-31
 tags:
   - post
   - EN
