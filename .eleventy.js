@@ -61,9 +61,12 @@ module.exports = function(eleventyConfig) {
       .use(markdownItAnchor, opts)
       .use(markdownItImsize)
       .use(mila, {
+        matcher(href) {
+          return !href.startsWith("#");
+        },
         attrs: {
-          target: '_blank',
-          rel: 'noopener'
+          target: "_blank",
+          rel: "noopener"
         }
       })
   );
