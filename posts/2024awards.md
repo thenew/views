@@ -3,6 +3,8 @@ title: 2024 Awards
 description: .
 image: /assets/2024awards/2024.png
 date: 2025-01-21
+color: "#C6562A"
+colorDark: "#7a3418"
 tags:
   - post
   - 2024
@@ -18,7 +20,7 @@ layout: layouts/post.njk
 <style>
 body {
 	--color: #C6562A;
-	--color-bg:#ffeec4;
+	--color-bg: #ffeec4;
 	--light-grey: #847b63;
 
 	background: linear-gradient(90deg, #ffeec4 82%,#ea9475);
@@ -27,7 +29,7 @@ body {
 }
 </style>
 
-My 2024 was symbolized by a color: that of the burning fire, the dazzling, silent desert, but also of the gold medal and the enthusiasm of youth. In this year of artificial mind's false promises, I hope - like variations within the same tonality - they might hide a key to spark our curiosity.
+After collecting my favorite art pieces of 2024, I realised that one color tied them all together: the color of the burning fire, the dazzling and silent desert, but also of the gold medal and the enthusiasm of youth. In a year that has seen many dark ideologies, such as the false promises of thinking machines, pushed even further, let's hope the worm will turn and we'll see the sunlight.
 
 <h2 data-content='Cinema'>Cinema</h2>
 
@@ -38,7 +40,7 @@ My 2024 was symbolized by a color: that of the burning fire, the dazzling, silen
 </div>
 
 There's too much to say about cinema in 2024:
-The omnipresence of A24, the phantom comeback of musicals I've all missed (_Joker: Folie à Deux_, _Emilia Pérez_ and _Wicked_). Adam Driver continues his strange career by starring in two films from legendary directors with complicated financing and results (_Ferrari_ and _Megalopolis_). The _Rebel Moon_ disaster. The directorial debut of my favorite Jake Johnson (_Self Reliance_). A sequel to _Gladiator_ and _Beetlejuice_? A remake of _Road House_? The real farewell of Jim Carrey?
+The omnipresence of A24, the phantom comeback of musicals I've all missed (_Joker: Folie à Deux_, _Emilia Pérez_ and _Wicked_). Adam Driver continues his strange career by starring in two films from legendary directors with complicated financing and results (_Ferrari_ and _Megalopolis_). The _Rebel Moon_ disaster. The directorial debut of my favorite Jake Johnson (_Self Reliance_). The emergence of Cailee Spaeny. A sequel to _Gladiator_ and _Beetlejuice_? A remake of _Road House_? The real farewell of Jim Carrey?
 
 I saw a lot of good films from this year. I would recommend most of them. And above all my best 2024 film:
 
@@ -181,9 +183,9 @@ This year, I have played and finished many more games than usual. Let's start wi
 
 ### Mentions
 
-- _Star Wars Outlaws_ is a bit broken but still enjoyable, I will finish it this year. Is 2024 _Ubisoft_’s swan song?
+- _Star Wars Outlaws_ is a bit broken, but is more fun the more you play it, despite a rocky start. I'll definitely finish it in 2025. With two good games, is 2024 Ubisoft's swan song?
 
-- _Pacific Drive_ is too long for its own good, with some annoying farming. The rest is fun, tough. The best being the handling of the car: parking, taking stuff in the trunk, etc. All daily actions become cool.
+- _Pacific Drive_ is too long for its own good, I finished it after 32 hours in spite of some annoying farming. The rest is fun, tough. The best being the handling of the car: all mundane actions like parking, taking stuff in the trunk, etc. become a real pleasure.
 
 About free online games, I still play almost every day the _cinema wordle_ [Framed](https://framed.wtf/) and [_The Mini Crossword_](https://www.nytimes.com/crosswords/game/mini) from The New York Times.
 

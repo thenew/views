@@ -6,7 +6,7 @@
 		<title>{{ renderData.title or title or metadata.title }}</title>
 		<meta property="og:title" content="{{ renderData.title or title or metadata.title }}" />
 		<meta name="twitter:title" content="{{ renderData.title or title or metadata.title }}" />
-		<meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+		<meta name="description" content="{{ renderData.description or description or metadata.description }}">
 		<meta property="og:description" content="{{ renderData.description or description or metadata.description }}" />
 		<meta name="twitter:description" content="{{ renderData.description or description or metadata.description }}" />
 		<meta property="og:type" content="website" />
@@ -24,8 +24,9 @@
 		<link rel="me" href="https://twitter.com/remybarthez" />
 		<link rel="stylesheet" href="{{ '/css/index.css' | url }}">
 		<link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-		<meta name="msapplication-TileColor" content="#002fa7">
-		<meta name="theme-color" content="#002fa7">
+		<meta name="msapplication-TileColor" content="{{ renderData.color or color or "#002fa7" }}">
+		<meta name="theme-color" content="{{ renderData.color or color or "#002fa7" }}" media="(prefers-color-scheme: light)">
+		<meta name="theme-color" content="{{ renderData.colorDark or colorDark or renderData.color or color or "#002fa7" }}" media="(prefers-color-scheme: dark)">
 	</head>
 	<body>
 		<div{% if templateClass %} class="{{ templateClass }}"{% endif %}>
