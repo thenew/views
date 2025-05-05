@@ -4,7 +4,7 @@
 	<subtitle></subtitle>
 	<link href="http://views.thenew.fr/feed/feed.xml" rel="self"/>
 	<link href="http://views.thenew.fr"/>
-	<updated>2025-01-21T00:00:00Z</updated>
+	<updated>2025-05-05T00:00:00Z</updated>
 	<id>http://views.thenew.fr</id>
 	<author>
 		<name>thenew</name>
@@ -3888,6 +3888,41 @@ I was initially thrown out by the tone, expecting something more serious, but be
 At the end of each episode, I was audibly exclaiming to myself “What the fuck!”. Wihtout kidding, it&#39;s the best piece of fiction about our current AI.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.senscritique.com/top/les_meilleures_series_de_2024/3771331&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;My top on SensCritique&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Fin &lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2025 Osaka Expo pavilions Notion template</title>
+		<link href="http://views.thenew.fr/posts/2025-osaka-world-expo-pavilions-notion-template/"/>
+		<updated>2025-05-05T00:00:00Z</updated>
+		<id>http://views.thenew.fr/posts/2025-osaka-world-expo-pavilions-notion-template/</id>
+		<content type="html">&lt;style&gt;
+.callout {
+	display: flex; 
+	align-items: center;
+	gap: 2rem;
+	font-size: 1.7rem;
+  padding: 1rem 1.6rem;
+	margin-bottom: 3em;
+	border: 5px solid var(--color);
+  box-shadow: 5px 5px var(--black);
+}
+
+.callout p {
+	margin-bottom: 0;
+}
+
+&lt;/style&gt;
+&lt;div class=&quot;full-width-background&quot; style=&quot;background-image:url(/assets/2025-osaka-expo/2025-osaka-world-expo-pavilions-notion-template.png);background-position: 10% 40%;background-repeat: repeat; background-size: 60%;&quot;&gt;&lt;/div&gt;
+&lt;p&gt;While planning my visit to the Osaka (Kansai, Japan) World Expo, I came across this &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1jCtPkJjPM6TCg8RdA5BErpAorUhoH2NY_EfT1ynVL88/edit?gid=0#gid=0&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;planning guide&lt;/a&gt;, from this very &lt;a href=&quot;https://youtu.be/9rXRN4zxaa8?si=l_VjLinILI5J9qRH&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;useful video&lt;/a&gt;.&lt;br&gt;
+This guide helps me a lot, especially to work with the complex lottery system for pavilion reservations.&lt;/p&gt;
+&lt;p&gt;I converted and updated the Google sheet into a Notion document. Feel free to duplicate it:&lt;/p&gt;
+&lt;div class=&quot;callout&quot;&gt;
+  &lt;img src=&quot;/assets/2025-osaka-expo/2025_Osaka_World_Expo_MYAKU-MYAKU.png&quot; alt=&quot;the 2025 Osaka expo mascot: MYAKU-MYAKU&quot; style=&quot;display: inline-block; width: auto; height: 4rem;&quot; /&gt;
+	&lt;a href=&quot;https://www.notion.so/1e038407122980799902d29aa1ad57a3?pvs=21&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;2025 Osaka Expo pavilions Notion template&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Post scriptum&lt;/em&gt;, I spotted the guide on this &lt;a href=&quot;https://www.reddit.com/r/OsakaWorldExpo/comments/1jkro8e/i_made_a_free_expo_2025_planning_guide_lotteries/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Reddit post&lt;/a&gt; from &lt;a href=&quot;https://www.reddit.com/r/OsakaWorldExpo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;r/OsakaWorldExpo&lt;/a&gt;. I recommend this subreddit for valuable insights and personal feedback from expo visitors.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;end&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
