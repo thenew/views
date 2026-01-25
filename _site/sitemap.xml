@@ -178,11 +178,6 @@
   
   <url>
     <loc>http://views.thenew.fr/</loc>
-    <lastmod>2024-10-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://views.thenew.fr/</loc>
     <lastmod>2024-12-01</lastmod>
   </url>
   
@@ -194,5 +189,15 @@
   <url>
     <loc>http://views.thenew.fr/posts/2025-osaka-world-expo-pavilions-notion-template/</loc>
     <lastmod>2025-05-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/</loc>
+    <lastmod>2025-06-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://views.thenew.fr/posts/2025awards/</loc>
+    <lastmod>2026-01-25</lastmod>
   </url>
 </urlset>

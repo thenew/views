@@ -6,7 +6,7 @@
     "css": "grunt watch",
     "serve": "ELEVENTY_ENV=development npx @11ty/eleventy --serve --port=1212",
     "serve:prod": "ELEVENTY_ENV=production npx @11ty/eleventy --serve --port=1212",
-    "dev": "yarn serve",
+    "dev": "yarn serve & sleep 4 && open http://localhost:1212",
     "dev:prod": "yarn serve:prod",
     "build": "ELEVENTY_ENV=production npx @11ty/eleventy",
     "watch": "npx @11ty/eleventy --watch"

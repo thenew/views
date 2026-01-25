@@ -5,23 +5,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ renderData.title or title or metadata.title }}</title>
 		<meta property="og:title" content="{{ renderData.title or title or metadata.title }}" />
-		<meta name="twitter:title" content="{{ renderData.title or title or metadata.title }}" />
 		<meta name="description" content="{{ renderData.description or description or metadata.description }}">
 		<meta property="og:description" content="{{ renderData.description or description or metadata.description }}" />
-		<meta name="twitter:description" content="{{ renderData.description or description or metadata.description }}" />
 		<meta property="og:type" content="website" />
 		<meta property="og:site_name" content="Views" />
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:site" content="@remybarthez" />
-		<meta name="twitter:creator" content="@remybarthez" />
 		{% if image %}
 		<meta property="og:image" content="{{ metadata.url + image }}">
-		<meta name="twitter:image" content="{{ metadata.url + image }}" />
 		{% elif metadata.image %}
 		<meta property="og:image" content="{{ metadata.url + metadata.image }}">
-		<meta name="twitter:image" content="{{ metadata.url + metadata.image }}" />
 		{% endif %}
-		<link rel="me" href="https://twitter.com/remybarthez" />
+		<link rel="me" href="https://bsky.app/profile/thenew.fr" />
 		<link rel="stylesheet" href="{{ '/css/index.css' | url }}">
 		<link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
 		<meta name="msapplication-TileColor" content="{{ renderData.color or color or "#002fa7" }}">
@@ -42,15 +35,6 @@
 		</div>
 
 		<footer>﹒</footer>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164644-9"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-164644-9');
-    </script>
 
 		<!-- Current page: {{ page.url | url }} -->
 	</body>
