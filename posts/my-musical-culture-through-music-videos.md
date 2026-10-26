@@ -56,6 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 How the MTV|➁ best music videos from the early 2000s forged my tastes in music, video and animation.
 
+Growing up, I had the pay music channels of the French network _CanalSat_ on the living room's TV. Surely, thanks to my older brothers.
+MTV2 felt like the ironic and childish little sibling of MTV. I think I didn't even know what was MTV back then. There was a "don't give a fuck" spirit coming out of this channel that was unseen before, to me, on TV. Besides the weird American identity, MTV2 was almost only broadcasting music videos for songs I could barely hear on the French radio stations.
+
 <h2 data-content='Roman Coppola'>Roman Coppola</h2>
 
 Roman Coppola is an American director and screenwriter, born in France.  
@@ -155,8 +158,6 @@ _Go With The Flow_ is a fracking slap in your face, musically and visually!
 
 there are some cool behind the scenes photos on their instagram https://www.instagram.com/shynola_films/
 
-https://www.shynola.com/shynola-video-beck-e-pro
-
 <div class="ratio-box ratio-16-9">
 <iframe
   src="https://www.youtube-nocookie.com/embed/DcHKOC64KnE"
@@ -168,6 +169,8 @@ https://www.shynola.com/shynola-video-beck-e-pro
 [_Go With The Flow_](https://www.youtube.com/watch?v=DcHKOC64KnE) — Queens Of The Stone Age (2002)
 
 [▸ _Pyramid Song_ — Radiohead, Shynola (2001)](https://www.shynola.com/shynola-video-radiohead-pyramid-song)
+
+[▸ _E Pro_ — Beck (2005)](https://www.shynola.com/shynola-video-beck-e-pro)
 
 <h2 data-content='Interstella 5555'>Interstella 5555</h2>
 
